@@ -705,6 +705,10 @@ class GraphWidget(widgets.DOMWidget):
         message = {'task': 'getAttributes', 'ignoreDefaults': ignore_defaults}
         self._handle_outgoing_message(message)
         self._fade_to('slow', 0.1)
+    
+    def clear(self):
+        ''' clears the graph widget data '''
+        self.plot([{}])
 
     def extend_traces(self, update, indices=(0,), max_points=None):
         """ Append data points to existing traces in the Plotly graph.
