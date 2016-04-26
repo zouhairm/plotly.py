@@ -14,6 +14,7 @@ import warnings
 
 import six
 import math
+import os
 
 from plotly import utils
 from plotly import exceptions
@@ -163,7 +164,7 @@ def set_credentials_file(username=None,
     ensure_local_plotly_files()  # make sure what we just put there is OK
 
 
-def get_credentials_file(*args):
+def get_credentials_file(*args, **kwargs):
     """Return specified args from `~/.plotly_credentials`. as dict.
 
     Returns all if no arguments are specified.
@@ -174,7 +175,15 @@ def get_credentials_file(*args):
     """
     if check_file_permissions():
         ensure_local_plotly_files()  # make sure what's there is OK
+        if 'custom_creds' in kwargs:
+            PLOTLY_DIR = os.path.join(os.path.expanduser("~"), ".plotly")
+            CREDENTIALS_CUSTOM = os.path.join(PLOTLY_DIR,
+                                              ".{}".format(
+                                                           kwargs['custom_creds']))
+            return utils.load_json_dict(CREDENTIALS_CUSTOM, *args)
+
         return utils.load_json_dict(CREDENTIALS_FILE, *args)
+
     else:
         return FILE_CONTENT[CREDENTIALS_FILE]
 
@@ -252,7 +261,7 @@ def set_config_file(plotly_domain=None,
     ensure_local_plotly_files()  # make sure what we just put there is OK
 
 
-def get_config_file(*args):
+def get_config_file(*args, **kwargs):
     """Return specified args from `~/.plotly/.config`. as tuple.
 
     Returns all if no arguments are specified.
