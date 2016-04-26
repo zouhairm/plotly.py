@@ -177,7 +177,7 @@ def get_credentials_file(*args, **kwargs):
         if 'custom_creds' in kwargs:
             PLOTLY_DIR = os.path.join(os.path.expanduser("~"), ".plotly")
             CREDENTIALS_ = os.path.join(PLOTLY_DIR,
-                                        ".{}".format(
+                                        "{}".format(
                                             kwargs['custom_creds']))
         else:
             CREDENTIALS_ = CREDENTIALS_FILE
@@ -275,7 +275,7 @@ def get_config_file(*args, **kwargs):
         if 'custom_config' in kwargs:
             PLOTLY_DIR = os.path.join(os.path.expanduser("~"), ".plotly")
             CONFIG_ = os.path.join(PLOTLY_DIR,
-                                   ".{}".format(
+                                   "{}".format(
                                        kwargs['custom_config']))
 
         else:
