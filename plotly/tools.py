@@ -174,15 +174,16 @@ def get_credentials_file(*args, **kwargs):
 
     """
     if check_file_permissions():
-        ensure_local_plotly_files()  # make sure what's there is OK
         if 'custom_creds' in kwargs:
             PLOTLY_DIR = os.path.join(os.path.expanduser("~"), ".plotly")
-            CREDENTIALS_CUSTOM = os.path.join(PLOTLY_DIR,
-                                              ".{}".format(
-                                                           kwargs['custom_creds']))
-            return utils.load_json_dict(CREDENTIALS_CUSTOM, *args)
+            CREDENTIALS_ = os.path.join(PLOTLY_DIR,
+                                        ".{}".format(
+                                            kwargs['custom_creds']))
+        else:
+            CREDENTIALS_ = CREDENTIALS_FILE
 
-        return utils.load_json_dict(CREDENTIALS_FILE, *args)
+        ensure_local_plotly_files()  # make sure what's there is OK
+        return utils.load_json_dict(CREDENTIALS_, *args)
 
     else:
         return FILE_CONTENT[CREDENTIALS_FILE]
@@ -271,8 +272,16 @@ def get_config_file(*args, **kwargs):
 
     """
     if check_file_permissions():
+        if 'custom_config' in kwargs:
+            PLOTLY_DIR = os.path.join(os.path.expanduser("~"), ".plotly")
+            CONFIG_ = os.path.join(PLOTLY_DIR,
+                                   ".{}".format(
+                                       kwargs['custom_config']))
+
+        else:
+            CONFIG_ = CONFIG_FILE
         ensure_local_plotly_files()  # make sure what's there is OK
-        return utils.load_json_dict(CONFIG_FILE, *args)
+        return utils.load_json_dict(CONFIG_, *args)
     else:
         return FILE_CONTENT[CONFIG_FILE]
 
@@ -498,7 +507,6 @@ def mpl_to_plotly(fig, resize=False, strip_style=False, verbose=False):
             "matplotlib successfully installed with all of its dependencies. "
             "You're getting this error because matplotlib or one of its "
             "dependencies doesn't seem to be installed correctly.")
-
 
 ### graph_objs related tools ###
 
