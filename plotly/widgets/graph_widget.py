@@ -9,19 +9,19 @@ from pkg_resources import resource_string
 
 
 # TODO: protected imports?
-import Ipython
+import IPython
 from IPython.display import Javascript, display
 
 import plotly.plotly.plotly as py
 from plotly import utils, tools
 from plotly.graph_objs import Figure
 
-if Ipython.version_info[0] > 3:
+if IPython.version_info[0] > 3:
     import ipywidgets as widgets
     from traitlets import Unicode
 else:
-    import IPython.widgets as widgets
-    from IPython.trailets import Unicode
+    from IPython.html import widgets
+    from IPython.utils.traitlets import Unicode
 
 # Load JS widget code
 # No officially recommended way to do this in any other way
