@@ -22,3 +22,9 @@ pandas
 
 ## scipy deps for some FigureFactory functions ##
 scipy
+
+## ipywidgets for IPython widgets ##
+ipywidgets
+
+## traitlets also used with IPython Widgets ##
+traitlets
