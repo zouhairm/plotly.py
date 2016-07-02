@@ -136,10 +136,8 @@ def init_notebook_mode(connected=False):
         script_inject = (
             '<script type=\'text/javascript\'>'
             'requirejs.config({'
-            '  paths: {'
-            '    \'plotly\': [\'https://cdn.plot.ly/plotly-latest.min\'],'
-            '    \'mathjax\': [\'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG\']'
-            '  }'
+            'paths: {'
+            '\'plotly\': [\'https://cdn.plot.ly/plotly-latest.min\']}'
             '});'
             '</script>'
         )
@@ -213,7 +211,7 @@ def _plot_html(figure_or_data, show_link, link_text, validate,
         layout=jlayout,
         config=jconfig)
 
-    optional_line1 = ('require([\'mathjax\', \'plotly\'], function(MathJax, Plotly) {{'
+    optional_line1 = ('require([\'plotly\'], function(Plotly) {{'
                       if global_requirejs else '')
     optional_line2 = ('}});' if global_requirejs else '')
 
@@ -320,7 +318,7 @@ def plot(figure_or_data,
          include_plotlyjs=True,
          filename='temp-plot.html', auto_open=True,
          image=None, image_filename='plot_image',
-         image_width=800, image_height=600, include_mathjax=False):
+         image_width=800, image_height=600, include_mathjax=False, is_connected=False):
     """ Create a plotly graph locally as an HTML document or string.
 
     Example:
@@ -406,12 +404,17 @@ def plot(figure_or_data,
 
     if output_type == 'file':
         with open(filename, 'w') as f:
-            if include_mathjax:
+            if include_mathjax and not is_connected:
                 mathjax_script = ''.join([
                     '<script type="text/javascript">',
                     get_mathjax(),
                     '</script>'
                 ])
+            elif include_mathjax and is_connected:
+                mathjax_script = (
+                    '<script src="https://cdn.mathjax.org/mathjax/latest/'
+                    'MathJax.js?config=TeX-AMS-MML_SVG"></script>'
+                    )
             else:
                 mathjax_script = ''
             if include_plotlyjs:
@@ -441,9 +444,10 @@ def plot(figure_or_data,
 
             f.write(''.join([
                 '<html>',
-                '<head><meta charset="utf-8" /></head>',
-                '<body>',
+                '<head><meta charset="utf-8" />',
                 mathjax_script,
+                '</head>',
+                '<body>',
                 plotly_js_script,
                 plot_html,
                 resize_script,
