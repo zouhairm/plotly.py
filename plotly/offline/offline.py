@@ -318,7 +318,8 @@ def plot(figure_or_data,
          include_plotlyjs=True,
          filename='temp-plot.html', auto_open=True,
          image=None, image_filename='plot_image',
-         image_width=800, image_height=600, include_mathjax=False, is_connected=False):
+         image_width=800, image_height=600,
+         include_mathjax=None):
     """ Create a plotly graph locally as an HTML document or string.
 
     Example:
@@ -376,6 +377,9 @@ def plot(figure_or_data,
         will be saved to. The extension should not be included.
     image_height (default=600) -- Specifies the height of the image in `px`.
     image_width (default=800) -- Specifies the width of the image in `px`.
+    include_mathjax ('online', 'local' | default=None ) -- Specifies whether or
+        not to include mathjax. The setting will decide whether it's loaded
+        locally, or requested via a CDN.
     """
     if output_type not in ['div', 'file']:
         raise ValueError(
@@ -404,13 +408,13 @@ def plot(figure_or_data,
 
     if output_type == 'file':
         with open(filename, 'w') as f:
-            if include_mathjax and not is_connected:
+            if include_mathjax == 'local':
                 mathjax_script = ''.join([
                     '<script type="text/javascript">',
                     get_mathjax(),
                     '</script>'
                 ])
-            elif include_mathjax and is_connected:
+            elif include_mathjax == 'online':
                 mathjax_script = (
                     '<script src="https://cdn.mathjax.org/mathjax/latest/'
                     'MathJax.js?config=TeX-AMS-MML_SVG"></script>'
@@ -463,10 +467,22 @@ def plot(figure_or_data,
 
     elif output_type == 'div':
         if include_plotlyjs:
+            if include_mathjax == 'local':
+                mathjax_script = ''.join([
+                    '<script type="text/javascript">',
+                    get_mathjax(),
+                    '</script>'
+                ])
+            elif include_mathjax == 'online':
+                mathjax_script = (
+                    '<script src="https://cdn.mathjax.org/mathjax/latest/'
+                    'MathJax.js?config=TeX-AMS-MML_SVG"></script>'
+                    )
+            else:
+                mathjax_script = ''
             return ''.join([
                 '<div>',
-                '<script src="https://cdn.mathjax.org/mathjax/latest/',
-                'MathJax.js?config=TeX-AMS-MML_SVG"></script>',
+                mathjax_script,
                 '<script type="text/javascript">',
                 get_plotlyjs(),
                 '</script>',
