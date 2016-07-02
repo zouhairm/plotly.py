@@ -132,7 +132,7 @@ def init_notebook_mode(connected=False):
             'requirejs.config({'
             'paths: { '
             # Note we omit the extension .js because require will include it.
-            '\'plotly\': [\'https://cdn.plot.ly/plotly-latest.min\']},'
+            '\'plotly\': [\'https://cdn.plot.ly/plotly-latest.min\']}'
             '});'
             'if(!window.Plotly) {{'
             'require([\'plotly\'],'
@@ -405,6 +405,8 @@ def plot(figure_or_data,
         with open(filename, 'w') as f:
             if include_plotlyjs:
                 plotly_js_script = ''.join([
+                    '<script src="https://cdn.mathjax.org/mathjax/latest/',
+                    'MathJax.js?config=TeX-AMS-MML_SVG"></script>',
                     '<script type="text/javascript">',
                     get_plotlyjs(),
                     '</script>',
@@ -449,6 +451,8 @@ def plot(figure_or_data,
         if include_plotlyjs:
             return ''.join([
                 '<div>',
+                '<script src="https://cdn.mathjax.org/mathjax/latest/',
+                'MathJax.js?config=TeX-AMS-MML_SVG"></script>',
                 '<script type="text/javascript">',
                 get_plotlyjs(),
                 '</script>',
