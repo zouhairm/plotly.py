@@ -49,6 +49,13 @@ def get_plotlyjs():
     plotlyjs = resource_string('plotly', path).decode('utf-8')
     return plotlyjs
 
+
+def get_mathjax():
+    path = os.path.join('offline', 'MathJax.js')
+    mathjax = resource_string('plotly', path).decode('utf-8')
+    return mathjax
+
+
 def get_image_download_script(caller):
     """
     This function will return a script that will download an image of a Plotly
@@ -127,17 +134,13 @@ def init_notebook_mode(connected=False):
     if connected:
         # Inject plotly.js into the output cell
         script_inject = (
-            ''
-            '<script>'
+            '<script type=\'text/javascript\'>'
             'requirejs.config({'
-            'paths: { '
-            # Note we omit the extension .js because require will include it.
-            '\'plotly\': [\'https://cdn.plot.ly/plotly-latest.min\']}'
+            '  paths: {'
+            '    \'plotly\': [\'https://cdn.plot.ly/plotly-latest.min\'],'
+            '    \'mathjax\': [\'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG\']'
+            '  }'
             '});'
-            'if(!window.Plotly) {{'
-            'require([\'plotly\'],'
-            'function(plotly) {window.Plotly=plotly;});'
-            '}}'
             '</script>'
         )
     else:
@@ -210,7 +213,7 @@ def _plot_html(figure_or_data, show_link, link_text, validate,
         layout=jlayout,
         config=jconfig)
 
-    optional_line1 = ('require(["plotly"], function(Plotly) {{ '
+    optional_line1 = ('require([\'mathjax\', \'plotly\'], function(MathJax, Plotly) {{'
                       if global_requirejs else '')
     optional_line2 = ('}});' if global_requirejs else '')
 
@@ -317,7 +320,7 @@ def plot(figure_or_data,
          include_plotlyjs=True,
          filename='temp-plot.html', auto_open=True,
          image=None, image_filename='plot_image',
-         image_width=800, image_height=600):
+         image_width=800, image_height=600, include_mathjax=False):
     """ Create a plotly graph locally as an HTML document or string.
 
     Example:
@@ -403,10 +406,16 @@ def plot(figure_or_data,
 
     if output_type == 'file':
         with open(filename, 'w') as f:
+            if include_mathjax:
+                mathjax_script = ''.join([
+                    '<script type="text/javascript">',
+                    get_mathjax(),
+                    '</script>'
+                ])
+            else:
+                mathjax_script = ''
             if include_plotlyjs:
                 plotly_js_script = ''.join([
-                    '<script src="https://cdn.mathjax.org/mathjax/latest/',
-                    'MathJax.js?config=TeX-AMS-MML_SVG"></script>',
                     '<script type="text/javascript">',
                     get_plotlyjs(),
                     '</script>',
@@ -434,6 +443,7 @@ def plot(figure_or_data,
                 '<html>',
                 '<head><meta charset="utf-8" /></head>',
                 '<body>',
+                mathjax_script,
                 plotly_js_script,
                 plot_html,
                 resize_script,
