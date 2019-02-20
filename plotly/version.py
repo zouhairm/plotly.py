@@ -1,4 +1,4 @@
-__version__ = '3.6.1'
+__version__ = '3.7.1a1'
 __frontend_version__ = '^0.7.1'
 
 

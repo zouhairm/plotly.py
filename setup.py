@@ -24,11 +24,11 @@ npm_path = os.pathsep.join([
 
 # Load plotly.js version from js/package.json
 def plotly_js_version():
-    with open('js/package.json', 'rt') as f:
-        package_json = json.load(f)
-        version = package_json['dependencies']['plotly.js']
+    # with open('js/package.json', 'rt') as f:
+    #     package_json = json.load(f)
+    #     version = package_json['dependencies']['plotly.js']
 
-    return version
+    return '1.45.0-rc.1'
 
 
 def readme():
@@ -169,8 +169,9 @@ class UpdateSchemaCommand(Command):
             raise ImportError('Schema download must be executed with Python 3')
 
         import urllib.request
-        url = ('https://raw.githubusercontent.com/plotly/plotly.js/'
+        url = ('https://raw.githubusercontent.com/jonmmease/plotly.js/'
                'v%s/dist/plot-schema.json' % plotly_js_version())
+        print(url)
         with urllib.request.urlopen(url) as response:
 
             with open('plotly/package_data/plot-schema.json', 'wb') as f:
@@ -192,8 +193,9 @@ class UpdateBundleCommand(Command):
             raise ImportError('Schema download must be executed with Python 3')
 
         import urllib.request
-        url = ('https://raw.githubusercontent.com/plotly/plotly.js/'
+        url = ('https://raw.githubusercontent.com/jonmmease/plotly.js/'
                'v%s/dist/plotly.min.js' % plotly_js_version())
+        print(url)
         with urllib.request.urlopen(url) as response:
 
             with open('plotly/package_data/plotly.min.js', 'wb') as f:
