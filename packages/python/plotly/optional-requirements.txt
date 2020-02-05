@@ -37,7 +37,7 @@ colorcet
 ipython
 
 ## pandas deps for some matplotlib functionality ##
-pandas
+pandas==1.0
 
 ## scipy deps for some FigureFactory functions ##
 scipy
