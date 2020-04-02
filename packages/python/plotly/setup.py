@@ -232,12 +232,12 @@ def request_json(url):
     return json.loads(req.content.decode("utf-8"))
 
 
-def get_latest_publish_build_info(branch):
+def get_latest_publish_build_info(repo, branch):
 
     url = (
         r"https://circleci.com/api/v1.1/project/github/"
-        r"plotly/plotly.js/tree/{branch}?limit=10000\&filter=completed"
-    ).format(branch=branch)
+        r"{repo}/tree/{branch}?limit=10000\&filter=completed"
+    ).format(repo=repo, branch=branch)
 
     branch_jobs = request_json(url)
 
@@ -344,8 +344,8 @@ class UpdateBundleSchemaDevCommand(Command):
         pass
 
     def run(self):
-        branch = "master"
-        build_info = get_latest_publish_build_info(branch)
+        branch = self.dev_branch
+        build_info = get_latest_publish_build_info(self.dev_repo, branch)
 
         archive_url, bundle_url, schema_url = get_bundle_schema_urls(
             build_info["build_num"]
@@ -370,16 +370,20 @@ class UpdateBundleSchemaDevCommand(Command):
         # update plotly.js version in _plotlyjs_version
         rev = build_info["vcs_revision"]
         date = build_info["committer_date"]
-        version = "_".join([branch, date[:10], rev[:8]])
+        version = "_".join([self.dev_repo, branch, date[:10], rev[:8]])
         overwrite_plotlyjs_version_file(version)
 
 
 class UpdatePlotlyJsDevCommand(Command):
     description = "Update project to a new development version of plotly.js"
-    user_options = []
+    user_options = [
+        ('dev_repo=', None, 'Repository name'),
+        ('dev_branch=', None, 'branch or pull/number')
+    ]
 
     def initialize_options(self):
-        pass
+        self.dev_repo = 'plotly/plotly.js'
+        self.dev_branch = 'master'
 
     def finalize_options(self):
         pass
