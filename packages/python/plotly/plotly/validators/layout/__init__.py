@@ -35,8 +35,8 @@ class YAxisValidator(_plotly_utils.basevalidators.CompoundValidator):
                 appear. Only has an effect if `categoryorder`
                 is set to "array". Used with `categoryorder`.
             categoryarraysrc
-                Sets the source reference on Chart Studio Cloud
-                for  categoryarray .
+                Sets the source reference on plot.ly for
+                categoryarray .
             categoryorder
                 Specifies the ordering logic for the case of
                 categorical variables. By default, plotly uses
@@ -204,15 +204,6 @@ class YAxisValidator(_plotly_utils.basevalidators.CompoundValidator):
                 should be numbers, using the scale where each
                 category is assigned a serial number from zero
                 in the order it appears.
-            rangebreaks
-                A tuple of :class:`plotly.graph_objects.layout.
-                yaxis.Rangebreak` instances or dicts with
-                compatible properties
-            rangebreakdefaults
-                When used in a template (as layout.template.lay
-                out.yaxis.rangebreakdefaults), sets the default
-                property values to use for elements of
-                layout.yaxis.rangebreaks
             rangemode
                 If "normal", the range is computed in relation
                 to the extrema of the input data. If *tozero*`,
@@ -389,15 +380,15 @@ class YAxisValidator(_plotly_utils.basevalidators.CompoundValidator):
                 `tickmode` is set to "array". Used with
                 `tickvals`.
             ticktextsrc
-                Sets the source reference on Chart Studio Cloud
-                for  ticktext .
+                Sets the source reference on plot.ly for
+                ticktext .
             tickvals
                 Sets the values at which ticks on this axis
                 appear. Only has an effect if `tickmode` is set
                 to "array". Used with `ticktext`.
             tickvalssrc
-                Sets the source reference on Chart Studio Cloud
-                for  tickvals .
+                Sets the source reference on plot.ly for
+                tickvals .
             tickwidth
                 Sets the tick width (in px).
             title
@@ -474,8 +465,8 @@ class XAxisValidator(_plotly_utils.basevalidators.CompoundValidator):
                 appear. Only has an effect if `categoryorder`
                 is set to "array". Used with `categoryorder`.
             categoryarraysrc
-                Sets the source reference on Chart Studio Cloud
-                for  categoryarray .
+                Sets the source reference on plot.ly for
+                categoryarray .
             categoryorder
                 Specifies the ordering logic for the case of
                 categorical variables. By default, plotly uses
@@ -643,15 +634,6 @@ class XAxisValidator(_plotly_utils.basevalidators.CompoundValidator):
                 should be numbers, using the scale where each
                 category is assigned a serial number from zero
                 in the order it appears.
-            rangebreaks
-                A tuple of :class:`plotly.graph_objects.layout.
-                xaxis.Rangebreak` instances or dicts with
-                compatible properties
-            rangebreakdefaults
-                When used in a template (as layout.template.lay
-                out.xaxis.rangebreakdefaults), sets the default
-                property values to use for elements of
-                layout.xaxis.rangebreaks
             rangemode
                 If "normal", the range is computed in relation
                 to the extrema of the input data. If *tozero*`,
@@ -836,15 +818,15 @@ class XAxisValidator(_plotly_utils.basevalidators.CompoundValidator):
                 `tickmode` is set to "array". Used with
                 `tickvals`.
             ticktextsrc
-                Sets the source reference on Chart Studio Cloud
-                for  ticktext .
+                Sets the source reference on plot.ly for
+                ticktext .
             tickvals
                 Sets the values at which ticks on this axis
                 appear. Only has an effect if `tickmode` is set
                 to "array". Used with `ticktext`.
             tickvalssrc
-                Sets the source reference on Chart Studio Cloud
-                for  tickvals .
+                Sets the source reference on plot.ly for
+                tickvals .
             tickwidth
                 Sets the tick width (in px).
             title
@@ -2392,9 +2374,7 @@ class HovermodeValidator(_plotly_utils.basevalidators.EnumeratedValidator):
             parent_name=parent_name,
             edit_type=kwargs.pop("edit_type", "modebar"),
             role=kwargs.pop("role", "info"),
-            values=kwargs.pop(
-                "values", ["x", "y", "closest", False, "x unified", "y unified"]
-            ),
+            values=kwargs.pop("values", ["x", "y", "closest", False]),
             **kwargs
         )
 
@@ -2811,13 +2791,12 @@ class FontValidator(_plotly_utils.basevalidators.CompoundValidator):
                 Provide multiple font families, separated by
                 commas, to indicate the preference in which to
                 apply fonts if they aren't available on the
-                system. The Chart Studio Cloud (at
-                https://chart-studio.plotly.com or on-premise)
-                generates images on a server, where only a
-                select number of fonts are installed and
-                supported. These include "Arial", "Balto",
-                "Courier New", "Droid Sans",, "Droid Serif",
-                "Droid Sans Mono", "Gravitas One", "Old
+                system. The plotly service (at https://plot.ly
+                or on-premise) generates images on a server,
+                where only a select number of fonts are
+                installed and supported. These include "Arial",
+                "Balto", "Courier New", "Droid Sans",, "Droid
+                Serif", "Droid Sans Mono", "Gravitas One", "Old
                 Standard TT", "Open Sans", "Overpass", "PT Sans
                 Narrow", "Raleway", "Times New Roman".
             size

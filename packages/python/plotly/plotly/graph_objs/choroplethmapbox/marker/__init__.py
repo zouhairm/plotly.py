@@ -72,7 +72,7 @@ class Line(_BaseTraceHierarchyType):
     @property
     def colorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  color .
+        Sets the source reference on plot.ly for  color .
     
         The 'colorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -113,7 +113,7 @@ class Line(_BaseTraceHierarchyType):
     @property
     def widthsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  width .
+        Sets the source reference on plot.ly for  width .
     
         The 'widthsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -146,14 +146,12 @@ class Line(_BaseTraceHierarchyType):
             array or relative to `marker.line.cmin` and
             `marker.line.cmax` if set.
         colorsrc
-            Sets the source reference on Chart Studio Cloud for
-            color .
+            Sets the source reference on plot.ly for  color .
         width
             Sets the width (in px) of the lines bounding the marker
             points.
         widthsrc
-            Sets the source reference on Chart Studio Cloud for
-            width .
+            Sets the source reference on plot.ly for  width .
         """
 
     def __init__(
@@ -175,14 +173,12 @@ class Line(_BaseTraceHierarchyType):
             array or relative to `marker.line.cmin` and
             `marker.line.cmax` if set.
         colorsrc
-            Sets the source reference on Chart Studio Cloud for
-            color .
+            Sets the source reference on plot.ly for  color .
         width
             Sets the width (in px) of the lines bounding the marker
             points.
         widthsrc
-            Sets the source reference on Chart Studio Cloud for
-            width .
+            Sets the source reference on plot.ly for  width .
 
         Returns
         -------

@@ -147,8 +147,8 @@ class StreamValidator(_plotly_utils.basevalidators.CompoundValidator):
                 points will be displayed on the plot.
             token
                 The stream id number links a data trace on a
-                plot with a stream. See https://chart-
-                studio.plotly.com/settings for more details.
+                plot with a stream. See
+                https://plot.ly/settings for more details.
 """,
             ),
             **kwargs
@@ -265,13 +265,12 @@ class FontValidator(_plotly_utils.basevalidators.CompoundValidator):
                 Provide multiple font families, separated by
                 commas, to indicate the preference in which to
                 apply fonts if they aren't available on the
-                system. The Chart Studio Cloud (at
-                https://chart-studio.plotly.com or on-premise)
-                generates images on a server, where only a
-                select number of fonts are installed and
-                supported. These include "Arial", "Balto",
-                "Courier New", "Droid Sans",, "Droid Serif",
-                "Droid Sans Mono", "Gravitas One", "Old
+                system. The plotly service (at https://plot.ly
+                or on-premise) generates images on a server,
+                where only a select number of fonts are
+                installed and supported. These include "Arial",
+                "Balto", "Courier New", "Droid Sans",, "Droid
+                Serif", "Droid Sans Mono", "Gravitas One", "Old
                 Standard TT", "Open Sans", "Overpass", "PT Sans
                 Narrow", "Raleway", "Times New Roman".
             size
@@ -420,8 +419,8 @@ class BaxisValidator(_plotly_utils.basevalidators.CompoundValidator):
                 appear. Only has an effect if `categoryorder`
                 is set to "array". Used with `categoryorder`.
             categoryarraysrc
-                Sets the source reference on Chart Studio Cloud
-                for  categoryarray .
+                Sets the source reference on plot.ly for
+                categoryarray .
             categoryorder
                 Specifies the ordering logic for the case of
                 categorical variables. By default, plotly uses
@@ -588,15 +587,15 @@ class BaxisValidator(_plotly_utils.basevalidators.CompoundValidator):
                 `tickmode` is set to "array". Used with
                 `tickvals`.
             ticktextsrc
-                Sets the source reference on Chart Studio Cloud
-                for  ticktext .
+                Sets the source reference on plot.ly for
+                ticktext .
             tickvals
                 Sets the values at which ticks on this axis
                 appear. Only has an effect if `tickmode` is set
                 to "array". Used with `ticktext`.
             tickvalssrc
-                Sets the source reference on Chart Studio Cloud
-                for  tickvals .
+                Sets the source reference on plot.ly for
+                tickvals .
             title
                 :class:`plotly.graph_objects.carpet.baxis.Title
                 ` instance or dict with compatible properties
@@ -691,8 +690,8 @@ class AaxisValidator(_plotly_utils.basevalidators.CompoundValidator):
                 appear. Only has an effect if `categoryorder`
                 is set to "array". Used with `categoryorder`.
             categoryarraysrc
-                Sets the source reference on Chart Studio Cloud
-                for  categoryarray .
+                Sets the source reference on plot.ly for
+                categoryarray .
             categoryorder
                 Specifies the ordering logic for the case of
                 categorical variables. By default, plotly uses
@@ -859,15 +858,15 @@ class AaxisValidator(_plotly_utils.basevalidators.CompoundValidator):
                 `tickmode` is set to "array". Used with
                 `tickvals`.
             ticktextsrc
-                Sets the source reference on Chart Studio Cloud
-                for  ticktext .
+                Sets the source reference on plot.ly for
+                ticktext .
             tickvals
                 Sets the values at which ticks on this axis
                 appear. Only has an effect if `tickmode` is set
                 to "array". Used with `ticktext`.
             tickvalssrc
-                Sets the source reference on Chart Studio Cloud
-                for  tickvals .
+                Sets the source reference on plot.ly for
+                tickvals .
             title
                 :class:`plotly.graph_objects.carpet.aaxis.Title
                 ` instance or dict with compatible properties

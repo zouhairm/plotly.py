@@ -152,8 +152,7 @@ class Waterfall(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -267,8 +266,7 @@ class Waterfall(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -302,20 +300,20 @@ class Waterfall(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -329,8 +327,8 @@ class Waterfall(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -360,7 +358,7 @@ class Waterfall(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variables `initial`, `delta` and `final`. Anything contained in
@@ -388,8 +386,7 @@ class Waterfall(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -435,8 +432,7 @@ class Waterfall(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -478,7 +474,7 @@ class Waterfall(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -561,8 +557,8 @@ class Waterfall(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -571,23 +567,22 @@ class Waterfall(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -651,7 +646,7 @@ class Waterfall(_BaseTraceType):
     @property
     def measuresrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  measure .
+        Sets the source reference on plot.ly for  measure .
     
         The 'measuresrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -699,7 +694,7 @@ class Waterfall(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -787,7 +782,7 @@ class Waterfall(_BaseTraceType):
     @property
     def offsetsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  offset .
+        Sets the source reference on plot.ly for  offset .
     
         The 'offsetsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -862,8 +857,8 @@ class Waterfall(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -872,23 +867,22 @@ class Waterfall(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -965,8 +959,8 @@ class Waterfall(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -1048,8 +1042,8 @@ class Waterfall(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -1058,23 +1052,22 @@ class Waterfall(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -1144,8 +1137,7 @@ class Waterfall(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1165,7 +1157,7 @@ class Waterfall(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1220,8 +1212,7 @@ class Waterfall(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1368,7 +1359,7 @@ class Waterfall(_BaseTraceType):
     @property
     def widthsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  width .
+        Sets the source reference on plot.ly for  width .
     
         The 'widthsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1454,7 +1445,7 @@ class Waterfall(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1540,7 +1531,7 @@ class Waterfall(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1597,8 +1588,7 @@ class Waterfall(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         decreasing
             :class:`plotly.graph_objects.waterfall.Decreasing`
             instance or dict with compatible properties
@@ -1612,8 +1602,7 @@ class Waterfall(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.waterfall.Hoverlabel`
             instance or dict with compatible properties
@@ -1633,17 +1622,17 @@ class Waterfall(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `initial`, `delta` and
-            `final`. Anything contained in tag `<extra>` is
-            displayed in the secondary box, for example
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `initial`, `delta` and `final`.
+            Anything contained in tag `<extra>` is displayed in the
+            secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -1652,15 +1641,13 @@ class Waterfall(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         increasing
             :class:`plotly.graph_objects.waterfall.Increasing`
             instance or dict with compatible properties
@@ -1680,8 +1667,7 @@ class Waterfall(_BaseTraceType):
             'absolute' could be applied to reset the computed total
             or to declare an initial value where needed.
         measuresrc
-            Sets the source reference on Chart Studio Cloud for
-            measure .
+            Sets the source reference on plot.ly for  measure .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -1696,8 +1682,7 @@ class Waterfall(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -1711,8 +1696,7 @@ class Waterfall(_BaseTraceType):
             matching axes to the same offsetgroup where bars of the
             same position coordinate will line up.
         offsetsrc
-            Sets the source reference on Chart Studio Cloud for
-            offset .
+            Sets the source reference on plot.ly for  offset .
         opacity
             Sets the opacity of the trace.
         orientation
@@ -1764,11 +1748,10 @@ class Waterfall(_BaseTraceType):
             inside the bar, but if the bar is too small and no bar
             is stacked on this one the text is moved outside.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -1787,8 +1770,8 @@ class Waterfall(_BaseTraceType):
             `arrayOk: true`) are available. variables `initial`,
             `delta`, `final` and `label`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         totals
             :class:`plotly.graph_objects.waterfall.Totals` instance
             or dict with compatible properties
@@ -1822,8 +1805,7 @@ class Waterfall(_BaseTraceType):
         width
             Sets the bar width (in position axis units).
         widthsrc
-            Sets the source reference on Chart Studio Cloud for
-            width .
+            Sets the source reference on plot.ly for  width .
         x
             Sets the x coordinates.
         x0
@@ -1836,8 +1818,7 @@ class Waterfall(_BaseTraceType):
             x coordinates refer to `layout.xaxis`. If "x2", the x
             coordinates refer to `layout.xaxis2`, and so on.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         y0
@@ -1850,8 +1831,7 @@ class Waterfall(_BaseTraceType):
             y coordinates refer to `layout.yaxis`. If "y2", the y
             coordinates refer to `layout.yaxis2`, and so on.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         """
 
     def __init__(
@@ -1959,8 +1939,7 @@ class Waterfall(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         decreasing
             :class:`plotly.graph_objects.waterfall.Decreasing`
             instance or dict with compatible properties
@@ -1974,8 +1953,7 @@ class Waterfall(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.waterfall.Hoverlabel`
             instance or dict with compatible properties
@@ -1995,17 +1973,17 @@ class Waterfall(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `initial`, `delta` and
-            `final`. Anything contained in tag `<extra>` is
-            displayed in the secondary box, for example
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `initial`, `delta` and `final`.
+            Anything contained in tag `<extra>` is displayed in the
+            secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -2014,15 +1992,13 @@ class Waterfall(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         increasing
             :class:`plotly.graph_objects.waterfall.Increasing`
             instance or dict with compatible properties
@@ -2042,8 +2018,7 @@ class Waterfall(_BaseTraceType):
             'absolute' could be applied to reset the computed total
             or to declare an initial value where needed.
         measuresrc
-            Sets the source reference on Chart Studio Cloud for
-            measure .
+            Sets the source reference on plot.ly for  measure .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -2058,8 +2033,7 @@ class Waterfall(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -2073,8 +2047,7 @@ class Waterfall(_BaseTraceType):
             matching axes to the same offsetgroup where bars of the
             same position coordinate will line up.
         offsetsrc
-            Sets the source reference on Chart Studio Cloud for
-            offset .
+            Sets the source reference on plot.ly for  offset .
         opacity
             Sets the opacity of the trace.
         orientation
@@ -2126,11 +2099,10 @@ class Waterfall(_BaseTraceType):
             inside the bar, but if the bar is too small and no bar
             is stacked on this one the text is moved outside.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -2149,8 +2121,8 @@ class Waterfall(_BaseTraceType):
             `arrayOk: true`) are available. variables `initial`,
             `delta`, `final` and `label`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         totals
             :class:`plotly.graph_objects.waterfall.Totals` instance
             or dict with compatible properties
@@ -2184,8 +2156,7 @@ class Waterfall(_BaseTraceType):
         width
             Sets the bar width (in position axis units).
         widthsrc
-            Sets the source reference on Chart Studio Cloud for
-            width .
+            Sets the source reference on plot.ly for  width .
         x
             Sets the x coordinates.
         x0
@@ -2198,8 +2169,7 @@ class Waterfall(_BaseTraceType):
             x coordinates refer to `layout.xaxis`. If "x2", the x
             coordinates refer to `layout.xaxis2`, and so on.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         y0
@@ -2212,8 +2182,7 @@ class Waterfall(_BaseTraceType):
             y coordinates refer to `layout.yaxis`. If "y2", the y
             coordinates refer to `layout.yaxis2`, and so on.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
 
         Returns
         -------
@@ -2807,15 +2776,15 @@ class Volume(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -2978,8 +2947,7 @@ class Volume(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -3047,8 +3015,7 @@ class Volume(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -3082,20 +3049,20 @@ class Volume(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -3109,8 +3076,8 @@ class Volume(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -3140,7 +3107,7 @@ class Volume(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -3168,8 +3135,7 @@ class Volume(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -3211,8 +3177,7 @@ class Volume(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -3254,7 +3219,7 @@ class Volume(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -3446,7 +3411,7 @@ class Volume(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -3712,8 +3677,8 @@ class Volume(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -3804,7 +3769,7 @@ class Volume(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -3899,7 +3864,7 @@ class Volume(_BaseTraceType):
     @property
     def valuesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  value .
+        Sets the source reference on plot.ly for  value .
     
         The 'valuesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -3962,7 +3927,7 @@ class Volume(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -4002,7 +3967,7 @@ class Volume(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -4042,7 +4007,7 @@ class Volume(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -4133,8 +4098,7 @@ class Volume(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         flatshading
             Determines whether or not normal smoothing is applied
             to the meshes, creating meshes with an angular, low-
@@ -4145,8 +4109,7 @@ class Volume(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.volume.Hoverlabel`
             instance or dict with compatible properties
@@ -4166,28 +4129,26 @@ class Volume(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         isomax
             Sets the maximum boundary for iso-surface plot.
         isomin
@@ -4216,8 +4177,7 @@ class Volume(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -4274,8 +4234,7 @@ class Volume(_BaseTraceType):
             "hovertext" is not set, these elements will be seen in
             the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -4301,8 +4260,7 @@ class Volume(_BaseTraceType):
         value
             Sets the 4th dimension (value) of the vertices.
         valuesrc
-            Sets the source reference on Chart Studio Cloud for
-            value .
+            Sets the source reference on plot.ly for  value .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -4311,18 +4269,15 @@ class Volume(_BaseTraceType):
         x
             Sets the X coordinates of the vertices on X axis.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the Y coordinates of the vertices on Y axis.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the Z coordinates of the vertices on Z axis.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -4457,8 +4412,7 @@ class Volume(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         flatshading
             Determines whether or not normal smoothing is applied
             to the meshes, creating meshes with an angular, low-
@@ -4469,8 +4423,7 @@ class Volume(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.volume.Hoverlabel`
             instance or dict with compatible properties
@@ -4490,28 +4443,26 @@ class Volume(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         isomax
             Sets the maximum boundary for iso-surface plot.
         isomin
@@ -4540,8 +4491,7 @@ class Volume(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -4598,8 +4548,7 @@ class Volume(_BaseTraceType):
             "hovertext" is not set, these elements will be seen in
             the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -4625,8 +4574,7 @@ class Volume(_BaseTraceType):
         value
             Sets the 4th dimension (value) of the vertices.
         valuesrc
-            Sets the source reference on Chart Studio Cloud for
-            value .
+            Sets the source reference on plot.ly for  value .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -4635,18 +4583,15 @@ class Volume(_BaseTraceType):
         x
             Sets the X coordinates of the vertices on X axis.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the Y coordinates of the vertices on Y axis.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the Z coordinates of the vertices on Z axis.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -4979,8 +4924,7 @@ class Violin(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -5087,8 +5031,7 @@ class Violin(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -5122,20 +5065,20 @@ class Violin(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -5149,8 +5092,8 @@ class Violin(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -5205,7 +5148,7 @@ class Violin(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -5233,8 +5176,7 @@ class Violin(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -5276,8 +5218,7 @@ class Violin(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -5319,7 +5260,7 @@ class Violin(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -5523,7 +5464,7 @@ class Violin(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -5901,8 +5842,8 @@ class Violin(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -5945,7 +5886,7 @@ class Violin(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -6160,7 +6101,7 @@ class Violin(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -6247,7 +6188,7 @@ class Violin(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -6297,8 +6238,7 @@ class Violin(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         fillcolor
             Sets the fill color. Defaults to a half-transparent
             variant of the line color, marker color, or marker line
@@ -6309,8 +6249,7 @@ class Violin(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.violin.Hoverlabel`
             instance or dict with compatible properties
@@ -6334,28 +6273,26 @@ class Violin(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         jitter
             Sets the amount of jitter in the sample points drawn.
             If 0, the sample points align along the distribution
@@ -6388,8 +6325,7 @@ class Violin(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover. For violin traces, the name
@@ -6481,8 +6417,7 @@ class Violin(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -6531,8 +6466,7 @@ class Violin(_BaseTraceType):
             x coordinates refer to `layout.xaxis`. If "x2", the x
             coordinates refer to `layout.xaxis2`, and so on.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y sample data or coordinates. See overview for
             more info.
@@ -6546,8 +6480,7 @@ class Violin(_BaseTraceType):
             y coordinates refer to `layout.yaxis`. If "y2", the y
             coordinates refer to `layout.yaxis2`, and so on.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         """
 
     def __init__(
@@ -6641,8 +6574,7 @@ class Violin(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         fillcolor
             Sets the fill color. Defaults to a half-transparent
             variant of the line color, marker color, or marker line
@@ -6653,8 +6585,7 @@ class Violin(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.violin.Hoverlabel`
             instance or dict with compatible properties
@@ -6678,28 +6609,26 @@ class Violin(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         jitter
             Sets the amount of jitter in the sample points drawn.
             If 0, the sample points align along the distribution
@@ -6732,8 +6661,7 @@ class Violin(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover. For violin traces, the name
@@ -6825,8 +6753,7 @@ class Violin(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -6875,8 +6802,7 @@ class Violin(_BaseTraceType):
             x coordinates refer to `layout.xaxis`. If "x2", the x
             coordinates refer to `layout.xaxis2`, and so on.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y sample data or coordinates. See overview for
             more info.
@@ -6890,8 +6816,7 @@ class Violin(_BaseTraceType):
             y coordinates refer to `layout.yaxis`. If "y2", the y
             coordinates refer to `layout.yaxis2`, and so on.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
 
         Returns
         -------
@@ -7193,8 +7118,7 @@ class Treemap(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -7277,8 +7201,7 @@ class Treemap(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -7312,20 +7235,20 @@ class Treemap(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -7339,8 +7262,8 @@ class Treemap(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -7370,7 +7293,7 @@ class Treemap(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variables `currentPath`, `root`, `entry`, `percentRoot`,
@@ -7399,8 +7322,7 @@ class Treemap(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -7446,8 +7368,7 @@ class Treemap(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -7489,7 +7410,7 @@ class Treemap(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -7522,8 +7443,8 @@ class Treemap(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -7532,23 +7453,22 @@ class Treemap(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -7585,7 +7505,7 @@ class Treemap(_BaseTraceType):
     @property
     def labelssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  labels .
+        Sets the source reference on plot.ly for  labels .
     
         The 'labelssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -7706,8 +7626,8 @@ class Treemap(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  colors .
+                    Sets the source reference on plot.ly for
+                    colors .
                 depthfade
                     Determines if the sector colors are faded
                     towards the background from the leaves up to
@@ -7801,7 +7721,7 @@ class Treemap(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -7880,8 +7800,8 @@ class Treemap(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -7890,23 +7810,22 @@ class Treemap(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -7948,7 +7867,7 @@ class Treemap(_BaseTraceType):
     @property
     def parentssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  parents .
+        Sets the source reference on plot.ly for  parents .
     
         The 'parentssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -8023,8 +7942,8 @@ class Treemap(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -8078,8 +7997,8 @@ class Treemap(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -8088,23 +8007,22 @@ class Treemap(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -8167,7 +8085,7 @@ class Treemap(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -8224,8 +8142,7 @@ class Treemap(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -8370,7 +8287,7 @@ class Treemap(_BaseTraceType):
     @property
     def valuessrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  values .
+        Sets the source reference on plot.ly for  values .
     
         The 'valuessrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -8442,8 +8359,7 @@ class Treemap(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         domain
             :class:`plotly.graph_objects.treemap.Domain` instance
             or dict with compatible properties
@@ -8453,8 +8369,7 @@ class Treemap(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.treemap.Hoverlabel`
             instance or dict with compatible properties
@@ -8474,18 +8389,18 @@ class Treemap(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `currentPath`, `root`,
-            `entry`, `percentRoot`, `percentEntry` and
-            `percentParent`. Anything contained in tag `<extra>` is
-            displayed in the secondary box, for example
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `currentPath`, `root`, `entry`,
+            `percentRoot`, `percentEntry` and `percentParent`.
+            Anything contained in tag `<extra>` is displayed in the
+            secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each sector.
             If a single string, the same string appears for all
@@ -8493,23 +8408,20 @@ class Treemap(_BaseTraceType):
             mapped in order of this trace's sectors. To be seen,
             trace `hoverinfo` must contain a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         insidetextfont
             Sets the font used for `textinfo` lying inside the
             sector.
         labels
             Sets the labels of each of the sectors.
         labelssrc
-            Sets the source reference on Chart Studio Cloud for
-            labels .
+            Sets the source reference on plot.ly for  labels .
         level
             Sets the level from which this trace hierarchy is
             rendered. Set `level` to `''` to start from the root
@@ -8537,8 +8449,7 @@ class Treemap(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -8559,8 +8470,7 @@ class Treemap(_BaseTraceType):
             is not set, plotly attempts to find matching items in
             `labels`, but beware they must be unique.
         parentssrc
-            Sets the source reference on Chart Studio Cloud for
-            parents .
+            Sets the source reference on plot.ly for  parents .
         pathbar
             :class:`plotly.graph_objects.treemap.Pathbar` instance
             or dict with compatible properties
@@ -8580,8 +8490,7 @@ class Treemap(_BaseTraceType):
         textposition
             Sets the positions of the `text` elements.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -8601,8 +8510,8 @@ class Treemap(_BaseTraceType):
             `currentPath`, `root`, `entry`, `percentRoot`,
             `percentEntry`, `percentParent`, `label` and `value`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         tiling
             :class:`plotly.graph_objects.treemap.Tiling` instance
             or dict with compatible properties
@@ -8633,8 +8542,7 @@ class Treemap(_BaseTraceType):
             Use with `branchvalues` to determine how the values are
             summed.
         valuessrc
-            Sets the source reference on Chart Studio Cloud for
-            values .
+            Sets the source reference on plot.ly for  values .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -8719,8 +8627,7 @@ class Treemap(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         domain
             :class:`plotly.graph_objects.treemap.Domain` instance
             or dict with compatible properties
@@ -8730,8 +8637,7 @@ class Treemap(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.treemap.Hoverlabel`
             instance or dict with compatible properties
@@ -8751,18 +8657,18 @@ class Treemap(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `currentPath`, `root`,
-            `entry`, `percentRoot`, `percentEntry` and
-            `percentParent`. Anything contained in tag `<extra>` is
-            displayed in the secondary box, for example
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `currentPath`, `root`, `entry`,
+            `percentRoot`, `percentEntry` and `percentParent`.
+            Anything contained in tag `<extra>` is displayed in the
+            secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each sector.
             If a single string, the same string appears for all
@@ -8770,23 +8676,20 @@ class Treemap(_BaseTraceType):
             mapped in order of this trace's sectors. To be seen,
             trace `hoverinfo` must contain a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         insidetextfont
             Sets the font used for `textinfo` lying inside the
             sector.
         labels
             Sets the labels of each of the sectors.
         labelssrc
-            Sets the source reference on Chart Studio Cloud for
-            labels .
+            Sets the source reference on plot.ly for  labels .
         level
             Sets the level from which this trace hierarchy is
             rendered. Set `level` to `''` to start from the root
@@ -8814,8 +8717,7 @@ class Treemap(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -8836,8 +8738,7 @@ class Treemap(_BaseTraceType):
             is not set, plotly attempts to find matching items in
             `labels`, but beware they must be unique.
         parentssrc
-            Sets the source reference on Chart Studio Cloud for
-            parents .
+            Sets the source reference on plot.ly for  parents .
         pathbar
             :class:`plotly.graph_objects.treemap.Pathbar` instance
             or dict with compatible properties
@@ -8857,8 +8758,7 @@ class Treemap(_BaseTraceType):
         textposition
             Sets the positions of the `text` elements.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -8878,8 +8778,8 @@ class Treemap(_BaseTraceType):
             `currentPath`, `root`, `entry`, `percentRoot`,
             `percentEntry`, `percentParent`, `label` and `value`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         tiling
             :class:`plotly.graph_objects.treemap.Tiling` instance
             or dict with compatible properties
@@ -8910,8 +8810,7 @@ class Treemap(_BaseTraceType):
             Use with `branchvalues` to determine how the values are
             summed.
         valuessrc
-            Sets the source reference on Chart Studio Cloud for
-            values .
+            Sets the source reference on plot.ly for  values .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -9127,8 +9026,8 @@ class Table(_BaseTraceType):
                     one or more <br> HTML tags) or if an explicit
                     width is set to override the text width.
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 fill
                     :class:`plotly.graph_objects.table.cells.Fill`
                     instance or dict with compatible properties
@@ -9142,8 +9041,8 @@ class Table(_BaseTraceType):
                     https://github.com/d3/d3-3.x-api-
                     reference/blob/master/Formatting.md#d3_format
                 formatsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  format .
+                    Sets the source reference on plot.ly for
+                    format .
                 height
                     The height of cells.
                 line
@@ -9152,13 +9051,13 @@ class Table(_BaseTraceType):
                 prefix
                     Prefix for cell values.
                 prefixsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  prefix .
+                    Sets the source reference on plot.ly for
+                    prefix .
                 suffix
                     Suffix for cell values.
                 suffixsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  suffix .
+                    Sets the source reference on plot.ly for
+                    suffix .
                 values
                     Cell values. `values[m][n]` represents the
                     value of the `n`th point in column `m`,
@@ -9167,8 +9066,8 @@ class Table(_BaseTraceType):
                     be truncated). Each value must be a finite
                     number or a string.
                 valuessrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  values .
+                    Sets the source reference on plot.ly for
+                    values .
 
         Returns
         -------
@@ -9208,8 +9107,7 @@ class Table(_BaseTraceType):
     @property
     def columnordersrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        columnorder .
+        Sets the source reference on plot.ly for  columnorder .
     
         The 'columnordersrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -9251,8 +9149,7 @@ class Table(_BaseTraceType):
     @property
     def columnwidthsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        columnwidth .
+        Sets the source reference on plot.ly for  columnwidth .
     
         The 'columnwidthsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -9295,8 +9192,7 @@ class Table(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -9367,8 +9263,8 @@ class Table(_BaseTraceType):
                     one or more <br> HTML tags) or if an explicit
                     width is set to override the text width.
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 fill
                     :class:`plotly.graph_objects.table.header.Fill`
                     instance or dict with compatible properties
@@ -9382,8 +9278,8 @@ class Table(_BaseTraceType):
                     https://github.com/d3/d3-3.x-api-
                     reference/blob/master/Formatting.md#d3_format
                 formatsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  format .
+                    Sets the source reference on plot.ly for
+                    format .
                 height
                     The height of cells.
                 line
@@ -9392,13 +9288,13 @@ class Table(_BaseTraceType):
                 prefix
                     Prefix for cell values.
                 prefixsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  prefix .
+                    Sets the source reference on plot.ly for
+                    prefix .
                 suffix
                     Suffix for cell values.
                 suffixsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  suffix .
+                    Sets the source reference on plot.ly for
+                    suffix .
                 values
                     Header cell values. `values[m][n]` represents
                     the value of the `n`th point in column `m`,
@@ -9407,8 +9303,8 @@ class Table(_BaseTraceType):
                     be truncated). Each value must be a finite
                     number or a string.
                 valuessrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  values .
+                    Sets the source reference on plot.ly for
+                    values .
 
         Returns
         -------
@@ -9451,8 +9347,7 @@ class Table(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -9486,20 +9381,20 @@ class Table(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -9513,8 +9408,8 @@ class Table(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -9553,7 +9448,7 @@ class Table(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -9601,7 +9496,7 @@ class Table(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -9658,8 +9553,8 @@ class Table(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -9775,23 +9670,20 @@ class Table(_BaseTraceType):
             index `0` in the data will be rendered as the third
             column, as columns have an index base of zero.
         columnordersrc
-            Sets the source reference on Chart Studio Cloud for
-            columnorder .
+            Sets the source reference on plot.ly for  columnorder .
         columnwidth
             The width of columns expressed as a ratio. Columns fill
             the available width in proportion of their specified
             column widths.
         columnwidthsrc
-            Sets the source reference on Chart Studio Cloud for
-            columnwidth .
+            Sets the source reference on plot.ly for  columnwidth .
         customdata
             Assigns extra data each datum. This may be useful when
             listening to hover, click and selection events. Note
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         domain
             :class:`plotly.graph_objects.table.Domain` instance or
             dict with compatible properties
@@ -9804,8 +9696,7 @@ class Table(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.table.Hoverlabel` instance
             or dict with compatible properties
@@ -9814,8 +9705,7 @@ class Table(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -9830,8 +9720,7 @@ class Table(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -9916,23 +9805,20 @@ class Table(_BaseTraceType):
             index `0` in the data will be rendered as the third
             column, as columns have an index base of zero.
         columnordersrc
-            Sets the source reference on Chart Studio Cloud for
-            columnorder .
+            Sets the source reference on plot.ly for  columnorder .
         columnwidth
             The width of columns expressed as a ratio. Columns fill
             the available width in proportion of their specified
             column widths.
         columnwidthsrc
-            Sets the source reference on Chart Studio Cloud for
-            columnwidth .
+            Sets the source reference on plot.ly for  columnwidth .
         customdata
             Assigns extra data each datum. This may be useful when
             listening to hover, click and selection events. Note
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         domain
             :class:`plotly.graph_objects.table.Domain` instance or
             dict with compatible properties
@@ -9945,8 +9831,7 @@ class Table(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.table.Hoverlabel` instance
             or dict with compatible properties
@@ -9955,8 +9840,7 @@ class Table(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -9971,8 +9855,7 @@ class Table(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -10448,15 +10331,15 @@ class Surface(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -10642,8 +10525,7 @@ class Surface(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -10711,8 +10593,7 @@ class Surface(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -10746,20 +10627,20 @@ class Surface(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -10773,8 +10654,8 @@ class Surface(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -10804,7 +10685,7 @@ class Surface(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -10832,8 +10713,7 @@ class Surface(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -10875,8 +10755,7 @@ class Surface(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -10918,7 +10797,7 @@ class Surface(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -11064,7 +10943,7 @@ class Surface(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -11125,33 +11004,6 @@ class Surface(_BaseTraceType):
     @opacity.setter
     def opacity(self, val):
         self["opacity"] = val
-
-    # opacityscale
-    # ------------
-    @property
-    def opacityscale(self):
-        """
-        Sets the opacityscale. The opacityscale must be an array
-        containing arrays mapping a normalized value to an opacity
-        value. At minimum, a mapping for the lowest (0) and highest (1)
-        values are required. For example, `[[0, 1], [0.5, 0.2], [1,
-        1]]` means that higher/lower values would have higher opacity
-        values and those in the middle would be more transparent
-        Alternatively, `opacityscale` may be a palette name string of
-        the following list: 'min', 'max', 'extremes' and 'uniform'. The
-        default is 'uniform'.
-    
-        The 'opacityscale' property accepts values of any type
-
-        Returns
-        -------
-        Any
-        """
-        return self["opacityscale"]
-
-    @opacityscale.setter
-    def opacityscale(self, val):
-        self["opacityscale"] = val
 
     # reversescale
     # ------------
@@ -11262,8 +11114,8 @@ class Surface(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -11301,8 +11153,7 @@ class Surface(_BaseTraceType):
     @property
     def surfacecolorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        surfacecolor .
+        Sets the source reference on plot.ly for  surfacecolor .
     
         The 'surfacecolorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -11346,7 +11197,7 @@ class Surface(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -11488,7 +11339,7 @@ class Surface(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -11552,7 +11403,7 @@ class Surface(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -11616,7 +11467,7 @@ class Surface(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -11707,8 +11558,7 @@ class Surface(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         hidesurface
             Determines whether or not a surface is drawn. For
             example, set `hidesurface` to False `contours.x.show`
@@ -11720,8 +11570,7 @@ class Surface(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.surface.Hoverlabel`
             instance or dict with compatible properties
@@ -11741,28 +11590,26 @@ class Surface(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -11787,8 +11634,7 @@ class Surface(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -11800,17 +11646,6 @@ class Surface(_BaseTraceType):
             transparent surfaces may not perfectly be sorted in
             depth by the webgl API. This behavior may be improved
             in the near future and is subject to change.
-        opacityscale
-            Sets the opacityscale. The opacityscale must be an
-            array containing arrays mapping a normalized value to
-            an opacity value. At minimum, a mapping for the lowest
-            (0) and highest (1) values are required. For example,
-            `[[0, 1], [0.5, 0.2], [1, 1]]` means that higher/lower
-            values would have higher opacity values and those in
-            the middle would be more transparent Alternatively,
-            `opacityscale` may be a palette name string of the
-            following list: 'min', 'max', 'extremes' and 'uniform'.
-            The default is 'uniform'.
         reversescale
             Reverses the color mapping if true. If true, `cmin`
             will correspond to the last color in the array and
@@ -11834,16 +11669,15 @@ class Surface(_BaseTraceType):
             Sets the surface color values, used for setting a color
             scale independent of `z`.
         surfacecolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            surfacecolor .
+            Sets the source reference on plot.ly for  surfacecolor
+            .
         text
             Sets the text elements associated with each z value. If
             trace `hoverinfo` contains a "text" flag and
             "hovertext" is not set, these elements will be seen in
             the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -11876,22 +11710,19 @@ class Surface(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the z coordinates.
         zcalendar
             Sets the calendar system to use with `z` date data.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -11926,7 +11757,6 @@ class Surface(_BaseTraceType):
         metasrc=None,
         name=None,
         opacity=None,
-        opacityscale=None,
         reversescale=None,
         scene=None,
         showlegend=None,
@@ -12027,8 +11857,7 @@ class Surface(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         hidesurface
             Determines whether or not a surface is drawn. For
             example, set `hidesurface` to False `contours.x.show`
@@ -12040,8 +11869,7 @@ class Surface(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.surface.Hoverlabel`
             instance or dict with compatible properties
@@ -12061,28 +11889,26 @@ class Surface(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -12107,8 +11933,7 @@ class Surface(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -12120,17 +11945,6 @@ class Surface(_BaseTraceType):
             transparent surfaces may not perfectly be sorted in
             depth by the webgl API. This behavior may be improved
             in the near future and is subject to change.
-        opacityscale
-            Sets the opacityscale. The opacityscale must be an
-            array containing arrays mapping a normalized value to
-            an opacity value. At minimum, a mapping for the lowest
-            (0) and highest (1) values are required. For example,
-            `[[0, 1], [0.5, 0.2], [1, 1]]` means that higher/lower
-            values would have higher opacity values and those in
-            the middle would be more transparent Alternatively,
-            `opacityscale` may be a palette name string of the
-            following list: 'min', 'max', 'extremes' and 'uniform'.
-            The default is 'uniform'.
         reversescale
             Reverses the color mapping if true. If true, `cmin`
             will correspond to the last color in the array and
@@ -12154,16 +11968,15 @@ class Surface(_BaseTraceType):
             Sets the surface color values, used for setting a color
             scale independent of `z`.
         surfacecolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            surfacecolor .
+            Sets the source reference on plot.ly for  surfacecolor
+            .
         text
             Sets the text elements associated with each z value. If
             trace `hoverinfo` contains a "text" flag and
             "hovertext" is not set, these elements will be seen in
             the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -12196,22 +12009,19 @@ class Surface(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the z coordinates.
         zcalendar
             Sets the calendar system to use with `z` date data.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -12274,7 +12084,6 @@ an instance of :class:`plotly.graph_objs.Surface`"""
         self._validators["metasrc"] = v_surface.MetasrcValidator()
         self._validators["name"] = v_surface.NameValidator()
         self._validators["opacity"] = v_surface.OpacityValidator()
-        self._validators["opacityscale"] = v_surface.OpacityscaleValidator()
         self._validators["reversescale"] = v_surface.ReversescaleValidator()
         self._validators["scene"] = v_surface.SceneValidator()
         self._validators["showlegend"] = v_surface.ShowlegendValidator()
@@ -12359,8 +12168,6 @@ an instance of :class:`plotly.graph_objs.Surface`"""
         self["name"] = name if name is not None else _v
         _v = arg.pop("opacity", None)
         self["opacity"] = opacity if opacity is not None else _v
-        _v = arg.pop("opacityscale", None)
-        self["opacityscale"] = opacityscale if opacityscale is not None else _v
         _v = arg.pop("reversescale", None)
         self["reversescale"] = reversescale if reversescale is not None else _v
         _v = arg.pop("scene", None)
@@ -12507,8 +12314,7 @@ class Sunburst(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -12591,8 +12397,7 @@ class Sunburst(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -12626,20 +12431,20 @@ class Sunburst(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -12653,8 +12458,8 @@ class Sunburst(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -12684,7 +12489,7 @@ class Sunburst(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variables `currentPath`, `root`, `entry`, `percentRoot`,
@@ -12713,8 +12518,7 @@ class Sunburst(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -12760,8 +12564,7 @@ class Sunburst(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -12803,7 +12606,7 @@ class Sunburst(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -12836,8 +12639,8 @@ class Sunburst(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -12846,23 +12649,22 @@ class Sunburst(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -12927,7 +12729,7 @@ class Sunburst(_BaseTraceType):
     @property
     def labelssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  labels .
+        Sets the source reference on plot.ly for  labels .
     
         The 'labelssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -13076,8 +12878,8 @@ class Sunburst(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  colors .
+                    Sets the source reference on plot.ly for
+                    colors .
                 line
                     :class:`plotly.graph_objects.sunburst.marker.Li
                     ne` instance or dict with compatible properties
@@ -13157,7 +12959,7 @@ class Sunburst(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -13236,8 +13038,8 @@ class Sunburst(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -13246,23 +13048,22 @@ class Sunburst(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -13304,7 +13105,7 @@ class Sunburst(_BaseTraceType):
     @property
     def parentssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  parents .
+        Sets the source reference on plot.ly for  parents .
     
         The 'parentssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -13339,8 +13140,8 @@ class Sunburst(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -13394,8 +13195,8 @@ class Sunburst(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -13404,23 +13205,22 @@ class Sunburst(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -13460,7 +13260,7 @@ class Sunburst(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -13517,8 +13317,7 @@ class Sunburst(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -13614,7 +13413,7 @@ class Sunburst(_BaseTraceType):
     @property
     def valuessrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  values .
+        Sets the source reference on plot.ly for  values .
     
         The 'valuessrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -13686,8 +13485,7 @@ class Sunburst(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         domain
             :class:`plotly.graph_objects.sunburst.Domain` instance
             or dict with compatible properties
@@ -13697,8 +13495,7 @@ class Sunburst(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.sunburst.Hoverlabel`
             instance or dict with compatible properties
@@ -13718,18 +13515,18 @@ class Sunburst(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `currentPath`, `root`,
-            `entry`, `percentRoot`, `percentEntry` and
-            `percentParent`. Anything contained in tag `<extra>` is
-            displayed in the secondary box, for example
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `currentPath`, `root`, `entry`,
+            `percentRoot`, `percentEntry` and `percentParent`.
+            Anything contained in tag `<extra>` is displayed in the
+            secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each sector.
             If a single string, the same string appears for all
@@ -13737,15 +13534,13 @@ class Sunburst(_BaseTraceType):
             mapped in order of this trace's sectors. To be seen,
             trace `hoverinfo` must contain a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         insidetextfont
             Sets the font used for `textinfo` lying inside the
             sector.
@@ -13762,8 +13557,7 @@ class Sunburst(_BaseTraceType):
         labels
             Sets the labels of each of the sectors.
         labelssrc
-            Sets the source reference on Chart Studio Cloud for
-            labels .
+            Sets the source reference on plot.ly for  labels .
         leaf
             :class:`plotly.graph_objects.sunburst.Leaf` instance or
             dict with compatible properties
@@ -13794,8 +13588,7 @@ class Sunburst(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -13816,8 +13609,7 @@ class Sunburst(_BaseTraceType):
             is not set, plotly attempts to find matching items in
             `labels`, but beware they must be unique.
         parentssrc
-            Sets the source reference on Chart Studio Cloud for
-            parents .
+            Sets the source reference on plot.ly for  parents .
         stream
             :class:`plotly.graph_objects.sunburst.Stream` instance
             or dict with compatible properties
@@ -13832,8 +13624,7 @@ class Sunburst(_BaseTraceType):
         textinfo
             Determines which trace information appear on the graph.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -13853,8 +13644,8 @@ class Sunburst(_BaseTraceType):
             `currentPath`, `root`, `entry`, `percentRoot`,
             `percentEntry`, `percentParent`, `label` and `value`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -13882,8 +13673,7 @@ class Sunburst(_BaseTraceType):
             Use with `branchvalues` to determine how the values are
             summed.
         valuessrc
-            Sets the source reference on Chart Studio Cloud for
-            values .
+            Sets the source reference on plot.ly for  values .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -13966,8 +13756,7 @@ class Sunburst(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         domain
             :class:`plotly.graph_objects.sunburst.Domain` instance
             or dict with compatible properties
@@ -13977,8 +13766,7 @@ class Sunburst(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.sunburst.Hoverlabel`
             instance or dict with compatible properties
@@ -13998,18 +13786,18 @@ class Sunburst(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `currentPath`, `root`,
-            `entry`, `percentRoot`, `percentEntry` and
-            `percentParent`. Anything contained in tag `<extra>` is
-            displayed in the secondary box, for example
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `currentPath`, `root`, `entry`,
+            `percentRoot`, `percentEntry` and `percentParent`.
+            Anything contained in tag `<extra>` is displayed in the
+            secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each sector.
             If a single string, the same string appears for all
@@ -14017,15 +13805,13 @@ class Sunburst(_BaseTraceType):
             mapped in order of this trace's sectors. To be seen,
             trace `hoverinfo` must contain a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         insidetextfont
             Sets the font used for `textinfo` lying inside the
             sector.
@@ -14042,8 +13828,7 @@ class Sunburst(_BaseTraceType):
         labels
             Sets the labels of each of the sectors.
         labelssrc
-            Sets the source reference on Chart Studio Cloud for
-            labels .
+            Sets the source reference on plot.ly for  labels .
         leaf
             :class:`plotly.graph_objects.sunburst.Leaf` instance or
             dict with compatible properties
@@ -14074,8 +13859,7 @@ class Sunburst(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -14096,8 +13880,7 @@ class Sunburst(_BaseTraceType):
             is not set, plotly attempts to find matching items in
             `labels`, but beware they must be unique.
         parentssrc
-            Sets the source reference on Chart Studio Cloud for
-            parents .
+            Sets the source reference on plot.ly for  parents .
         stream
             :class:`plotly.graph_objects.sunburst.Stream` instance
             or dict with compatible properties
@@ -14112,8 +13895,7 @@ class Sunburst(_BaseTraceType):
         textinfo
             Determines which trace information appear on the graph.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -14133,8 +13915,8 @@ class Sunburst(_BaseTraceType):
             `currentPath`, `root`, `entry`, `percentRoot`,
             `percentEntry`, `percentParent`, `label` and `value`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -14162,8 +13944,7 @@ class Sunburst(_BaseTraceType):
             Use with `branchvalues` to determine how the values are
             summed.
         valuessrc
-            Sets the source reference on Chart Studio Cloud for
-            values .
+            Sets the source reference on plot.ly for  values .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -14677,15 +14458,15 @@ class Streamtube(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -14817,8 +14598,7 @@ class Streamtube(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -14864,8 +14644,7 @@ class Streamtube(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -14899,20 +14678,20 @@ class Streamtube(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -14926,8 +14705,8 @@ class Streamtube(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -14957,7 +14736,7 @@ class Streamtube(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variables `tubex`, `tubey`, `tubez`, `tubeu`, `tubev`, `tubew`,
@@ -14986,8 +14765,7 @@ class Streamtube(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -15050,7 +14828,7 @@ class Streamtube(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -15223,7 +15001,7 @@ class Streamtube(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -15413,20 +15191,17 @@ class Streamtube(_BaseTraceType):
                     Sets the x components of the starting position
                     of the streamtubes
                 xsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  x .
+                    Sets the source reference on plot.ly for  x .
                 y
                     Sets the y components of the starting position
                     of the streamtubes
                 ysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  y .
+                    Sets the source reference on plot.ly for  y .
                 z
                     Sets the z components of the starting position
                     of the streamtubes
                 zsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  z .
+                    Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -15458,8 +15233,8 @@ class Streamtube(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -15575,7 +15350,7 @@ class Streamtube(_BaseTraceType):
     @property
     def usrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  u .
+        Sets the source reference on plot.ly for  u .
     
         The 'usrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -15638,7 +15413,7 @@ class Streamtube(_BaseTraceType):
     @property
     def vsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  v .
+        Sets the source reference on plot.ly for  v .
     
         The 'vsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -15678,7 +15453,7 @@ class Streamtube(_BaseTraceType):
     @property
     def wsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  w .
+        Sets the source reference on plot.ly for  w .
     
         The 'wsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -15718,7 +15493,7 @@ class Streamtube(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -15758,7 +15533,7 @@ class Streamtube(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -15798,7 +15573,7 @@ class Streamtube(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -15883,16 +15658,14 @@ class Streamtube(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.streamtube.Hoverlabel`
             instance or dict with compatible properties
@@ -15912,18 +15685,18 @@ class Streamtube(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `tubex`, `tubey`, `tubez`,
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `tubex`, `tubey`, `tubez`,
             `tubeu`, `tubev`, `tubew`, `norm` and `divergence`.
             Anything contained in tag `<extra>` is displayed in the
             secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         ids
@@ -15931,8 +15704,7 @@ class Streamtube(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -15960,8 +15732,7 @@ class Streamtube(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -16029,8 +15800,7 @@ class Streamtube(_BaseTraceType):
             preserve user-driven changes if you give each trace a
             `uid` that stays with it as it moves.
         usrc
-            Sets the source reference on Chart Studio Cloud for  u
-            .
+            Sets the source reference on plot.ly for  u .
         v
             Sets the y components of the vector field.
         visible
@@ -16039,28 +15809,23 @@ class Streamtube(_BaseTraceType):
             a legend item (provided that the legend itself is
             visible).
         vsrc
-            Sets the source reference on Chart Studio Cloud for  v
-            .
+            Sets the source reference on plot.ly for  v .
         w
             Sets the z components of the vector field.
         wsrc
-            Sets the source reference on Chart Studio Cloud for  w
-            .
+            Sets the source reference on plot.ly for  w .
         x
             Sets the x coordinates of the vector field.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates of the vector field.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the z coordinates of the vector field.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -16188,16 +15953,14 @@ class Streamtube(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.streamtube.Hoverlabel`
             instance or dict with compatible properties
@@ -16217,18 +15980,18 @@ class Streamtube(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `tubex`, `tubey`, `tubez`,
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `tubex`, `tubey`, `tubez`,
             `tubeu`, `tubev`, `tubew`, `norm` and `divergence`.
             Anything contained in tag `<extra>` is displayed in the
             secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         ids
@@ -16236,8 +15999,7 @@ class Streamtube(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -16265,8 +16027,7 @@ class Streamtube(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -16334,8 +16095,7 @@ class Streamtube(_BaseTraceType):
             preserve user-driven changes if you give each trace a
             `uid` that stays with it as it moves.
         usrc
-            Sets the source reference on Chart Studio Cloud for  u
-            .
+            Sets the source reference on plot.ly for  u .
         v
             Sets the y components of the vector field.
         visible
@@ -16344,28 +16104,23 @@ class Streamtube(_BaseTraceType):
             a legend item (provided that the legend itself is
             visible).
         vsrc
-            Sets the source reference on Chart Studio Cloud for  v
-            .
+            Sets the source reference on plot.ly for  v .
         w
             Sets the z components of the vector field.
         wsrc
-            Sets the source reference on Chart Studio Cloud for  w
-            .
+            Sets the source reference on plot.ly for  w .
         x
             Sets the x coordinates of the vector field.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates of the vector field.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the z coordinates of the vector field.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -16605,8 +16360,7 @@ class Splom(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -16691,8 +16445,8 @@ class Splom(_BaseTraceType):
                 values
                     Sets the dimension values to be plotted.
                 valuessrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  values .
+                    Sets the source reference on plot.ly for
+                    values .
                 visible
                     Determines whether or not this dimension is
                     shown on the graph. Note that even visible
@@ -16767,8 +16521,7 @@ class Splom(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -16802,20 +16555,20 @@ class Splom(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -16829,8 +16582,8 @@ class Splom(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -16860,7 +16613,7 @@ class Splom(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -16888,8 +16641,7 @@ class Splom(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -16931,8 +16683,7 @@ class Splom(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -16974,7 +16725,7 @@ class Splom(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -17099,16 +16850,16 @@ class Splom(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 line
                     :class:`plotly.graph_objects.splom.marker.Line`
                     instance or dict with compatible properties
                 opacity
                     Sets the marker opacity.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -17136,8 +16887,8 @@ class Splom(_BaseTraceType):
                     determine the rendered size of marker points.
                     Use with `sizemin` and `sizemode`.
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
                 symbol
                     Sets the marker symbol type. Adding 100 is
                     equivalent to appending "-open" to a symbol
@@ -17146,8 +16897,8 @@ class Splom(_BaseTraceType):
                     equivalent to appending "-open-dot" or "dot-
                     open" to a symbol name.
                 symbolsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  symbol .
+                    Sets the source reference on plot.ly for
+                    symbol .
 
         Returns
         -------
@@ -17192,7 +16943,7 @@ class Splom(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -17384,8 +17135,8 @@ class Splom(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -17427,7 +17178,7 @@ class Splom(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -17629,8 +17380,7 @@ class Splom(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         diagonal
             :class:`plotly.graph_objects.splom.Diagonal` instance
             or dict with compatible properties
@@ -17649,8 +17399,7 @@ class Splom(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.splom.Hoverlabel` instance
             or dict with compatible properties
@@ -17670,28 +17419,26 @@ class Splom(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -17713,8 +17460,7 @@ class Splom(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -17749,8 +17495,7 @@ class Splom(_BaseTraceType):
             string, the items are mapped in order to the this
             trace's (x,y) coordinates.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -17860,8 +17605,7 @@ class Splom(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         diagonal
             :class:`plotly.graph_objects.splom.Diagonal` instance
             or dict with compatible properties
@@ -17880,8 +17624,7 @@ class Splom(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.splom.Hoverlabel` instance
             or dict with compatible properties
@@ -17901,28 +17644,26 @@ class Splom(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -17944,8 +17685,7 @@ class Splom(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -17980,8 +17720,7 @@ class Splom(_BaseTraceType):
             string, the items are mapped in order to the this
             trace's (x,y) coordinates.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -18224,7 +17963,7 @@ class Scatterternary(_BaseTraceType):
     @property
     def asrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  a .
+        Sets the source reference on plot.ly for  a .
     
         The 'asrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -18267,7 +18006,7 @@ class Scatterternary(_BaseTraceType):
     @property
     def bsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  b .
+        Sets the source reference on plot.ly for  b .
     
         The 'bsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -18354,7 +18093,7 @@ class Scatterternary(_BaseTraceType):
     @property
     def csrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  c .
+        Sets the source reference on plot.ly for  c .
     
         The 'csrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -18397,8 +18136,7 @@ class Scatterternary(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -18534,8 +18272,7 @@ class Scatterternary(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -18569,20 +18306,20 @@ class Scatterternary(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -18596,8 +18333,8 @@ class Scatterternary(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -18652,7 +18389,7 @@ class Scatterternary(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -18680,8 +18417,7 @@ class Scatterternary(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -18727,8 +18463,7 @@ class Scatterternary(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -18770,7 +18505,7 @@ class Scatterternary(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -18938,8 +18673,8 @@ class Scatterternary(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 gradient
                     :class:`plotly.graph_objects.scatterternary.mar
                     ker.Gradient` instance or dict with compatible
@@ -18954,8 +18689,8 @@ class Scatterternary(_BaseTraceType):
                 opacity
                     Sets the marker opacity.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -18983,8 +18718,8 @@ class Scatterternary(_BaseTraceType):
                     determine the rendered size of marker points.
                     Use with `sizemin` and `sizemode`.
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
                 symbol
                     Sets the marker symbol type. Adding 100 is
                     equivalent to appending "-open" to a symbol
@@ -18993,8 +18728,8 @@ class Scatterternary(_BaseTraceType):
                     equivalent to appending "-open-dot" or "dot-
                     open" to a symbol name.
                 symbolsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  symbol .
+                    Sets the source reference on plot.ly for
+                    symbol .
 
         Returns
         -------
@@ -19039,7 +18774,7 @@ class Scatterternary(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -19221,8 +18956,8 @@ class Scatterternary(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -19328,8 +19063,8 @@ class Scatterternary(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -19338,23 +19073,22 @@ class Scatterternary(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -19396,8 +19130,7 @@ class Scatterternary(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -19417,7 +19150,7 @@ class Scatterternary(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -19472,8 +19205,7 @@ class Scatterternary(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -19622,8 +19354,7 @@ class Scatterternary(_BaseTraceType):
             two arrays are provided they must be normalized to
             match `ternary<i>.sum`.
         asrc
-            Sets the source reference on Chart Studio Cloud for  a
-            .
+            Sets the source reference on plot.ly for  a .
         b
             Sets the quantity of component `a` in each data point.
             If `a`, `b`, and `c` are all provided, they need not be
@@ -19631,8 +19362,7 @@ class Scatterternary(_BaseTraceType):
             two arrays are provided they must be normalized to
             match `ternary<i>.sum`.
         bsrc
-            Sets the source reference on Chart Studio Cloud for  b
-            .
+            Sets the source reference on plot.ly for  b .
         c
             Sets the quantity of component `a` in each data point.
             If `a`, `b`, and `c` are all provided, they need not be
@@ -19649,16 +19379,14 @@ class Scatterternary(_BaseTraceType):
             Determines whether or not gaps (i.e. {nan} or missing
             values) in the provided data arrays are connected.
         csrc
-            Sets the source reference on Chart Studio Cloud for  c
-            .
+            Sets the source reference on plot.ly for  c .
         customdata
             Assigns extra data each datum. This may be useful when
             listening to hover, click and selection events. Note
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         fill
             Sets the area to fill with a solid color. Use with
             `fillcolor` if not "none". scatterternary has a subset
@@ -19680,8 +19408,7 @@ class Scatterternary(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scatterternary.Hoverlabel`
             instance or dict with compatible properties
@@ -19707,16 +19434,16 @@ class Scatterternary(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (a,b,c)
             point. If a single string, the same string appears over
@@ -19725,15 +19452,13 @@ class Scatterternary(_BaseTraceType):
             To be seen, trace `hoverinfo` must contain a "text"
             flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -19758,8 +19483,7 @@ class Scatterternary(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -19814,11 +19538,10 @@ class Scatterternary(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -19837,8 +19560,8 @@ class Scatterternary(_BaseTraceType):
             `arrayOk: true`) are available. variables `a`, `b`, `c`
             and `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -19943,8 +19666,7 @@ class Scatterternary(_BaseTraceType):
             two arrays are provided they must be normalized to
             match `ternary<i>.sum`.
         asrc
-            Sets the source reference on Chart Studio Cloud for  a
-            .
+            Sets the source reference on plot.ly for  a .
         b
             Sets the quantity of component `a` in each data point.
             If `a`, `b`, and `c` are all provided, they need not be
@@ -19952,8 +19674,7 @@ class Scatterternary(_BaseTraceType):
             two arrays are provided they must be normalized to
             match `ternary<i>.sum`.
         bsrc
-            Sets the source reference on Chart Studio Cloud for  b
-            .
+            Sets the source reference on plot.ly for  b .
         c
             Sets the quantity of component `a` in each data point.
             If `a`, `b`, and `c` are all provided, they need not be
@@ -19970,16 +19691,14 @@ class Scatterternary(_BaseTraceType):
             Determines whether or not gaps (i.e. {nan} or missing
             values) in the provided data arrays are connected.
         csrc
-            Sets the source reference on Chart Studio Cloud for  c
-            .
+            Sets the source reference on plot.ly for  c .
         customdata
             Assigns extra data each datum. This may be useful when
             listening to hover, click and selection events. Note
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         fill
             Sets the area to fill with a solid color. Use with
             `fillcolor` if not "none". scatterternary has a subset
@@ -20001,8 +19720,7 @@ class Scatterternary(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scatterternary.Hoverlabel`
             instance or dict with compatible properties
@@ -20028,16 +19746,16 @@ class Scatterternary(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (a,b,c)
             point. If a single string, the same string appears over
@@ -20046,15 +19764,13 @@ class Scatterternary(_BaseTraceType):
             To be seen, trace `hoverinfo` must contain a "text"
             flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -20079,8 +19795,7 @@ class Scatterternary(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -20135,11 +19850,10 @@ class Scatterternary(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -20158,8 +19872,8 @@ class Scatterternary(_BaseTraceType):
             `arrayOk: true`) are available. variables `a`, `b`, `c`
             and `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -20450,8 +20164,7 @@ class Scatterpolargl(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -20640,8 +20353,7 @@ class Scatterpolargl(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -20675,20 +20387,20 @@ class Scatterpolargl(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -20702,8 +20414,8 @@ class Scatterpolargl(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -20733,7 +20445,7 @@ class Scatterpolargl(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -20761,8 +20473,7 @@ class Scatterpolargl(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -20808,8 +20519,7 @@ class Scatterpolargl(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -20851,7 +20561,7 @@ class Scatterpolargl(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -21009,8 +20719,8 @@ class Scatterpolargl(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 line
                     :class:`plotly.graph_objects.scatterpolargl.mar
                     ker.Line` instance or dict with compatible
@@ -21018,8 +20728,8 @@ class Scatterpolargl(_BaseTraceType):
                 opacity
                     Sets the marker opacity.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -21047,8 +20757,8 @@ class Scatterpolargl(_BaseTraceType):
                     determine the rendered size of marker points.
                     Use with `sizemin` and `sizemode`.
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
                 symbol
                     Sets the marker symbol type. Adding 100 is
                     equivalent to appending "-open" to a symbol
@@ -21057,8 +20767,8 @@ class Scatterpolargl(_BaseTraceType):
                     equivalent to appending "-open-dot" or "dot-
                     open" to a symbol name.
                 symbolsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  symbol .
+                    Sets the source reference on plot.ly for
+                    symbol .
 
         Returns
         -------
@@ -21103,7 +20813,7 @@ class Scatterpolargl(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -21234,7 +20944,7 @@ class Scatterpolargl(_BaseTraceType):
     @property
     def rsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  r .
+        Sets the source reference on plot.ly for  r .
     
         The 'rsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -21346,8 +21056,8 @@ class Scatterpolargl(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -21429,8 +21139,8 @@ class Scatterpolargl(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -21439,23 +21149,22 @@ class Scatterpolargl(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -21497,8 +21206,7 @@ class Scatterpolargl(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -21518,7 +21226,7 @@ class Scatterpolargl(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -21573,8 +21281,7 @@ class Scatterpolargl(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -21635,7 +21342,7 @@ class Scatterpolargl(_BaseTraceType):
     @property
     def thetasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  theta .
+        Sets the source reference on plot.ly for  theta .
     
         The 'thetasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -21808,8 +21515,7 @@ class Scatterpolargl(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dr
             Sets the r coordinate step.
         dtheta
@@ -21849,8 +21555,7 @@ class Scatterpolargl(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scatterpolargl.Hoverlabel`
             instance or dict with compatible properties
@@ -21870,16 +21575,16 @@ class Scatterpolargl(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -21888,15 +21593,13 @@ class Scatterpolargl(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -21921,8 +21624,7 @@ class Scatterpolargl(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -21942,8 +21644,7 @@ class Scatterpolargl(_BaseTraceType):
             coordinates. Use with `dr` where `r0` is the starting
             coordinate and `dr` the step.
         rsrc
-            Sets the source reference on Chart Studio Cloud for  r
-            .
+            Sets the source reference on plot.ly for  r .
         selected
             :class:`plotly.graph_objects.scatterpolargl.Selected`
             instance or dict with compatible properties
@@ -21979,11 +21680,10 @@ class Scatterpolargl(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -22002,8 +21702,8 @@ class Scatterpolargl(_BaseTraceType):
             `arrayOk: true`) are available. variables `r`, `theta`
             and `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         theta
             Sets the angular coordinates
         theta0
@@ -22011,8 +21711,7 @@ class Scatterpolargl(_BaseTraceType):
             coordinates. Use with `dtheta` where `theta0` is the
             starting coordinate and `dtheta` the step.
         thetasrc
-            Sets the source reference on Chart Studio Cloud for
-            theta .
+            Sets the source reference on plot.ly for  theta .
         thetaunit
             Sets the unit of input "theta" values. Has an effect
             only when on "linear" angular axes.
@@ -22125,8 +21824,7 @@ class Scatterpolargl(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dr
             Sets the r coordinate step.
         dtheta
@@ -22166,8 +21864,7 @@ class Scatterpolargl(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scatterpolargl.Hoverlabel`
             instance or dict with compatible properties
@@ -22187,16 +21884,16 @@ class Scatterpolargl(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -22205,15 +21902,13 @@ class Scatterpolargl(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -22238,8 +21933,7 @@ class Scatterpolargl(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -22259,8 +21953,7 @@ class Scatterpolargl(_BaseTraceType):
             coordinates. Use with `dr` where `r0` is the starting
             coordinate and `dr` the step.
         rsrc
-            Sets the source reference on Chart Studio Cloud for  r
-            .
+            Sets the source reference on plot.ly for  r .
         selected
             :class:`plotly.graph_objects.scatterpolargl.Selected`
             instance or dict with compatible properties
@@ -22296,11 +21989,10 @@ class Scatterpolargl(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -22319,8 +22011,8 @@ class Scatterpolargl(_BaseTraceType):
             `arrayOk: true`) are available. variables `r`, `theta`
             and `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         theta
             Sets the angular coordinates
         theta0
@@ -22328,8 +22020,7 @@ class Scatterpolargl(_BaseTraceType):
             coordinates. Use with `dtheta` where `theta0` is the
             starting coordinate and `dtheta` the step.
         thetasrc
-            Sets the source reference on Chart Studio Cloud for
-            theta .
+            Sets the source reference on plot.ly for  theta .
         thetaunit
             Sets the unit of input "theta" values. Has an effect
             only when on "linear" angular axes.
@@ -22646,8 +22337,7 @@ class Scatterpolar(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -22825,8 +22515,7 @@ class Scatterpolar(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -22860,20 +22549,20 @@ class Scatterpolar(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -22887,8 +22576,8 @@ class Scatterpolar(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -22943,7 +22632,7 @@ class Scatterpolar(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -22971,8 +22660,7 @@ class Scatterpolar(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -23018,8 +22706,7 @@ class Scatterpolar(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -23061,7 +22748,7 @@ class Scatterpolar(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -23229,8 +22916,8 @@ class Scatterpolar(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 gradient
                     :class:`plotly.graph_objects.scatterpolar.marke
                     r.Gradient` instance or dict with compatible
@@ -23245,8 +22932,8 @@ class Scatterpolar(_BaseTraceType):
                 opacity
                     Sets the marker opacity.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -23274,8 +22961,8 @@ class Scatterpolar(_BaseTraceType):
                     determine the rendered size of marker points.
                     Use with `sizemin` and `sizemode`.
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
                 symbol
                     Sets the marker symbol type. Adding 100 is
                     equivalent to appending "-open" to a symbol
@@ -23284,8 +22971,8 @@ class Scatterpolar(_BaseTraceType):
                     equivalent to appending "-open-dot" or "dot-
                     open" to a symbol name.
                 symbolsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  symbol .
+                    Sets the source reference on plot.ly for
+                    symbol .
 
         Returns
         -------
@@ -23330,7 +23017,7 @@ class Scatterpolar(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -23461,7 +23148,7 @@ class Scatterpolar(_BaseTraceType):
     @property
     def rsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  r .
+        Sets the source reference on plot.ly for  r .
     
         The 'rsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -23573,8 +23260,8 @@ class Scatterpolar(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -23656,8 +23343,8 @@ class Scatterpolar(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -23666,23 +23353,22 @@ class Scatterpolar(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -23724,8 +23410,7 @@ class Scatterpolar(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -23745,7 +23430,7 @@ class Scatterpolar(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -23800,8 +23485,7 @@ class Scatterpolar(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -23862,7 +23546,7 @@ class Scatterpolar(_BaseTraceType):
     @property
     def thetasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  theta .
+        Sets the source reference on plot.ly for  theta .
     
         The 'thetasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -24041,8 +23725,7 @@ class Scatterpolar(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dr
             Sets the r coordinate step.
         dtheta
@@ -24070,8 +23753,7 @@ class Scatterpolar(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scatterpolar.Hoverlabel`
             instance or dict with compatible properties
@@ -24097,16 +23779,16 @@ class Scatterpolar(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -24115,15 +23797,13 @@ class Scatterpolar(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -24148,8 +23828,7 @@ class Scatterpolar(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -24169,8 +23848,7 @@ class Scatterpolar(_BaseTraceType):
             coordinates. Use with `dr` where `r0` is the starting
             coordinate and `dr` the step.
         rsrc
-            Sets the source reference on Chart Studio Cloud for  r
-            .
+            Sets the source reference on plot.ly for  r .
         selected
             :class:`plotly.graph_objects.scatterpolar.Selected`
             instance or dict with compatible properties
@@ -24206,11 +23884,10 @@ class Scatterpolar(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -24229,8 +23906,8 @@ class Scatterpolar(_BaseTraceType):
             `arrayOk: true`) are available. variables `r`, `theta`
             and `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         theta
             Sets the angular coordinates
         theta0
@@ -24238,8 +23915,7 @@ class Scatterpolar(_BaseTraceType):
             coordinates. Use with `dtheta` where `theta0` is the
             starting coordinate and `dtheta` the step.
         thetasrc
-            Sets the source reference on Chart Studio Cloud for
-            theta .
+            Sets the source reference on plot.ly for  theta .
         thetaunit
             Sets the unit of input "theta" values. Has an effect
             only when on "linear" angular axes.
@@ -24360,8 +24036,7 @@ class Scatterpolar(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dr
             Sets the r coordinate step.
         dtheta
@@ -24389,8 +24064,7 @@ class Scatterpolar(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scatterpolar.Hoverlabel`
             instance or dict with compatible properties
@@ -24416,16 +24090,16 @@ class Scatterpolar(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -24434,15 +24108,13 @@ class Scatterpolar(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -24467,8 +24139,7 @@ class Scatterpolar(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -24488,8 +24159,7 @@ class Scatterpolar(_BaseTraceType):
             coordinates. Use with `dr` where `r0` is the starting
             coordinate and `dr` the step.
         rsrc
-            Sets the source reference on Chart Studio Cloud for  r
-            .
+            Sets the source reference on plot.ly for  r .
         selected
             :class:`plotly.graph_objects.scatterpolar.Selected`
             instance or dict with compatible properties
@@ -24525,11 +24195,10 @@ class Scatterpolar(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -24548,8 +24217,8 @@ class Scatterpolar(_BaseTraceType):
             `arrayOk: true`) are available. variables `r`, `theta`
             and `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         theta
             Sets the angular coordinates
         theta0
@@ -24557,8 +24226,7 @@ class Scatterpolar(_BaseTraceType):
             coordinates. Use with `dtheta` where `theta0` is the
             starting coordinate and `dtheta` the step.
         thetasrc
-            Sets the source reference on Chart Studio Cloud for
-            theta .
+            Sets the source reference on plot.ly for  theta .
         thetaunit
             Sets the unit of input "theta" values. Has an effect
             only when on "linear" angular axes.
@@ -24879,8 +24547,7 @@ class Scattermapbox(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -25010,8 +24677,7 @@ class Scattermapbox(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -25045,20 +24711,20 @@ class Scattermapbox(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -25072,8 +24738,8 @@ class Scattermapbox(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -25103,7 +24769,7 @@ class Scattermapbox(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -25131,8 +24797,7 @@ class Scattermapbox(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -25178,8 +24843,7 @@ class Scattermapbox(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -25221,7 +24885,7 @@ class Scattermapbox(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -25261,7 +24925,7 @@ class Scattermapbox(_BaseTraceType):
     @property
     def latsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  lat .
+        Sets the source reference on plot.ly for  lat .
     
         The 'latsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -25352,7 +25016,7 @@ class Scattermapbox(_BaseTraceType):
     @property
     def lonsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  lon .
+        Sets the source reference on plot.ly for  lon .
     
         The 'lonsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -25380,6 +25044,13 @@ class Scattermapbox(_BaseTraceType):
     
             Supported dict properties:
                 
+                allowoverlap
+                    Flag to allow symbols to overlap
+                angle
+                    Sets the marker angle.
+                anglesrc
+                    Sets the source reference on plot.ly for  angle
+                    .
                 autocolorscale
                     Determines whether the colorscale is a default
                     palette (`autocolorscale: true`) or the palette
@@ -25454,13 +25125,13 @@ class Scattermapbox(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 opacity
                     Sets the marker opacity.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -25488,16 +25159,16 @@ class Scattermapbox(_BaseTraceType):
                     determine the rendered size of marker points.
                     Use with `sizemin` and `sizemode`.
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
                 symbol
                     Sets the marker symbol. Full list:
                     https://www.mapbox.com/maki-icons/ Note that
                     the array `marker.color` and `marker.size` are
                     only available for "circle" symbols.
                 symbolsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  symbol .
+                    Sets the source reference on plot.ly for
+                    symbol .
 
         Returns
         -------
@@ -25542,7 +25213,7 @@ class Scattermapbox(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -25718,8 +25389,8 @@ class Scattermapbox(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -25810,13 +25481,12 @@ class Scattermapbox(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
@@ -25860,7 +25530,7 @@ class Scattermapbox(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -25915,8 +25585,7 @@ class Scattermapbox(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -26069,8 +25738,7 @@ class Scattermapbox(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         fill
             Sets the area to fill with a solid color. Use with
             `fillcolor` if not "none". "toself" connects the
@@ -26086,8 +25754,7 @@ class Scattermapbox(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scattermapbox.Hoverlabel`
             instance or dict with compatible properties
@@ -26107,16 +25774,16 @@ class Scattermapbox(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (lon,lat)
             pair If a single string, the same string appears over
@@ -26125,20 +25792,17 @@ class Scattermapbox(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         lat
             Sets the latitude coordinates (in degrees North).
         latsrc
-            Sets the source reference on Chart Studio Cloud for
-            lat .
+            Sets the source reference on plot.ly for  lat .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -26149,8 +25813,7 @@ class Scattermapbox(_BaseTraceType):
         lon
             Sets the longitude coordinates (in degrees East).
         lonsrc
-            Sets the source reference on Chart Studio Cloud for
-            lon .
+            Sets the source reference on plot.ly for  lon .
         marker
             :class:`plotly.graph_objects.scattermapbox.Marker`
             instance or dict with compatible properties
@@ -26168,8 +25831,7 @@ class Scattermapbox(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -26217,8 +25879,7 @@ class Scattermapbox(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -26237,8 +25898,8 @@ class Scattermapbox(_BaseTraceType):
             `arrayOk: true`) are available. variables `lat`, `lon`
             and `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -26345,8 +26006,7 @@ class Scattermapbox(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         fill
             Sets the area to fill with a solid color. Use with
             `fillcolor` if not "none". "toself" connects the
@@ -26362,8 +26022,7 @@ class Scattermapbox(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scattermapbox.Hoverlabel`
             instance or dict with compatible properties
@@ -26383,16 +26042,16 @@ class Scattermapbox(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (lon,lat)
             pair If a single string, the same string appears over
@@ -26401,20 +26060,17 @@ class Scattermapbox(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         lat
             Sets the latitude coordinates (in degrees North).
         latsrc
-            Sets the source reference on Chart Studio Cloud for
-            lat .
+            Sets the source reference on plot.ly for  lat .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -26425,8 +26081,7 @@ class Scattermapbox(_BaseTraceType):
         lon
             Sets the longitude coordinates (in degrees East).
         lonsrc
-            Sets the source reference on Chart Studio Cloud for
-            lon .
+            Sets the source reference on plot.ly for  lon .
         marker
             :class:`plotly.graph_objects.scattermapbox.Marker`
             instance or dict with compatible properties
@@ -26444,8 +26099,7 @@ class Scattermapbox(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -26493,8 +26147,7 @@ class Scattermapbox(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -26513,8 +26166,8 @@ class Scattermapbox(_BaseTraceType):
             `arrayOk: true`) are available. variables `lat`, `lon`
             and `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -26786,8 +26439,7 @@ class Scattergl(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -26865,11 +26517,11 @@ class Scattergl(_BaseTraceType):
                     vertical (horizontal) bars Values are plotted
                     relative to the underlying data.
                 arrayminussrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  arrayminus .
+                    Sets the source reference on plot.ly for
+                    arrayminus .
                 arraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  array .
+                    Sets the source reference on plot.ly for  array
+                    .
                 color
                     Sets the stoke color of the error bars.
                 copy_ystyle
@@ -26946,11 +26598,11 @@ class Scattergl(_BaseTraceType):
                     vertical (horizontal) bars Values are plotted
                     relative to the underlying data.
                 arrayminussrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  arrayminus .
+                    Sets the source reference on plot.ly for
+                    arrayminus .
                 arraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  array .
+                    Sets the source reference on plot.ly for  array
+                    .
                 color
                     Sets the stoke color of the error bars.
                 symmetric
@@ -27134,8 +26786,7 @@ class Scattergl(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -27169,20 +26820,20 @@ class Scattergl(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -27196,8 +26847,8 @@ class Scattergl(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -27227,7 +26878,7 @@ class Scattergl(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -27255,8 +26906,7 @@ class Scattergl(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -27302,8 +26952,7 @@ class Scattergl(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -27345,7 +26994,7 @@ class Scattergl(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -27503,8 +27152,8 @@ class Scattergl(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 line
                     :class:`plotly.graph_objects.scattergl.marker.L
                     ine` instance or dict with compatible
@@ -27512,8 +27161,8 @@ class Scattergl(_BaseTraceType):
                 opacity
                     Sets the marker opacity.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -27541,8 +27190,8 @@ class Scattergl(_BaseTraceType):
                     determine the rendered size of marker points.
                     Use with `sizemin` and `sizemode`.
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
                 symbol
                     Sets the marker symbol type. Adding 100 is
                     equivalent to appending "-open" to a symbol
@@ -27551,8 +27200,8 @@ class Scattergl(_BaseTraceType):
                     equivalent to appending "-open-dot" or "dot-
                     open" to a symbol name.
                 symbolsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  symbol .
+                    Sets the source reference on plot.ly for
+                    symbol .
 
         Returns
         -------
@@ -27597,7 +27246,7 @@ class Scattergl(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -27774,8 +27423,8 @@ class Scattergl(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -27832,8 +27481,8 @@ class Scattergl(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -27842,23 +27491,22 @@ class Scattergl(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -27900,8 +27548,7 @@ class Scattergl(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -27921,7 +27568,7 @@ class Scattergl(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -27976,8 +27623,7 @@ class Scattergl(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -28197,7 +27843,7 @@ class Scattergl(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -28307,7 +27953,7 @@ class Scattergl(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -28348,8 +27994,7 @@ class Scattergl(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -28393,8 +28038,7 @@ class Scattergl(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scattergl.Hoverlabel`
             instance or dict with compatible properties
@@ -28414,16 +28058,16 @@ class Scattergl(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -28432,15 +28076,13 @@ class Scattergl(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -28465,8 +28107,7 @@ class Scattergl(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace.
         name
@@ -28504,11 +28145,10 @@ class Scattergl(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -28526,8 +28166,8 @@ class Scattergl(_BaseTraceType):
             that can be specified per-point (the ones that are
             `arrayOk: true`) are available.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -28572,8 +28212,7 @@ class Scattergl(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         y0
@@ -28588,8 +28227,7 @@ class Scattergl(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         """
 
     def __init__(
@@ -28670,8 +28308,7 @@ class Scattergl(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -28715,8 +28352,7 @@ class Scattergl(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scattergl.Hoverlabel`
             instance or dict with compatible properties
@@ -28736,16 +28372,16 @@ class Scattergl(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -28754,15 +28390,13 @@ class Scattergl(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -28787,8 +28421,7 @@ class Scattergl(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace.
         name
@@ -28826,11 +28459,10 @@ class Scattergl(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -28848,8 +28480,8 @@ class Scattergl(_BaseTraceType):
             that can be specified per-point (the ones that are
             `arrayOk: true`) are available.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -28894,8 +28526,7 @@ class Scattergl(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         y0
@@ -28910,8 +28541,7 @@ class Scattergl(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
 
         Returns
         -------
@@ -29178,8 +28808,7 @@ class Scattergeo(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -29382,8 +29011,7 @@ class Scattergeo(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -29417,20 +29045,20 @@ class Scattergeo(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -29444,8 +29072,8 @@ class Scattergeo(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -29475,7 +29103,7 @@ class Scattergeo(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -29503,8 +29131,7 @@ class Scattergeo(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -29551,8 +29178,7 @@ class Scattergeo(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -29594,7 +29220,7 @@ class Scattergeo(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -29634,7 +29260,7 @@ class Scattergeo(_BaseTraceType):
     @property
     def latsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  lat .
+        Sets the source reference on plot.ly for  lat .
     
         The 'latsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -29757,8 +29383,7 @@ class Scattergeo(_BaseTraceType):
     @property
     def locationssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  locations
-        .
+        Sets the source reference on plot.ly for  locations .
     
         The 'locationssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -29798,7 +29423,7 @@ class Scattergeo(_BaseTraceType):
     @property
     def lonsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  lon .
+        Sets the source reference on plot.ly for  lon .
     
         The 'lonsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -29900,8 +29525,8 @@ class Scattergeo(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 gradient
                     :class:`plotly.graph_objects.scattergeo.marker.
                     Gradient` instance or dict with compatible
@@ -29913,8 +29538,8 @@ class Scattergeo(_BaseTraceType):
                 opacity
                     Sets the marker opacity.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -29942,8 +29567,8 @@ class Scattergeo(_BaseTraceType):
                     determine the rendered size of marker points.
                     Use with `sizemin` and `sizemode`.
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
                 symbol
                     Sets the marker symbol type. Adding 100 is
                     equivalent to appending "-open" to a symbol
@@ -29952,8 +29577,8 @@ class Scattergeo(_BaseTraceType):
                     equivalent to appending "-open-dot" or "dot-
                     open" to a symbol name.
                 symbolsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  symbol .
+                    Sets the source reference on plot.ly for
+                    symbol .
 
         Returns
         -------
@@ -29998,7 +29623,7 @@ class Scattergeo(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -30180,8 +29805,8 @@ class Scattergeo(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -30239,8 +29864,8 @@ class Scattergeo(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -30249,23 +29874,22 @@ class Scattergeo(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -30307,8 +29931,7 @@ class Scattergeo(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -30328,7 +29951,7 @@ class Scattergeo(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -30383,8 +30006,7 @@ class Scattergeo(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -30535,8 +30157,7 @@ class Scattergeo(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         featureidkey
             Sets the key in GeoJSON features which is used as id to
             match the items included in the `locations` array. Only
@@ -30571,8 +30192,7 @@ class Scattergeo(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scattergeo.Hoverlabel`
             instance or dict with compatible properties
@@ -30592,16 +30212,16 @@ class Scattergeo(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (lon,lat)
             pair or item in `locations`. If a single string, the
@@ -30610,20 +30230,17 @@ class Scattergeo(_BaseTraceType):
             this trace's (lon,lat) or `locations` coordinates. To
             be seen, trace `hoverinfo` must contain a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         lat
             Sets the latitude coordinates (in degrees North).
         latsrc
-            Sets the source reference on Chart Studio Cloud for
-            lat .
+            Sets the source reference on plot.ly for  lat .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -30643,13 +30260,11 @@ class Scattergeo(_BaseTraceType):
             Coordinates correspond to the centroid of each location
             given. See `locationmode` for more info.
         locationssrc
-            Sets the source reference on Chart Studio Cloud for
-            locations .
+            Sets the source reference on plot.ly for  locations .
         lon
             Sets the longitude coordinates (in degrees East).
         lonsrc
-            Sets the source reference on Chart Studio Cloud for
-            lon .
+            Sets the source reference on plot.ly for  lon .
         marker
             :class:`plotly.graph_objects.scattergeo.Marker`
             instance or dict with compatible properties
@@ -30667,8 +30282,7 @@ class Scattergeo(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -30712,11 +30326,10 @@ class Scattergeo(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -30735,8 +30348,8 @@ class Scattergeo(_BaseTraceType):
             `arrayOk: true`) are available. variables `lat`, `lon`,
             `location` and `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -30843,8 +30456,7 @@ class Scattergeo(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         featureidkey
             Sets the key in GeoJSON features which is used as id to
             match the items included in the `locations` array. Only
@@ -30879,8 +30491,7 @@ class Scattergeo(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scattergeo.Hoverlabel`
             instance or dict with compatible properties
@@ -30900,16 +30511,16 @@ class Scattergeo(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (lon,lat)
             pair or item in `locations`. If a single string, the
@@ -30918,20 +30529,17 @@ class Scattergeo(_BaseTraceType):
             this trace's (lon,lat) or `locations` coordinates. To
             be seen, trace `hoverinfo` must contain a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         lat
             Sets the latitude coordinates (in degrees North).
         latsrc
-            Sets the source reference on Chart Studio Cloud for
-            lat .
+            Sets the source reference on plot.ly for  lat .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -30951,13 +30559,11 @@ class Scattergeo(_BaseTraceType):
             Coordinates correspond to the centroid of each location
             given. See `locationmode` for more info.
         locationssrc
-            Sets the source reference on Chart Studio Cloud for
-            locations .
+            Sets the source reference on plot.ly for  locations .
         lon
             Sets the longitude coordinates (in degrees East).
         lonsrc
-            Sets the source reference on Chart Studio Cloud for
-            lon .
+            Sets the source reference on plot.ly for  lon .
         marker
             :class:`plotly.graph_objects.scattergeo.Marker`
             instance or dict with compatible properties
@@ -30975,8 +30581,7 @@ class Scattergeo(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -31020,11 +30625,10 @@ class Scattergeo(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -31043,8 +30647,8 @@ class Scattergeo(_BaseTraceType):
             `arrayOk: true`) are available. variables `lat`, `lon`,
             `location` and `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -31305,7 +30909,7 @@ class Scattercarpet(_BaseTraceType):
     @property
     def asrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  a .
+        Sets the source reference on plot.ly for  a .
     
         The 'asrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -31345,7 +30949,7 @@ class Scattercarpet(_BaseTraceType):
     @property
     def bsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  b .
+        Sets the source reference on plot.ly for  b .
     
         The 'bsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -31432,8 +31036,7 @@ class Scattercarpet(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -31569,8 +31172,7 @@ class Scattercarpet(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -31604,20 +31206,20 @@ class Scattercarpet(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -31631,8 +31233,8 @@ class Scattercarpet(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -31687,7 +31289,7 @@ class Scattercarpet(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -31715,8 +31317,7 @@ class Scattercarpet(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -31762,8 +31363,7 @@ class Scattercarpet(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -31805,7 +31405,7 @@ class Scattercarpet(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -31973,8 +31573,8 @@ class Scattercarpet(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 gradient
                     :class:`plotly.graph_objects.scattercarpet.mark
                     er.Gradient` instance or dict with compatible
@@ -31989,8 +31589,8 @@ class Scattercarpet(_BaseTraceType):
                 opacity
                     Sets the marker opacity.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -32018,8 +31618,8 @@ class Scattercarpet(_BaseTraceType):
                     determine the rendered size of marker points.
                     Use with `sizemin` and `sizemode`.
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
                 symbol
                     Sets the marker symbol type. Adding 100 is
                     equivalent to appending "-open" to a symbol
@@ -32028,8 +31628,8 @@ class Scattercarpet(_BaseTraceType):
                     equivalent to appending "-open-dot" or "dot-
                     open" to a symbol name.
                 symbolsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  symbol .
+                    Sets the source reference on plot.ly for
+                    symbol .
 
         Returns
         -------
@@ -32074,7 +31674,7 @@ class Scattercarpet(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -32256,8 +31856,8 @@ class Scattercarpet(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -32314,8 +31914,8 @@ class Scattercarpet(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -32324,23 +31924,22 @@ class Scattercarpet(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -32382,8 +31981,7 @@ class Scattercarpet(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -32403,7 +32001,7 @@ class Scattercarpet(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -32458,8 +32056,7 @@ class Scattercarpet(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -32654,13 +32251,11 @@ class Scattercarpet(_BaseTraceType):
         a
             Sets the a-axis coordinates.
         asrc
-            Sets the source reference on Chart Studio Cloud for  a
-            .
+            Sets the source reference on plot.ly for  a .
         b
             Sets the b-axis coordinates.
         bsrc
-            Sets the source reference on Chart Studio Cloud for  b
-            .
+            Sets the source reference on plot.ly for  b .
         carpet
             An identifier for this carpet, so that `scattercarpet`
             and `contourcarpet` traces can specify a carpet plot on
@@ -32674,8 +32269,7 @@ class Scattercarpet(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         fill
             Sets the area to fill with a solid color. Use with
             `fillcolor` if not "none". scatterternary has a subset
@@ -32697,8 +32291,7 @@ class Scattercarpet(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scattercarpet.Hoverlabel`
             instance or dict with compatible properties
@@ -32724,16 +32317,16 @@ class Scattercarpet(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (a,b)
             point. If a single string, the same string appears over
@@ -32741,15 +32334,13 @@ class Scattercarpet(_BaseTraceType):
             are mapped in order to the the data points in (a,b). To
             be seen, trace `hoverinfo` must contain a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -32774,8 +32365,7 @@ class Scattercarpet(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -32818,11 +32408,10 @@ class Scattercarpet(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -32841,8 +32430,8 @@ class Scattercarpet(_BaseTraceType):
             `arrayOk: true`) are available. variables `a`, `b` and
             `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -32949,13 +32538,11 @@ class Scattercarpet(_BaseTraceType):
         a
             Sets the a-axis coordinates.
         asrc
-            Sets the source reference on Chart Studio Cloud for  a
-            .
+            Sets the source reference on plot.ly for  a .
         b
             Sets the b-axis coordinates.
         bsrc
-            Sets the source reference on Chart Studio Cloud for  b
-            .
+            Sets the source reference on plot.ly for  b .
         carpet
             An identifier for this carpet, so that `scattercarpet`
             and `contourcarpet` traces can specify a carpet plot on
@@ -32969,8 +32556,7 @@ class Scattercarpet(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         fill
             Sets the area to fill with a solid color. Use with
             `fillcolor` if not "none". scatterternary has a subset
@@ -32992,8 +32578,7 @@ class Scattercarpet(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scattercarpet.Hoverlabel`
             instance or dict with compatible properties
@@ -33019,16 +32604,16 @@ class Scattercarpet(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (a,b)
             point. If a single string, the same string appears over
@@ -33036,15 +32621,13 @@ class Scattercarpet(_BaseTraceType):
             are mapped in order to the the data points in (a,b). To
             be seen, trace `hoverinfo` must contain a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -33069,8 +32652,7 @@ class Scattercarpet(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -33113,11 +32695,10 @@ class Scattercarpet(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -33136,8 +32717,8 @@ class Scattercarpet(_BaseTraceType):
             `arrayOk: true`) are available. variables `a`, `b` and
             `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -33428,8 +33009,7 @@ class Scatter3d(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -33467,11 +33047,11 @@ class Scatter3d(_BaseTraceType):
                     vertical (horizontal) bars Values are plotted
                     relative to the underlying data.
                 arrayminussrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  arrayminus .
+                    Sets the source reference on plot.ly for
+                    arrayminus .
                 arraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  array .
+                    Sets the source reference on plot.ly for  array
+                    .
                 color
                     Sets the stoke color of the error bars.
                 copy_zstyle
@@ -33548,11 +33128,11 @@ class Scatter3d(_BaseTraceType):
                     vertical (horizontal) bars Values are plotted
                     relative to the underlying data.
                 arrayminussrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  arrayminus .
+                    Sets the source reference on plot.ly for
+                    arrayminus .
                 arraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  array .
+                    Sets the source reference on plot.ly for  array
+                    .
                 color
                     Sets the stoke color of the error bars.
                 copy_zstyle
@@ -33629,11 +33209,11 @@ class Scatter3d(_BaseTraceType):
                     vertical (horizontal) bars Values are plotted
                     relative to the underlying data.
                 arrayminussrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  arrayminus .
+                    Sets the source reference on plot.ly for
+                    arrayminus .
                 arraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  array .
+                    Sets the source reference on plot.ly for  array
+                    .
                 color
                     Sets the stoke color of the error bars.
                 symmetric
@@ -33716,8 +33296,7 @@ class Scatter3d(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -33751,20 +33330,20 @@ class Scatter3d(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -33778,8 +33357,8 @@ class Scatter3d(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -33809,7 +33388,7 @@ class Scatter3d(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -33837,8 +33416,7 @@ class Scatter3d(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -33884,8 +33462,7 @@ class Scatter3d(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -33927,7 +33504,7 @@ class Scatter3d(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -34052,8 +33629,8 @@ class Scatter3d(_BaseTraceType):
                     ainbow,Portland,Jet,Hot,Blackbody,Earth,Electri
                     c,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 dash
                     Sets the dash style of the lines.
                 reversescale
@@ -34166,8 +33743,8 @@ class Scatter3d(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 line
                     :class:`plotly.graph_objects.scatter3d.marker.L
                     ine` instance or dict with compatible
@@ -34206,13 +33783,13 @@ class Scatter3d(_BaseTraceType):
                     determine the rendered size of marker points.
                     Use with `sizemin` and `sizemode`.
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
                 symbol
                     Sets the marker symbol type.
                 symbolsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  symbol .
+                    Sets the source reference on plot.ly for
+                    symbol .
 
         Returns
         -------
@@ -34257,7 +33834,7 @@ class Scatter3d(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -34444,8 +34021,8 @@ class Scatter3d(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -34582,8 +34159,8 @@ class Scatter3d(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -34592,20 +34169,19 @@ class Scatter3d(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -34647,8 +34223,7 @@ class Scatter3d(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -34668,7 +34243,7 @@ class Scatter3d(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -34723,8 +34298,7 @@ class Scatter3d(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -34866,7 +34440,7 @@ class Scatter3d(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -34930,7 +34504,7 @@ class Scatter3d(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -34994,7 +34568,7 @@ class Scatter3d(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -35035,8 +34609,7 @@ class Scatter3d(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         error_x
             :class:`plotly.graph_objects.scatter3d.ErrorX` instance
             or dict with compatible properties
@@ -35052,8 +34625,7 @@ class Scatter3d(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scatter3d.Hoverlabel`
             instance or dict with compatible properties
@@ -35073,16 +34645,16 @@ class Scatter3d(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets text elements associated with each (x,y,z)
             triplet. If a single string, the same string appears
@@ -35091,15 +34663,13 @@ class Scatter3d(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -35124,8 +34694,7 @@ class Scatter3d(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -35174,11 +34743,10 @@ class Scatter3d(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -35196,8 +34764,8 @@ class Scatter3d(_BaseTraceType):
             that can be specified per-point (the ones that are
             `arrayOk: true`) are available.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -35230,22 +34798,19 @@ class Scatter3d(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the z coordinates.
         zcalendar
             Sets the calendar system to use with `z` date data.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -35325,8 +34890,7 @@ class Scatter3d(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         error_x
             :class:`plotly.graph_objects.scatter3d.ErrorX` instance
             or dict with compatible properties
@@ -35342,8 +34906,7 @@ class Scatter3d(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scatter3d.Hoverlabel`
             instance or dict with compatible properties
@@ -35363,16 +34926,16 @@ class Scatter3d(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets text elements associated with each (x,y,z)
             triplet. If a single string, the same string appears
@@ -35381,15 +34944,13 @@ class Scatter3d(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -35414,8 +34975,7 @@ class Scatter3d(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -35464,11 +35024,10 @@ class Scatter3d(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -35486,8 +35045,8 @@ class Scatter3d(_BaseTraceType):
             that can be specified per-point (the ones that are
             `arrayOk: true`) are available.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -35520,22 +35079,19 @@ class Scatter3d(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the z coordinates.
         zcalendar
             Sets the calendar system to use with `z` date data.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -35816,8 +35372,7 @@ class Scatter(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -35895,11 +35450,11 @@ class Scatter(_BaseTraceType):
                     vertical (horizontal) bars Values are plotted
                     relative to the underlying data.
                 arrayminussrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  arrayminus .
+                    Sets the source reference on plot.ly for
+                    arrayminus .
                 arraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  array .
+                    Sets the source reference on plot.ly for  array
+                    .
                 color
                     Sets the stoke color of the error bars.
                 copy_ystyle
@@ -35976,11 +35531,11 @@ class Scatter(_BaseTraceType):
                     vertical (horizontal) bars Values are plotted
                     relative to the underlying data.
                 arrayminussrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  arrayminus .
+                    Sets the source reference on plot.ly for
+                    arrayminus .
                 arraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  array .
+                    Sets the source reference on plot.ly for  array
+                    .
                 color
                     Sets the stoke color of the error bars.
                 symmetric
@@ -36193,8 +35748,7 @@ class Scatter(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -36228,20 +35782,20 @@ class Scatter(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -36255,8 +35809,8 @@ class Scatter(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -36311,7 +35865,7 @@ class Scatter(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -36339,8 +35893,7 @@ class Scatter(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -36386,8 +35939,7 @@ class Scatter(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -36429,7 +35981,7 @@ class Scatter(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -36603,8 +36155,8 @@ class Scatter(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 gradient
                     :class:`plotly.graph_objects.scatter.marker.Gra
                     dient` instance or dict with compatible
@@ -36618,8 +36170,8 @@ class Scatter(_BaseTraceType):
                 opacity
                     Sets the marker opacity.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -36647,8 +36199,8 @@ class Scatter(_BaseTraceType):
                     determine the rendered size of marker points.
                     Use with `sizemin` and `sizemode`.
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
                 symbol
                     Sets the marker symbol type. Adding 100 is
                     equivalent to appending "-open" to a symbol
@@ -36657,8 +36209,8 @@ class Scatter(_BaseTraceType):
                     equivalent to appending "-open-dot" or "dot-
                     open" to a symbol name.
                 symbolsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  symbol .
+                    Sets the source reference on plot.ly for
+                    symbol .
 
         Returns
         -------
@@ -36703,7 +36255,7 @@ class Scatter(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -36841,7 +36393,7 @@ class Scatter(_BaseTraceType):
     @property
     def rsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  r .
+        Sets the source reference on plot.ly for  r .
     
         The 'rsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -37013,8 +36565,8 @@ class Scatter(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -37093,8 +36645,8 @@ class Scatter(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -37103,23 +36655,22 @@ class Scatter(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -37161,8 +36712,7 @@ class Scatter(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -37182,7 +36732,7 @@ class Scatter(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -37237,8 +36787,7 @@ class Scatter(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -37258,7 +36807,7 @@ class Scatter(_BaseTraceType):
     @property
     def tsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  t .
+        Sets the source reference on plot.ly for  t .
     
         The 'tsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -37478,7 +37027,7 @@ class Scatter(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -37588,7 +37137,7 @@ class Scatter(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -37635,8 +37184,7 @@ class Scatter(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -37691,8 +37239,7 @@ class Scatter(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scatter.Hoverlabel`
             instance or dict with compatible properties
@@ -37718,16 +37265,16 @@ class Scatter(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -37736,15 +37283,13 @@ class Scatter(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -37769,8 +37314,7 @@ class Scatter(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -37795,8 +37339,7 @@ class Scatter(_BaseTraceType):
             switch to the "scatterpolar" trace type.Sets the radial
             coordinatesfor legacy polar chart only.
         rsrc
-            Sets the source reference on Chart Studio Cloud for  r
-            .
+            Sets the source reference on plot.ly for  r .
         selected
             :class:`plotly.graph_objects.scatter.Selected` instance
             or dict with compatible properties
@@ -37855,11 +37398,10 @@ class Scatter(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -37877,11 +37419,10 @@ class Scatter(_BaseTraceType):
             that can be specified per-point (the ones that are
             `arrayOk: true`) are available.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
-        tsrc
-            Sets the source reference on Chart Studio Cloud for  t
+            Sets the source reference on plot.ly for  texttemplate
             .
+        tsrc
+            Sets the source reference on plot.ly for  t .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -37926,8 +37467,7 @@ class Scatter(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         y0
@@ -37942,8 +37482,7 @@ class Scatter(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         """
 
     def __init__(
@@ -38042,8 +37581,7 @@ class Scatter(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -38098,8 +37636,7 @@ class Scatter(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.scatter.Hoverlabel`
             instance or dict with compatible properties
@@ -38125,16 +37662,16 @@ class Scatter(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -38143,15 +37680,13 @@ class Scatter(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -38176,8 +37711,7 @@ class Scatter(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines the drawing mode for this scatter trace. If
             the provided `mode` includes "text" then the `text`
@@ -38202,8 +37736,7 @@ class Scatter(_BaseTraceType):
             switch to the "scatterpolar" trace type.Sets the radial
             coordinatesfor legacy polar chart only.
         rsrc
-            Sets the source reference on Chart Studio Cloud for  r
-            .
+            Sets the source reference on plot.ly for  r .
         selected
             :class:`plotly.graph_objects.scatter.Selected` instance
             or dict with compatible properties
@@ -38262,11 +37795,10 @@ class Scatter(_BaseTraceType):
             Sets the positions of the `text` elements with respects
             to the (x,y) coordinates.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -38284,11 +37816,10 @@ class Scatter(_BaseTraceType):
             that can be specified per-point (the ones that are
             `arrayOk: true`) are available.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
-        tsrc
-            Sets the source reference on Chart Studio Cloud for  t
+            Sets the source reference on plot.ly for  texttemplate
             .
+        tsrc
+            Sets the source reference on plot.ly for  t .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -38333,8 +37864,7 @@ class Scatter(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         y0
@@ -38349,8 +37879,7 @@ class Scatter(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
 
         Returns
         -------
@@ -38653,8 +38182,7 @@ class Sankey(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -38751,20 +38279,20 @@ class Sankey(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -38778,8 +38306,8 @@ class Sankey(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -38818,7 +38346,7 @@ class Sankey(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -38864,13 +38392,8 @@ class Sankey(_BaseTraceType):
                     default property values to use for elements of
                     sankey.link.colorscales
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
-                customdata
-                    Assigns extra data to each link.
-                customdatasrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  customdata .
+                    Sets the source reference on plot.ly for  color
+                    .
                 hoverinfo
                     Determines which trace information appear when
                     hovering links. If `none` or `skip` are set, no
@@ -38900,7 +38423,7 @@ class Sankey(_BaseTraceType):
                     for details on the date formatting syntax. The
                     variables available in `hovertemplate` are the
                     ones emitted as event data described at this
-                    link https://plotly.com/javascript/plotlyjs-
+                    link https://plot.ly/javascript/plotlyjs-
                     events/#event-data. Additionally, every
                     attributes that can be specified per-point (the
                     ones that are `arrayOk: true`) are available.
@@ -38911,13 +38434,13 @@ class Sankey(_BaseTraceType):
                     secondary box completely, use an empty tag
                     `<extra></extra>`.
                 hovertemplatesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  hovertemplate .
+                    Sets the source reference on plot.ly for
+                    hovertemplate .
                 label
                     The shown name of the link.
                 labelsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  label .
+                    Sets the source reference on plot.ly for  label
+                    .
                 line
                     :class:`plotly.graph_objects.sankey.link.Line`
                     instance or dict with compatible properties
@@ -38925,20 +38448,20 @@ class Sankey(_BaseTraceType):
                     An integer number `[0..nodes.length - 1]` that
                     represents the source node.
                 sourcesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  source .
+                    Sets the source reference on plot.ly for
+                    source .
                 target
                     An integer number `[0..nodes.length - 1]` that
                     represents the target node.
                 targetsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  target .
+                    Sets the source reference on plot.ly for
+                    target .
                 value
                     A numeric value representing the flow volume
                     value.
                 valuesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  value .
+                    Sets the source reference on plot.ly for  value
+                    .
 
         Returns
         -------
@@ -38983,7 +38506,7 @@ class Sankey(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -39044,13 +38567,8 @@ class Sankey(_BaseTraceType):
                     These defaults are not fully opaque, to allow
                     some visibility of what is beneath the node.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
-                customdata
-                    Assigns extra data to each node.
-                customdatasrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  customdata .
+                    Sets the source reference on plot.ly for  color
+                    .
                 groups
                     Groups of nodes. Each group is defined by an
                     array with the indices of the nodes it
@@ -39084,7 +38602,7 @@ class Sankey(_BaseTraceType):
                     for details on the date formatting syntax. The
                     variables available in `hovertemplate` are the
                     ones emitted as event data described at this
-                    link https://plotly.com/javascript/plotlyjs-
+                    link https://plot.ly/javascript/plotlyjs-
                     events/#event-data. Additionally, every
                     attributes that can be specified per-point (the
                     ones that are `arrayOk: true`) are available.
@@ -39095,13 +38613,13 @@ class Sankey(_BaseTraceType):
                     secondary box completely, use an empty tag
                     `<extra></extra>`.
                 hovertemplatesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  hovertemplate .
+                    Sets the source reference on plot.ly for
+                    hovertemplate .
                 label
                     The shown name of the node.
                 labelsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  label .
+                    Sets the source reference on plot.ly for  label
+                    .
                 line
                     :class:`plotly.graph_objects.sankey.node.Line`
                     instance or dict with compatible properties
@@ -39112,13 +38630,11 @@ class Sankey(_BaseTraceType):
                 x
                     The normalized horizontal position of the node.
                 xsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  x .
+                    Sets the source reference on plot.ly for  x .
                 y
                     The normalized vertical position of the node.
                 ysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  y .
+                    Sets the source reference on plot.ly for  y .
 
         Returns
         -------
@@ -39195,8 +38711,8 @@ class Sankey(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -39233,13 +38749,12 @@ class Sankey(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
@@ -39409,8 +38924,7 @@ class Sankey(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         domain
             :class:`plotly.graph_objects.sankey.Domain` instance or
             dict with compatible properties
@@ -39429,8 +38943,7 @@ class Sankey(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         link
             The links of the Sankey plot.
         meta
@@ -39447,8 +38960,7 @@ class Sankey(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -39560,8 +39072,7 @@ class Sankey(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         domain
             :class:`plotly.graph_objects.sankey.Domain` instance or
             dict with compatible properties
@@ -39580,8 +39091,7 @@ class Sankey(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         link
             The links of the Sankey plot.
         meta
@@ -39598,8 +39108,7 @@ class Sankey(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -39811,8 +39320,7 @@ class Pointcloud(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -39858,8 +39366,7 @@ class Pointcloud(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -39893,20 +39400,20 @@ class Pointcloud(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -39920,8 +39427,8 @@ class Pointcloud(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -39960,7 +39467,7 @@ class Pointcloud(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -40006,7 +39513,7 @@ class Pointcloud(_BaseTraceType):
     @property
     def indicessrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  indices .
+        Sets the source reference on plot.ly for  indices .
     
         The 'indicessrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -40132,7 +39639,7 @@ class Pointcloud(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -40230,8 +39737,8 @@ class Pointcloud(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -40275,7 +39782,7 @@ class Pointcloud(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -40440,7 +39947,7 @@ class Pointcloud(_BaseTraceType):
     @property
     def xboundssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  xbounds .
+        Sets the source reference on plot.ly for  xbounds .
     
         The 'xboundssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -40460,7 +39967,7 @@ class Pointcloud(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -40503,7 +40010,7 @@ class Pointcloud(_BaseTraceType):
     @property
     def xysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  xy .
+        Sets the source reference on plot.ly for  xy .
     
         The 'xysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -40590,7 +40097,7 @@ class Pointcloud(_BaseTraceType):
     @property
     def yboundssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ybounds .
+        Sets the source reference on plot.ly for  ybounds .
     
         The 'yboundssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -40610,7 +40117,7 @@ class Pointcloud(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -40648,16 +40155,14 @@ class Pointcloud(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.pointcloud.Hoverlabel`
             instance or dict with compatible properties
@@ -40666,8 +40171,7 @@ class Pointcloud(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         indices
             A sequential value, 0..n, supply it to avoid creating
             this array inside plotting. If specified, it must be a
@@ -40678,8 +40182,7 @@ class Pointcloud(_BaseTraceType):
             as the largest number of points during use, and reuse
             it on each `Plotly.restyle()` call.
         indicessrc
-            Sets the source reference on Chart Studio Cloud for
-            indices .
+            Sets the source reference on plot.ly for  indices .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -40701,8 +40204,7 @@ class Pointcloud(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -40723,8 +40225,7 @@ class Pointcloud(_BaseTraceType):
             "hovertext" is not set, these elements will be seen in
             the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -40765,19 +40266,16 @@ class Pointcloud(_BaseTraceType):
             conjunction with `xy` and `ybounds` for the performance
             benefits.
         xboundssrc
-            Sets the source reference on Chart Studio Cloud for
-            xbounds .
+            Sets the source reference on plot.ly for  xbounds .
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         xy
             Faster alternative to specifying `x` and `y`
             separately. If supplied, it must be a typed
             `Float32Array` array that represents points such that
             `xy[i * 2] = x[i]` and `xy[i * 2 + 1] = y[i]`
         xysrc
-            Sets the source reference on Chart Studio Cloud for  xy
-            .
+            Sets the source reference on plot.ly for  xy .
         y
             Sets the y coordinates.
         yaxis
@@ -40791,11 +40289,9 @@ class Pointcloud(_BaseTraceType):
             conjunction with `xy` and `xbounds` for the performance
             benefits.
         yboundssrc
-            Sets the source reference on Chart Studio Cloud for
-            ybounds .
+            Sets the source reference on plot.ly for  ybounds .
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         """
 
     def __init__(
@@ -40854,16 +40350,14 @@ class Pointcloud(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.pointcloud.Hoverlabel`
             instance or dict with compatible properties
@@ -40872,8 +40366,7 @@ class Pointcloud(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         indices
             A sequential value, 0..n, supply it to avoid creating
             this array inside plotting. If specified, it must be a
@@ -40884,8 +40377,7 @@ class Pointcloud(_BaseTraceType):
             as the largest number of points during use, and reuse
             it on each `Plotly.restyle()` call.
         indicessrc
-            Sets the source reference on Chart Studio Cloud for
-            indices .
+            Sets the source reference on plot.ly for  indices .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -40907,8 +40399,7 @@ class Pointcloud(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -40929,8 +40420,7 @@ class Pointcloud(_BaseTraceType):
             "hovertext" is not set, these elements will be seen in
             the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -40971,19 +40461,16 @@ class Pointcloud(_BaseTraceType):
             conjunction with `xy` and `ybounds` for the performance
             benefits.
         xboundssrc
-            Sets the source reference on Chart Studio Cloud for
-            xbounds .
+            Sets the source reference on plot.ly for  xbounds .
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         xy
             Faster alternative to specifying `x` and `y`
             separately. If supplied, it must be a typed
             `Float32Array` array that represents points such that
             `xy[i * 2] = x[i]` and `xy[i * 2 + 1] = y[i]`
         xysrc
-            Sets the source reference on Chart Studio Cloud for  xy
-            .
+            Sets the source reference on plot.ly for  xy .
         y
             Sets the y coordinates.
         yaxis
@@ -40997,11 +40484,9 @@ class Pointcloud(_BaseTraceType):
             conjunction with `xy` and `xbounds` for the performance
             benefits.
         yboundssrc
-            Sets the source reference on Chart Studio Cloud for
-            ybounds .
+            Sets the source reference on plot.ly for  ybounds .
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
 
         Returns
         -------
@@ -41214,8 +40699,7 @@ class Pie(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -41360,8 +40844,7 @@ class Pie(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -41395,20 +40878,20 @@ class Pie(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -41422,8 +40905,8 @@ class Pie(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -41453,7 +40936,7 @@ class Pie(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variables `label`, `color`, `value`, `percent` and `text`.
@@ -41482,8 +40965,7 @@ class Pie(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -41529,8 +41011,7 @@ class Pie(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -41572,7 +41053,7 @@ class Pie(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -41605,8 +41086,8 @@ class Pie(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -41615,23 +41096,22 @@ class Pie(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -41722,7 +41202,7 @@ class Pie(_BaseTraceType):
     @property
     def labelssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  labels .
+        Sets the source reference on plot.ly for  labels .
     
         The 'labelssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -41778,8 +41258,8 @@ class Pie(_BaseTraceType):
                     specified, the default trace color set is used
                     to pick the sector colors.
                 colorssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  colors .
+                    Sets the source reference on plot.ly for
+                    colors .
                 line
                     :class:`plotly.graph_objects.pie.marker.Line`
                     instance or dict with compatible properties
@@ -41827,7 +41307,7 @@ class Pie(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -41902,8 +41382,8 @@ class Pie(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -41912,23 +41392,22 @@ class Pie(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -41969,7 +41448,7 @@ class Pie(_BaseTraceType):
     @property
     def pullsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  pull .
+        Sets the source reference on plot.ly for  pull .
     
         The 'pullsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -42090,8 +41569,8 @@ class Pie(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -42145,8 +41624,8 @@ class Pie(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -42155,23 +41634,22 @@ class Pie(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -42233,8 +41711,7 @@ class Pie(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -42254,7 +41731,7 @@ class Pie(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -42310,8 +41787,7 @@ class Pie(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -42384,8 +41860,8 @@ class Pie(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -42394,23 +41870,22 @@ class Pie(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -42527,7 +42002,7 @@ class Pie(_BaseTraceType):
     @property
     def valuessrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  values .
+        Sets the source reference on plot.ly for  values .
     
         The 'valuessrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -42591,8 +42066,7 @@ class Pie(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         direction
             Specifies the direction at which succeeding sectors
             follow one another.
@@ -42610,8 +42084,7 @@ class Pie(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.pie.Hoverlabel` instance
             or dict with compatible properties
@@ -42631,18 +42104,18 @@ class Pie(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `label`, `color`, `value`,
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `label`, `color`, `value`,
             `percent` and `text`. Anything contained in tag
             `<extra>` is displayed in the secondary box, for
             example "<extra>{fullData.name}</extra>". To hide the
             secondary box completely, use an empty tag
             `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each sector.
             If a single string, the same string appears for all
@@ -42650,15 +42123,13 @@ class Pie(_BaseTraceType):
             mapped in order of this trace's sectors. To be seen,
             trace `hoverinfo` must contain a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         insidetextfont
             Sets the font used for `textinfo` lying inside the
             sector.
@@ -42683,8 +42154,7 @@ class Pie(_BaseTraceType):
             array attributes (including color) we use the first
             non-empty entry among all occurrences of the label.
         labelssrc
-            Sets the source reference on Chart Studio Cloud for
-            labels .
+            Sets the source reference on plot.ly for  labels .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -42706,8 +42176,7 @@ class Pie(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -42722,8 +42191,7 @@ class Pie(_BaseTraceType):
             slices apart from each other equally or an array to
             highlight one or more slices.
         pullsrc
-            Sets the source reference on Chart Studio Cloud for
-            pull .
+            Sets the source reference on plot.ly for  pull .
         rotation
             Instead of the first slice starting at 12 o'clock,
             rotate to some other angle.
@@ -42754,11 +42222,10 @@ class Pie(_BaseTraceType):
         textposition
             Specifies the location of the `textinfo`.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -42777,8 +42244,8 @@ class Pie(_BaseTraceType):
             `arrayOk: true`) are available. variables `label`,
             `color`, `value`, `percent` and `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         title
             :class:`plotly.graph_objects.pie.Title` instance or
             dict with compatible properties
@@ -42817,8 +42284,7 @@ class Pie(_BaseTraceType):
             Sets the values of the sectors. If omitted, we count
             occurrences of each label.
         valuessrc
-            Sets the source reference on Chart Studio Cloud for
-            values .
+            Sets the source reference on plot.ly for  values .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -42908,8 +42374,7 @@ class Pie(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         direction
             Specifies the direction at which succeeding sectors
             follow one another.
@@ -42927,8 +42392,7 @@ class Pie(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.pie.Hoverlabel` instance
             or dict with compatible properties
@@ -42948,18 +42412,18 @@ class Pie(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `label`, `color`, `value`,
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `label`, `color`, `value`,
             `percent` and `text`. Anything contained in tag
             `<extra>` is displayed in the secondary box, for
             example "<extra>{fullData.name}</extra>". To hide the
             secondary box completely, use an empty tag
             `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each sector.
             If a single string, the same string appears for all
@@ -42967,15 +42431,13 @@ class Pie(_BaseTraceType):
             mapped in order of this trace's sectors. To be seen,
             trace `hoverinfo` must contain a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         insidetextfont
             Sets the font used for `textinfo` lying inside the
             sector.
@@ -43000,8 +42462,7 @@ class Pie(_BaseTraceType):
             array attributes (including color) we use the first
             non-empty entry among all occurrences of the label.
         labelssrc
-            Sets the source reference on Chart Studio Cloud for
-            labels .
+            Sets the source reference on plot.ly for  labels .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -43023,8 +42484,7 @@ class Pie(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -43039,8 +42499,7 @@ class Pie(_BaseTraceType):
             slices apart from each other equally or an array to
             highlight one or more slices.
         pullsrc
-            Sets the source reference on Chart Studio Cloud for
-            pull .
+            Sets the source reference on plot.ly for  pull .
         rotation
             Instead of the first slice starting at 12 o'clock,
             rotate to some other angle.
@@ -43071,11 +42530,10 @@ class Pie(_BaseTraceType):
         textposition
             Specifies the location of the `textinfo`.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -43094,8 +42552,8 @@ class Pie(_BaseTraceType):
             `arrayOk: true`) are available. variables `label`,
             `color`, `value`, `percent` and `text`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         title
             :class:`plotly.graph_objects.pie.Title` instance or
             dict with compatible properties
@@ -43134,8 +42592,7 @@ class Pie(_BaseTraceType):
             Sets the values of the sectors. If omitted, we count
             occurrences of each label.
         valuessrc
-            Sets the source reference on Chart Studio Cloud for
-            values .
+            Sets the source reference on plot.ly for  values .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -43392,8 +42849,7 @@ class Parcoords(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -43480,14 +42936,14 @@ class Parcoords(_BaseTraceType):
                     Sets the text displayed at the ticks position
                     via `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 values
                     Dimension values. `values[n]` represents the
                     value of the `n`th point in the dataset,
@@ -43496,8 +42952,8 @@ class Parcoords(_BaseTraceType):
                     will be truncated). Each value must be a finite
                     number.
                 valuessrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  values .
+                    Sets the source reference on plot.ly for
+                    values .
                 visible
                     Shows the dimension when set to `true` (the
                     default). Hides the dimension for `false`.
@@ -43604,7 +43060,7 @@ class Parcoords(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -43669,13 +43125,12 @@ class Parcoords(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
@@ -43801,8 +43256,8 @@ class Parcoords(_BaseTraceType):
                     ainbow,Portland,Jet,Hot,Blackbody,Earth,Electri
                     c,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `line.color`is set to a
@@ -43857,7 +43312,7 @@ class Parcoords(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -43919,13 +43374,12 @@ class Parcoords(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
@@ -43960,8 +43414,8 @@ class Parcoords(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -43998,13 +43452,12 @@ class Parcoords(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
@@ -44120,8 +43573,7 @@ class Parcoords(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dimensions
             The dimensions (variables) of the parallel coordinates
             chart. 2..60 dimensions are supported.
@@ -44138,8 +43590,7 @@ class Parcoords(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         labelangle
             Sets the angle of the labels with respect to the
             horizontal. For example, a `tickangle` of -90 draws the
@@ -44171,8 +43622,7 @@ class Parcoords(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -44255,8 +43705,7 @@ class Parcoords(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dimensions
             The dimensions (variables) of the parallel coordinates
             chart. 2..60 dimensions are supported.
@@ -44273,8 +43722,7 @@ class Parcoords(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         labelangle
             Sets the angle of the labels with respect to the
             horizontal. For example, a `tickangle` of -90 draws the
@@ -44306,8 +43754,7 @@ class Parcoords(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -44542,7 +43989,7 @@ class Parcats(_BaseTraceType):
     @property
     def countssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  counts .
+        Sets the source reference on plot.ly for  counts .
     
         The 'countssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -44578,8 +44025,8 @@ class Parcats(_BaseTraceType):
                     `categoryorder` is set to "array". Used with
                     `categoryorder`.
                 categoryarraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  categoryarray .
+                    Sets the source reference on plot.ly for
+                    categoryarray .
                 categoryorder
                     Specifies the ordering logic for the categories
                     in the dimension. By default, plotly uses
@@ -44608,8 +44055,8 @@ class Parcats(_BaseTraceType):
                     array the same length as `categoryarray` Used
                     with `categoryorder`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 values
                     Dimension values. `values[n]` represents the
                     category value of the `n`th point in the
@@ -44617,8 +44064,8 @@ class Parcats(_BaseTraceType):
                     dimensions must be the same (longer vectors
                     will be truncated).
                 valuessrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  values .
+                    Sets the source reference on plot.ly for
+                    values .
                 visible
                     Shows the dimension when set to `true` (the
                     default). Hides the dimension for `false`.
@@ -44766,7 +44213,7 @@ class Parcats(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variables `count`, `probability`, `category`, `categorycount`,
@@ -44814,13 +44261,12 @@ class Parcats(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
@@ -44922,8 +44368,8 @@ class Parcats(_BaseTraceType):
                     ainbow,Portland,Jet,Hot,Blackbody,Earth,Electri
                     c,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 hovertemplate
                     Template string used for rendering the
                     information that appear on hover box. Note that
@@ -44943,7 +44389,7 @@ class Parcats(_BaseTraceType):
                     for details on the date formatting syntax. The
                     variables available in `hovertemplate` are the
                     ones emitted as event data described at this
-                    link https://plotly.com/javascript/plotlyjs-
+                    link https://plot.ly/javascript/plotlyjs-
                     events/#event-data. Additionally, every
                     attributes that can be specified per-point (the
                     ones that are `arrayOk: true`) are available.
@@ -45011,7 +44457,7 @@ class Parcats(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -45091,8 +44537,8 @@ class Parcats(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -45129,13 +44575,12 @@ class Parcats(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
@@ -45260,8 +44705,7 @@ class Parcats(_BaseTraceType):
             Defaults to 1 so that each state represents one
             observation
         countssrc
-            Sets the source reference on Chart Studio Cloud for
-            counts .
+            Sets the source reference on plot.ly for  counts .
         dimensions
             The dimensions (variables) of the parallel categories
             diagram.
@@ -45301,10 +44745,10 @@ class Parcats(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `count`, `probability`,
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `count`, `probability`,
             `category`, `categorycount`, `colorcount` and
             `bandcolorcount`. Anything contained in tag `<extra>`
             is displayed in the secondary box, for example
@@ -45329,8 +44773,7 @@ class Parcats(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -45425,8 +44868,7 @@ class Parcats(_BaseTraceType):
             Defaults to 1 so that each state represents one
             observation
         countssrc
-            Sets the source reference on Chart Studio Cloud for
-            counts .
+            Sets the source reference on plot.ly for  counts .
         dimensions
             The dimensions (variables) of the parallel categories
             diagram.
@@ -45466,10 +44908,10 @@ class Parcats(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `count`, `probability`,
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `count`, `probability`,
             `category`, `categorycount`, `colorcount` and
             `bandcolorcount`. Anything contained in tag `<extra>`
             is displayed in the secondary box, for example
@@ -45494,8 +44936,7 @@ class Parcats(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -45688,7 +45129,7 @@ class Ohlc(_BaseTraceType):
     @property
     def closesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  close .
+        Sets the source reference on plot.ly for  close .
     
         The 'closesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -45731,8 +45172,7 @@ class Ohlc(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -45799,7 +45239,7 @@ class Ohlc(_BaseTraceType):
     @property
     def highsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  high .
+        Sets the source reference on plot.ly for  high .
     
         The 'highsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -45845,8 +45285,7 @@ class Ohlc(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -45880,20 +45319,20 @@ class Ohlc(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -45907,8 +45346,8 @@ class Ohlc(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
                 split
                     Show hover information (open, close, high, low)
                     in separate labels.
@@ -45950,8 +45389,7 @@ class Ohlc(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -45993,7 +45431,7 @@ class Ohlc(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -46120,7 +45558,7 @@ class Ohlc(_BaseTraceType):
     @property
     def lowsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  low .
+        Sets the source reference on plot.ly for  low .
     
         The 'lowsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -46168,7 +45606,7 @@ class Ohlc(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -46250,7 +45688,7 @@ class Ohlc(_BaseTraceType):
     @property
     def opensrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  open .
+        Sets the source reference on plot.ly for  open .
     
         The 'opensrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -46330,8 +45768,8 @@ class Ohlc(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -46373,7 +45811,7 @@ class Ohlc(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -46562,7 +46000,7 @@ class Ohlc(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -46622,47 +46060,41 @@ class Ohlc(_BaseTraceType):
         close
             Sets the close values.
         closesrc
-            Sets the source reference on Chart Studio Cloud for
-            close .
+            Sets the source reference on plot.ly for  close .
         customdata
             Assigns extra data each datum. This may be useful when
             listening to hover, click and selection events. Note
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         decreasing
             :class:`plotly.graph_objects.ohlc.Decreasing` instance
             or dict with compatible properties
         high
             Sets the high values.
         highsrc
-            Sets the source reference on Chart Studio Cloud for
-            high .
+            Sets the source reference on plot.ly for  high .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.ohlc.Hoverlabel` instance
             or dict with compatible properties
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         increasing
             :class:`plotly.graph_objects.ohlc.Increasing` instance
             or dict with compatible properties
@@ -46676,8 +46108,7 @@ class Ohlc(_BaseTraceType):
         low
             Sets the low values.
         lowsrc
-            Sets the source reference on Chart Studio Cloud for
-            low .
+            Sets the source reference on plot.ly for  low .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -46692,8 +46123,7 @@ class Ohlc(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -46702,8 +46132,7 @@ class Ohlc(_BaseTraceType):
         open
             Sets the open values.
         opensrc
-            Sets the source reference on Chart Studio Cloud for
-            open .
+            Sets the source reference on plot.ly for  open .
         selectedpoints
             Array containing integer indices of selected points.
             Has an effect only for traces that support selections.
@@ -46723,8 +46152,7 @@ class Ohlc(_BaseTraceType):
             all the data points. If an array of string, the items
             are mapped in order to this trace's sample points.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         tickwidth
             Sets the width of the open/close tick marks relative to
             the "x" minimal interval.
@@ -46766,8 +46194,7 @@ class Ohlc(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         yaxis
             Sets a reference between this trace's y coordinates and
             a 2D cartesian y axis. If "y" (the default value), the
@@ -46839,47 +46266,41 @@ class Ohlc(_BaseTraceType):
         close
             Sets the close values.
         closesrc
-            Sets the source reference on Chart Studio Cloud for
-            close .
+            Sets the source reference on plot.ly for  close .
         customdata
             Assigns extra data each datum. This may be useful when
             listening to hover, click and selection events. Note
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         decreasing
             :class:`plotly.graph_objects.ohlc.Decreasing` instance
             or dict with compatible properties
         high
             Sets the high values.
         highsrc
-            Sets the source reference on Chart Studio Cloud for
-            high .
+            Sets the source reference on plot.ly for  high .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.ohlc.Hoverlabel` instance
             or dict with compatible properties
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         increasing
             :class:`plotly.graph_objects.ohlc.Increasing` instance
             or dict with compatible properties
@@ -46893,8 +46314,7 @@ class Ohlc(_BaseTraceType):
         low
             Sets the low values.
         lowsrc
-            Sets the source reference on Chart Studio Cloud for
-            low .
+            Sets the source reference on plot.ly for  low .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -46909,8 +46329,7 @@ class Ohlc(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -46919,8 +46338,7 @@ class Ohlc(_BaseTraceType):
         open
             Sets the open values.
         opensrc
-            Sets the source reference on Chart Studio Cloud for
-            open .
+            Sets the source reference on plot.ly for  open .
         selectedpoints
             Array containing integer indices of selected points.
             Has an effect only for traces that support selections.
@@ -46940,8 +46358,7 @@ class Ohlc(_BaseTraceType):
             all the data points. If an array of string, the items
             are mapped in order to this trace's sample points.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         tickwidth
             Sets the width of the open/close tick marks relative to
             the "x" minimal interval.
@@ -46983,8 +46400,7 @@ class Ohlc(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         yaxis
             Sets a reference between this trace's y coordinates and
             a 2D cartesian y axis. If "y" (the default value), the
@@ -47582,15 +46998,15 @@ class Mesh3d(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -47753,8 +47169,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -47819,8 +47234,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def facecolorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  facecolor
-        .
+        Sets the source reference on plot.ly for  facecolor .
     
         The 'facecolorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -47888,8 +47302,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -47923,20 +47336,20 @@ class Mesh3d(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -47950,8 +47363,8 @@ class Mesh3d(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -47981,7 +47394,7 @@ class Mesh3d(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -48009,8 +47422,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -48052,8 +47464,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -48121,7 +47532,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -48183,8 +47594,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def intensitysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  intensity
-        .
+        Sets the source reference on plot.ly for  intensity .
     
         The 'intensitysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -48204,7 +47614,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def isrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  i .
+        Sets the source reference on plot.ly for  i .
     
         The 'isrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -48250,7 +47660,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def jsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  j .
+        Sets the source reference on plot.ly for  j .
     
         The 'jsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -48296,7 +47706,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def ksrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  k .
+        Sets the source reference on plot.ly for  k .
     
         The 'ksrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -48448,7 +47858,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -48619,8 +48029,8 @@ class Mesh3d(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -48661,7 +48071,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -48759,8 +48169,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def vertexcolorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        vertexcolor .
+        Sets the source reference on plot.ly for  vertexcolor .
     
         The 'vertexcolorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -48849,7 +48258,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -48915,7 +48324,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -48981,7 +48390,7 @@ class Mesh3d(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -49090,8 +48499,7 @@ class Mesh3d(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         delaunayaxis
             Sets the Delaunay axis, which is the axis that is
             perpendicular to the surface of the Delaunay
@@ -49102,8 +48510,7 @@ class Mesh3d(_BaseTraceType):
             Sets the color of each face Overrides "color" and
             "vertexcolor".
         facecolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            facecolor .
+            Sets the source reference on plot.ly for  facecolor .
         flatshading
             Determines whether or not normal smoothing is applied
             to the meshes, creating meshes with an angular, low-
@@ -49114,8 +48521,7 @@ class Mesh3d(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.mesh3d.Hoverlabel`
             instance or dict with compatible properties
@@ -49135,21 +48541,20 @@ class Mesh3d(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         i
             A vector of vertex indices, i.e. integer values between
             0 and the length of the vertex vectors, representing
@@ -49164,8 +48569,7 @@ class Mesh3d(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         intensity
             Sets the intensity values for vertices or cells as
             defined by `intensitymode`. It can be used for plotting
@@ -49173,11 +48577,9 @@ class Mesh3d(_BaseTraceType):
         intensitymode
             Determines the source of `intensity` values.
         intensitysrc
-            Sets the source reference on Chart Studio Cloud for
-            intensity .
+            Sets the source reference on plot.ly for  intensity .
         isrc
-            Sets the source reference on Chart Studio Cloud for  i
-            .
+            Sets the source reference on plot.ly for  i .
         j
             A vector of vertex indices, i.e. integer values between
             0 and the length of the vertex vectors, representing
@@ -49188,8 +48590,7 @@ class Mesh3d(_BaseTraceType):
             each element in `j` represents a point in space, which
             is the second vertex of a triangle.
         jsrc
-            Sets the source reference on Chart Studio Cloud for  j
-            .
+            Sets the source reference on plot.ly for  j .
         k
             A vector of vertex indices, i.e. integer values between
             0 and the length of the vertex vectors, representing
@@ -49200,8 +48601,7 @@ class Mesh3d(_BaseTraceType):
             each element in `k` represents a point in space, which
             is the third vertex of a triangle.
         ksrc
-            Sets the source reference on Chart Studio Cloud for  k
-            .
+            Sets the source reference on plot.ly for  k .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -49226,8 +48626,7 @@ class Mesh3d(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -49264,8 +48663,7 @@ class Mesh3d(_BaseTraceType):
             "hovertext" is not set, these elements will be seen in
             the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -49295,8 +48693,7 @@ class Mesh3d(_BaseTraceType):
             format, the alpha color should be normalized to be
             between 0 and 1.
         vertexcolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            vertexcolor .
+            Sets the source reference on plot.ly for  vertexcolor .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -49309,8 +48706,7 @@ class Mesh3d(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the Y coordinates of the vertices. The nth element
             of vectors `x`, `y` and `z` jointly represent the X, Y
@@ -49318,8 +48714,7 @@ class Mesh3d(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the Z coordinates of the vertices. The nth element
             of vectors `x`, `y` and `z` jointly represent the X, Y
@@ -49327,8 +48722,7 @@ class Mesh3d(_BaseTraceType):
         zcalendar
             Sets the calendar system to use with `z` date data.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -49489,8 +48883,7 @@ class Mesh3d(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         delaunayaxis
             Sets the Delaunay axis, which is the axis that is
             perpendicular to the surface of the Delaunay
@@ -49501,8 +48894,7 @@ class Mesh3d(_BaseTraceType):
             Sets the color of each face Overrides "color" and
             "vertexcolor".
         facecolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            facecolor .
+            Sets the source reference on plot.ly for  facecolor .
         flatshading
             Determines whether or not normal smoothing is applied
             to the meshes, creating meshes with an angular, low-
@@ -49513,8 +48905,7 @@ class Mesh3d(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.mesh3d.Hoverlabel`
             instance or dict with compatible properties
@@ -49534,21 +48925,20 @@ class Mesh3d(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         i
             A vector of vertex indices, i.e. integer values between
             0 and the length of the vertex vectors, representing
@@ -49563,8 +48953,7 @@ class Mesh3d(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         intensity
             Sets the intensity values for vertices or cells as
             defined by `intensitymode`. It can be used for plotting
@@ -49572,11 +48961,9 @@ class Mesh3d(_BaseTraceType):
         intensitymode
             Determines the source of `intensity` values.
         intensitysrc
-            Sets the source reference on Chart Studio Cloud for
-            intensity .
+            Sets the source reference on plot.ly for  intensity .
         isrc
-            Sets the source reference on Chart Studio Cloud for  i
-            .
+            Sets the source reference on plot.ly for  i .
         j
             A vector of vertex indices, i.e. integer values between
             0 and the length of the vertex vectors, representing
@@ -49587,8 +48974,7 @@ class Mesh3d(_BaseTraceType):
             each element in `j` represents a point in space, which
             is the second vertex of a triangle.
         jsrc
-            Sets the source reference on Chart Studio Cloud for  j
-            .
+            Sets the source reference on plot.ly for  j .
         k
             A vector of vertex indices, i.e. integer values between
             0 and the length of the vertex vectors, representing
@@ -49599,8 +48985,7 @@ class Mesh3d(_BaseTraceType):
             each element in `k` represents a point in space, which
             is the third vertex of a triangle.
         ksrc
-            Sets the source reference on Chart Studio Cloud for  k
-            .
+            Sets the source reference on plot.ly for  k .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -49625,8 +49010,7 @@ class Mesh3d(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -49663,8 +49047,7 @@ class Mesh3d(_BaseTraceType):
             "hovertext" is not set, these elements will be seen in
             the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -49694,8 +49077,7 @@ class Mesh3d(_BaseTraceType):
             format, the alpha color should be normalized to be
             between 0 and 1.
         vertexcolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            vertexcolor .
+            Sets the source reference on plot.ly for  vertexcolor .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -49708,8 +49090,7 @@ class Mesh3d(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the Y coordinates of the vertices. The nth element
             of vectors `x`, `y` and `z` jointly represent the X, Y
@@ -49717,8 +49098,7 @@ class Mesh3d(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the Z coordinates of the vertices. The nth element
             of vectors `x`, `y` and `z` jointly represent the X, Y
@@ -49726,8 +49106,7 @@ class Mesh3d(_BaseTraceType):
         zcalendar
             Sets the calendar system to use with `z` date data.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -50328,15 +49707,15 @@ class Isosurface(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -50499,8 +49878,7 @@ class Isosurface(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -50568,8 +49946,7 @@ class Isosurface(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -50603,20 +49980,20 @@ class Isosurface(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -50630,8 +50007,8 @@ class Isosurface(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -50661,7 +50038,7 @@ class Isosurface(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -50689,8 +50066,7 @@ class Isosurface(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -50732,8 +50108,7 @@ class Isosurface(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -50775,7 +50150,7 @@ class Isosurface(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -50967,7 +50342,7 @@ class Isosurface(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -51208,8 +50583,8 @@ class Isosurface(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -51300,7 +50675,7 @@ class Isosurface(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -51395,7 +50770,7 @@ class Isosurface(_BaseTraceType):
     @property
     def valuesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  value .
+        Sets the source reference on plot.ly for  value .
     
         The 'valuesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -51458,7 +50833,7 @@ class Isosurface(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -51498,7 +50873,7 @@ class Isosurface(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -51538,7 +50913,7 @@ class Isosurface(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -51629,8 +51004,7 @@ class Isosurface(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         flatshading
             Determines whether or not normal smoothing is applied
             to the meshes, creating meshes with an angular, low-
@@ -51641,8 +51015,7 @@ class Isosurface(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.isosurface.Hoverlabel`
             instance or dict with compatible properties
@@ -51662,28 +51035,26 @@ class Isosurface(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         isomax
             Sets the maximum boundary for iso-surface plot.
         isomin
@@ -51712,8 +51083,7 @@ class Isosurface(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -51759,8 +51129,7 @@ class Isosurface(_BaseTraceType):
             "hovertext" is not set, these elements will be seen in
             the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -51786,8 +51155,7 @@ class Isosurface(_BaseTraceType):
         value
             Sets the 4th dimension (value) of the vertices.
         valuesrc
-            Sets the source reference on Chart Studio Cloud for
-            value .
+            Sets the source reference on plot.ly for  value .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -51796,18 +51164,15 @@ class Isosurface(_BaseTraceType):
         x
             Sets the X coordinates of the vertices on X axis.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the Y coordinates of the vertices on Y axis.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the Z coordinates of the vertices on Z axis.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -51941,8 +51306,7 @@ class Isosurface(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         flatshading
             Determines whether or not normal smoothing is applied
             to the meshes, creating meshes with an angular, low-
@@ -51953,8 +51317,7 @@ class Isosurface(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.isosurface.Hoverlabel`
             instance or dict with compatible properties
@@ -51974,28 +51337,26 @@ class Isosurface(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         isomax
             Sets the maximum boundary for iso-surface plot.
         isomin
@@ -52024,8 +51385,7 @@ class Isosurface(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -52071,8 +51431,7 @@ class Isosurface(_BaseTraceType):
             "hovertext" is not set, these elements will be seen in
             the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -52098,8 +51457,7 @@ class Isosurface(_BaseTraceType):
         value
             Sets the 4th dimension (value) of the vertices.
         valuesrc
-            Sets the source reference on Chart Studio Cloud for
-            value .
+            Sets the source reference on plot.ly for  value .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -52108,18 +51466,15 @@ class Isosurface(_BaseTraceType):
         x
             Sets the X coordinates of the vertices on X axis.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the Y coordinates of the vertices on Y axis.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the Z coordinates of the vertices on Z axis.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -52391,8 +51746,7 @@ class Indicator(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -52573,7 +51927,7 @@ class Indicator(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -52621,7 +51975,7 @@ class Indicator(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -52739,8 +52093,8 @@ class Indicator(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -52910,8 +52264,7 @@ class Indicator(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         delta
             :class:`plotly.graph_objects.indicator.Delta` instance
             or dict with compatible properties
@@ -52925,8 +52278,7 @@ class Indicator(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -52941,8 +52293,7 @@ class Indicator(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines how the value is displayed on the graph.
             `number` displays the value numerically in text.
@@ -53042,8 +52393,7 @@ class Indicator(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         delta
             :class:`plotly.graph_objects.indicator.Delta` instance
             or dict with compatible properties
@@ -53057,8 +52407,7 @@ class Indicator(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -53073,8 +52422,7 @@ class Indicator(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         mode
             Determines how the value is displayed on the graph.
             `number` displays the value numerically in text.
@@ -53291,8 +52639,7 @@ class Image(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -53378,8 +52725,7 @@ class Image(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -53413,20 +52759,20 @@ class Image(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -53440,8 +52786,8 @@ class Image(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -53471,7 +52817,7 @@ class Image(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variables `z`, `color` and `colormodel`. Anything contained in
@@ -53499,8 +52845,7 @@ class Image(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -53540,8 +52885,7 @@ class Image(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -53583,7 +52927,7 @@ class Image(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -53631,7 +52975,7 @@ class Image(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -53708,8 +53052,8 @@ class Image(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -53746,7 +53090,7 @@ class Image(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -54020,7 +53364,7 @@ class Image(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -54061,8 +53405,7 @@ class Image(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Set the pixel's horizontal size.
         dy
@@ -54073,8 +53416,7 @@ class Image(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.image.Hoverlabel` instance
             or dict with compatible properties
@@ -54094,29 +53436,27 @@ class Image(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `z`, `color` and `colormodel`.
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `z`, `color` and `colormodel`.
             Anything contained in tag `<extra>` is displayed in the
             secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -54131,8 +53471,7 @@ class Image(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -54144,8 +53483,7 @@ class Image(_BaseTraceType):
         text
             Sets the text elements associated with each z value.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -54206,8 +53544,7 @@ class Image(_BaseTraceType):
             the `hsl` colormodel, it is [0, 0, 0]. For the `hsla`
             colormodel, it is [0, 0, 0, 0].
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -54271,8 +53608,7 @@ class Image(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Set the pixel's horizontal size.
         dy
@@ -54283,8 +53619,7 @@ class Image(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.image.Hoverlabel` instance
             or dict with compatible properties
@@ -54304,29 +53639,27 @@ class Image(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `z`, `color` and `colormodel`.
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `z`, `color` and `colormodel`.
             Anything contained in tag `<extra>` is displayed in the
             secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -54341,8 +53674,7 @@ class Image(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -54354,8 +53686,7 @@ class Image(_BaseTraceType):
         text
             Sets the text elements associated with each z value.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -54416,8 +53747,7 @@ class Image(_BaseTraceType):
             the `hsl` colormodel, it is [0, 0, 0]. For the `hsla`
             colormodel, it is [0, 0, 0, 0].
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -54898,15 +54228,15 @@ class Histogram2dContour(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -55125,8 +54455,7 @@ class Histogram2dContour(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -55232,8 +54561,7 @@ class Histogram2dContour(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -55267,20 +54595,20 @@ class Histogram2dContour(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -55294,8 +54622,8 @@ class Histogram2dContour(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -55325,7 +54653,7 @@ class Histogram2dContour(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variable `z` Anything contained in tag `<extra>` is displayed
@@ -55353,8 +54681,7 @@ class Histogram2dContour(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -55396,7 +54723,7 @@ class Histogram2dContour(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -55488,8 +54815,8 @@ class Histogram2dContour(_BaseTraceType):
                 color
                     Sets the aggregation data.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
 
         Returns
         -------
@@ -55534,7 +54861,7 @@ class Histogram2dContour(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -55747,8 +55074,8 @@ class Histogram2dContour(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -55995,7 +55322,7 @@ class Histogram2dContour(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -56167,7 +55494,7 @@ class Histogram2dContour(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -56318,7 +55645,7 @@ class Histogram2dContour(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -56410,8 +55737,7 @@ class Histogram2dContour(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         histfunc
             Specifies the binning function used for this histogram
             trace. If "count", the histogram values are computed by
@@ -56443,8 +55769,7 @@ class Histogram2dContour(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.histogram2dcontour.Hoverla
             bel` instance or dict with compatible properties
@@ -56464,24 +55789,23 @@ class Histogram2dContour(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variable `z` Anything contained in tag
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variable `z` Anything contained in tag
             `<extra>` is displayed in the secondary box, for
             example "<extra>{fullData.name}</extra>". To hide the
             secondary box completely, use an empty tag
             `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -56506,8 +55830,7 @@ class Histogram2dContour(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -56591,8 +55914,7 @@ class Histogram2dContour(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the sample data to be binned on the y axis.
         yaxis
@@ -56613,8 +55935,7 @@ class Histogram2dContour(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the aggregation data.
         zauto
@@ -56641,8 +55962,7 @@ class Histogram2dContour(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -56782,8 +56102,7 @@ class Histogram2dContour(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         histfunc
             Specifies the binning function used for this histogram
             trace. If "count", the histogram values are computed by
@@ -56815,8 +56134,7 @@ class Histogram2dContour(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.histogram2dcontour.Hoverla
             bel` instance or dict with compatible properties
@@ -56836,24 +56154,23 @@ class Histogram2dContour(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variable `z` Anything contained in tag
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variable `z` Anything contained in tag
             `<extra>` is displayed in the secondary box, for
             example "<extra>{fullData.name}</extra>". To hide the
             secondary box completely, use an empty tag
             `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -56878,8 +56195,7 @@ class Histogram2dContour(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -56963,8 +56279,7 @@ class Histogram2dContour(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the sample data to be binned on the y axis.
         yaxis
@@ -56985,8 +56300,7 @@ class Histogram2dContour(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the aggregation data.
         zauto
@@ -57013,8 +56327,7 @@ class Histogram2dContour(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -57554,15 +56867,15 @@ class Histogram2d(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -57694,8 +57007,7 @@ class Histogram2d(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -57801,8 +57113,7 @@ class Histogram2d(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -57836,20 +57147,20 @@ class Histogram2d(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -57863,8 +57174,8 @@ class Histogram2d(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -57894,7 +57205,7 @@ class Histogram2d(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variable `z` Anything contained in tag `<extra>` is displayed
@@ -57922,8 +57233,7 @@ class Histogram2d(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -57965,7 +57275,7 @@ class Histogram2d(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -58019,8 +57329,8 @@ class Histogram2d(_BaseTraceType):
                 color
                     Sets the aggregation data.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
 
         Returns
         -------
@@ -58065,7 +57375,7 @@ class Histogram2d(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -58254,8 +57564,8 @@ class Histogram2d(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -58522,7 +57832,7 @@ class Histogram2d(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -58714,7 +58024,7 @@ class Histogram2d(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -58886,7 +58196,7 @@ class Histogram2d(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -58970,8 +58280,7 @@ class Histogram2d(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         histfunc
             Specifies the binning function used for this histogram
             trace. If "count", the histogram values are computed by
@@ -59003,8 +58312,7 @@ class Histogram2d(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.histogram2d.Hoverlabel`
             instance or dict with compatible properties
@@ -59024,24 +58332,23 @@ class Histogram2d(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variable `z` Anything contained in tag
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variable `z` Anything contained in tag
             `<extra>` is displayed in the secondary box, for
             example "<extra>{fullData.name}</extra>". To hide the
             secondary box completely, use an empty tag
             `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -59063,8 +58370,7 @@ class Histogram2d(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -59144,8 +58450,7 @@ class Histogram2d(_BaseTraceType):
         xgap
             Sets the horizontal gap (in pixels) between bricks.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the sample data to be binned on the y axis.
         yaxis
@@ -59168,8 +58473,7 @@ class Histogram2d(_BaseTraceType):
         ygap
             Sets the vertical gap (in pixels) between bricks.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the aggregation data.
         zauto
@@ -59198,8 +58502,7 @@ class Histogram2d(_BaseTraceType):
         zsmooth
             Picks a smoothing algorithm use to smooth `z` data.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -59329,8 +58632,7 @@ class Histogram2d(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         histfunc
             Specifies the binning function used for this histogram
             trace. If "count", the histogram values are computed by
@@ -59362,8 +58664,7 @@ class Histogram2d(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.histogram2d.Hoverlabel`
             instance or dict with compatible properties
@@ -59383,24 +58684,23 @@ class Histogram2d(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variable `z` Anything contained in tag
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variable `z` Anything contained in tag
             `<extra>` is displayed in the secondary box, for
             example "<extra>{fullData.name}</extra>". To hide the
             secondary box completely, use an empty tag
             `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -59422,8 +58722,7 @@ class Histogram2d(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -59503,8 +58802,7 @@ class Histogram2d(_BaseTraceType):
         xgap
             Sets the horizontal gap (in pixels) between bricks.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the sample data to be binned on the y axis.
         yaxis
@@ -59527,8 +58825,7 @@ class Histogram2d(_BaseTraceType):
         ygap
             Sets the vertical gap (in pixels) between bricks.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the aggregation data.
         zauto
@@ -59557,8 +58854,7 @@ class Histogram2d(_BaseTraceType):
         zsmooth
             Picks a smoothing algorithm use to smooth `z` data.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -59962,8 +59258,7 @@ class Histogram(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -60001,11 +59296,11 @@ class Histogram(_BaseTraceType):
                     vertical (horizontal) bars Values are plotted
                     relative to the underlying data.
                 arrayminussrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  arrayminus .
+                    Sets the source reference on plot.ly for
+                    arrayminus .
                 arraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  array .
+                    Sets the source reference on plot.ly for  array
+                    .
                 color
                     Sets the stoke color of the error bars.
                 copy_ystyle
@@ -60082,11 +59377,11 @@ class Histogram(_BaseTraceType):
                     vertical (horizontal) bars Values are plotted
                     relative to the underlying data.
                 arrayminussrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  arrayminus .
+                    Sets the source reference on plot.ly for
+                    arrayminus .
                 arraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  array .
+                    Sets the source reference on plot.ly for  array
+                    .
                 color
                     Sets the stoke color of the error bars.
                 symmetric
@@ -60229,8 +59524,7 @@ class Histogram(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -60264,20 +59558,20 @@ class Histogram(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -60291,8 +59585,8 @@ class Histogram(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -60322,7 +59616,7 @@ class Histogram(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variable `binNumber` Anything contained in tag `<extra>` is
@@ -60350,8 +59644,7 @@ class Histogram(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -60393,8 +59686,7 @@ class Histogram(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -60436,7 +59728,7 @@ class Histogram(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -60561,8 +59853,8 @@ class Histogram(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 line
                     :class:`plotly.graph_objects.histogram.marker.L
                     ine` instance or dict with compatible
@@ -60570,8 +59862,8 @@ class Histogram(_BaseTraceType):
                 opacity
                     Sets the opacity of the bars.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -60627,7 +59919,7 @@ class Histogram(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -60874,8 +60166,8 @@ class Histogram(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -60917,7 +60209,7 @@ class Histogram(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -61184,7 +60476,7 @@ class Histogram(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -61341,7 +60633,7 @@ class Histogram(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -61408,8 +60700,7 @@ class Histogram(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         error_x
             :class:`plotly.graph_objects.histogram.ErrorX` instance
             or dict with compatible properties
@@ -61447,8 +60738,7 @@ class Histogram(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.histogram.Hoverlabel`
             instance or dict with compatible properties
@@ -61468,29 +60758,27 @@ class Histogram(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variable `binNumber` Anything contained
-            in tag `<extra>` is displayed in the secondary box, for
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variable `binNumber` Anything contained in
+            tag `<extra>` is displayed in the secondary box, for
             example "<extra>{fullData.name}</extra>". To hide the
             secondary box completely, use an empty tag
             `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -61512,8 +60800,7 @@ class Histogram(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -61561,8 +60848,7 @@ class Histogram(_BaseTraceType):
             If an array of string, the items are mapped in order to
             the this trace's coordinates.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -61606,8 +60892,7 @@ class Histogram(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the sample data to be binned on the y axis.
         yaxis
@@ -61621,8 +60906,7 @@ class Histogram(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         """
 
     def __init__(
@@ -61729,8 +61013,7 @@ class Histogram(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         error_x
             :class:`plotly.graph_objects.histogram.ErrorX` instance
             or dict with compatible properties
@@ -61768,8 +61051,7 @@ class Histogram(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.histogram.Hoverlabel`
             instance or dict with compatible properties
@@ -61789,29 +61071,27 @@ class Histogram(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variable `binNumber` Anything contained
-            in tag `<extra>` is displayed in the secondary box, for
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variable `binNumber` Anything contained in
+            tag `<extra>` is displayed in the secondary box, for
             example "<extra>{fullData.name}</extra>". To hide the
             secondary box completely, use an empty tag
             `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -61833,8 +61113,7 @@ class Histogram(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -61882,8 +61161,7 @@ class Histogram(_BaseTraceType):
             If an array of string, the items are mapped in order to
             the this trace's coordinates.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -61927,8 +61205,7 @@ class Histogram(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the sample data to be binned on the y axis.
         yaxis
@@ -61942,8 +61219,7 @@ class Histogram(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
 
         Returns
         -------
@@ -62385,15 +61661,15 @@ class Heatmapgl(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -62525,8 +61801,7 @@ class Heatmapgl(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -62612,8 +61887,7 @@ class Heatmapgl(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -62647,20 +61921,20 @@ class Heatmapgl(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -62674,8 +61948,8 @@ class Heatmapgl(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -62714,7 +61988,7 @@ class Heatmapgl(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -62762,7 +62036,7 @@ class Heatmapgl(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -62882,8 +62156,8 @@ class Heatmapgl(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -62920,7 +62194,7 @@ class Heatmapgl(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -63104,7 +62378,7 @@ class Heatmapgl(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -63214,7 +62488,7 @@ class Heatmapgl(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -63365,7 +62639,7 @@ class Heatmapgl(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -63432,8 +62706,7 @@ class Heatmapgl(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -63444,8 +62717,7 @@ class Heatmapgl(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.heatmapgl.Hoverlabel`
             instance or dict with compatible properties
@@ -63454,8 +62726,7 @@ class Heatmapgl(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -63470,8 +62741,7 @@ class Heatmapgl(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -63490,8 +62760,7 @@ class Heatmapgl(_BaseTraceType):
         text
             Sets the text elements associated with each z value.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         transpose
             Transposes the z data.
         uid
@@ -63533,8 +62802,7 @@ class Heatmapgl(_BaseTraceType):
             x coordinates refer to `layout.xaxis`. If "x2", the x
             coordinates refer to `layout.xaxis2`, and so on.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         xtype
             If "array", the heatmap's x coordinates are given by
             "x" (the default behavior when `x` is provided). If
@@ -63553,8 +62821,7 @@ class Heatmapgl(_BaseTraceType):
             y coordinates refer to `layout.yaxis`. If "y2", the y
             coordinates refer to `layout.yaxis2`, and so on.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         ytype
             If "array", the heatmap's y coordinates are given by
             "y" (the default behavior when `y` is provided) If
@@ -63582,8 +62849,7 @@ class Heatmapgl(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -63678,8 +62944,7 @@ class Heatmapgl(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -63690,8 +62955,7 @@ class Heatmapgl(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.heatmapgl.Hoverlabel`
             instance or dict with compatible properties
@@ -63700,8 +62964,7 @@ class Heatmapgl(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -63716,8 +62979,7 @@ class Heatmapgl(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -63736,8 +62998,7 @@ class Heatmapgl(_BaseTraceType):
         text
             Sets the text elements associated with each z value.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         transpose
             Transposes the z data.
         uid
@@ -63779,8 +63040,7 @@ class Heatmapgl(_BaseTraceType):
             x coordinates refer to `layout.xaxis`. If "x2", the x
             coordinates refer to `layout.xaxis2`, and so on.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         xtype
             If "array", the heatmap's x coordinates are given by
             "x" (the default behavior when `x` is provided). If
@@ -63799,8 +63059,7 @@ class Heatmapgl(_BaseTraceType):
             y coordinates refer to `layout.yaxis`. If "y2", the y
             coordinates refer to `layout.yaxis2`, and so on.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         ytype
             If "array", the heatmap's y coordinates are given by
             "y" (the default behavior when `y` is provided) If
@@ -63828,8 +63087,7 @@ class Heatmapgl(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -64245,15 +63503,15 @@ class Heatmap(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -64408,8 +63666,7 @@ class Heatmap(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -64495,8 +63752,7 @@ class Heatmap(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -64530,20 +63786,20 @@ class Heatmap(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -64557,8 +63813,8 @@ class Heatmap(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -64609,7 +63865,7 @@ class Heatmap(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -64637,8 +63893,7 @@ class Heatmap(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -64678,8 +63933,7 @@ class Heatmap(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -64721,7 +63975,7 @@ class Heatmap(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -64792,7 +64046,7 @@ class Heatmap(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -64933,8 +64187,8 @@ class Heatmap(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -64971,7 +64225,7 @@ class Heatmap(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -65199,7 +64453,7 @@ class Heatmap(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -65353,7 +64607,7 @@ class Heatmap(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -65549,7 +64803,7 @@ class Heatmap(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -65621,8 +64875,7 @@ class Heatmap(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -65633,8 +64886,7 @@ class Heatmap(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.heatmap.Hoverlabel`
             instance or dict with compatible properties
@@ -65658,28 +64910,26 @@ class Heatmap(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -65698,8 +64948,7 @@ class Heatmap(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -65721,8 +64970,7 @@ class Heatmap(_BaseTraceType):
         text
             Sets the text elements associated with each z value.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         transpose
             Transposes the z data.
         uid
@@ -65768,8 +65016,7 @@ class Heatmap(_BaseTraceType):
         xgap
             Sets the horizontal gap (in pixels) between bricks.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         xtype
             If "array", the heatmap's x coordinates are given by
             "x" (the default behavior when `x` is provided). If
@@ -65792,8 +65039,7 @@ class Heatmap(_BaseTraceType):
         ygap
             Sets the vertical gap (in pixels) between bricks.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         ytype
             If "array", the heatmap's y coordinates are given by
             "y" (the default behavior when `y` is provided) If
@@ -65828,8 +65074,7 @@ class Heatmap(_BaseTraceType):
         zsmooth
             Picks a smoothing algorithm use to smooth `z` data.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -65959,8 +65204,7 @@ class Heatmap(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -65971,8 +65215,7 @@ class Heatmap(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.heatmap.Hoverlabel`
             instance or dict with compatible properties
@@ -65996,28 +65239,26 @@ class Heatmap(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -66036,8 +65277,7 @@ class Heatmap(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -66059,8 +65299,7 @@ class Heatmap(_BaseTraceType):
         text
             Sets the text elements associated with each z value.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         transpose
             Transposes the z data.
         uid
@@ -66106,8 +65345,7 @@ class Heatmap(_BaseTraceType):
         xgap
             Sets the horizontal gap (in pixels) between bricks.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         xtype
             If "array", the heatmap's x coordinates are given by
             "x" (the default behavior when `x` is provided). If
@@ -66130,8 +65368,7 @@ class Heatmap(_BaseTraceType):
         ygap
             Sets the vertical gap (in pixels) between bricks.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         ytype
             If "array", the heatmap's y coordinates are given by
             "y" (the default behavior when `y` is provided) If
@@ -66166,8 +65403,7 @@ class Heatmap(_BaseTraceType):
         zsmooth
             Picks a smoothing algorithm use to smooth `z` data.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -66468,8 +65704,7 @@ class Funnelarea(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -66573,8 +65808,7 @@ class Funnelarea(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -66608,20 +65842,20 @@ class Funnelarea(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -66635,8 +65869,8 @@ class Funnelarea(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -66666,7 +65900,7 @@ class Funnelarea(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variables `label`, `color`, `value`, `text` and `percent`.
@@ -66695,8 +65929,7 @@ class Funnelarea(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -66742,8 +65975,7 @@ class Funnelarea(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -66785,7 +66017,7 @@ class Funnelarea(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -66818,8 +66050,8 @@ class Funnelarea(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -66828,23 +66060,22 @@ class Funnelarea(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -66907,7 +66138,7 @@ class Funnelarea(_BaseTraceType):
     @property
     def labelssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  labels .
+        Sets the source reference on plot.ly for  labels .
     
         The 'labelssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -66963,8 +66194,8 @@ class Funnelarea(_BaseTraceType):
                     specified, the default trace color set is used
                     to pick the sector colors.
                 colorssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  colors .
+                    Sets the source reference on plot.ly for
+                    colors .
                 line
                     :class:`plotly.graph_objects.funnelarea.marker.
                     Line` instance or dict with compatible
@@ -67013,7 +66244,7 @@ class Funnelarea(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -67134,8 +66365,8 @@ class Funnelarea(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -67189,8 +66420,8 @@ class Funnelarea(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -67199,23 +66430,22 @@ class Funnelarea(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -67277,8 +66507,7 @@ class Funnelarea(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -67298,7 +66527,7 @@ class Funnelarea(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -67354,8 +66583,7 @@ class Funnelarea(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -67489,7 +66717,7 @@ class Funnelarea(_BaseTraceType):
     @property
     def valuessrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  values .
+        Sets the source reference on plot.ly for  values .
     
         The 'valuessrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -67555,8 +66783,7 @@ class Funnelarea(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dlabel
             Sets the label step. See `label0` for more info.
         domain
@@ -67568,8 +66795,7 @@ class Funnelarea(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.funnelarea.Hoverlabel`
             instance or dict with compatible properties
@@ -67589,18 +66815,17 @@ class Funnelarea(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `label`, `color`, `value`,
-            `text` and `percent`. Anything contained in tag
-            `<extra>` is displayed in the secondary box, for
-            example "<extra>{fullData.name}</extra>". To hide the
-            secondary box completely, use an empty tag
-            `<extra></extra>`.
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `label`, `color`, `value`, `text`
+            and `percent`. Anything contained in tag `<extra>` is
+            displayed in the secondary box, for example
+            "<extra>{fullData.name}</extra>". To hide the secondary
+            box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each sector.
             If a single string, the same string appears for all
@@ -67608,15 +66833,13 @@ class Funnelarea(_BaseTraceType):
             mapped in order of this trace's sectors. To be seen,
             trace `hoverinfo` must contain a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         insidetextfont
             Sets the font used for `textinfo` lying inside the
             sector.
@@ -67631,8 +66854,7 @@ class Funnelarea(_BaseTraceType):
             array attributes (including color) we use the first
             non-empty entry among all occurrences of the label.
         labelssrc
-            Sets the source reference on Chart Studio Cloud for
-            labels .
+            Sets the source reference on plot.ly for  labels .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -67654,8 +66876,7 @@ class Funnelarea(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -67685,11 +66906,10 @@ class Funnelarea(_BaseTraceType):
         textposition
             Specifies the location of the `textinfo`.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -67708,8 +66928,8 @@ class Funnelarea(_BaseTraceType):
             `arrayOk: true`) are available. variables `label`,
             `color`, `value`, `text` and `percent`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         title
             :class:`plotly.graph_objects.funnelarea.Title` instance
             or dict with compatible properties
@@ -67739,8 +66959,7 @@ class Funnelarea(_BaseTraceType):
             Sets the values of the sectors. If omitted, we count
             occurrences of each label.
         valuessrc
-            Sets the source reference on Chart Studio Cloud for
-            values .
+            Sets the source reference on plot.ly for  values .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -67820,8 +67039,7 @@ class Funnelarea(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dlabel
             Sets the label step. See `label0` for more info.
         domain
@@ -67833,8 +67051,7 @@ class Funnelarea(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.funnelarea.Hoverlabel`
             instance or dict with compatible properties
@@ -67854,18 +67071,17 @@ class Funnelarea(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `label`, `color`, `value`,
-            `text` and `percent`. Anything contained in tag
-            `<extra>` is displayed in the secondary box, for
-            example "<extra>{fullData.name}</extra>". To hide the
-            secondary box completely, use an empty tag
-            `<extra></extra>`.
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `label`, `color`, `value`, `text`
+            and `percent`. Anything contained in tag `<extra>` is
+            displayed in the secondary box, for example
+            "<extra>{fullData.name}</extra>". To hide the secondary
+            box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each sector.
             If a single string, the same string appears for all
@@ -67873,15 +67089,13 @@ class Funnelarea(_BaseTraceType):
             mapped in order of this trace's sectors. To be seen,
             trace `hoverinfo` must contain a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         insidetextfont
             Sets the font used for `textinfo` lying inside the
             sector.
@@ -67896,8 +67110,7 @@ class Funnelarea(_BaseTraceType):
             array attributes (including color) we use the first
             non-empty entry among all occurrences of the label.
         labelssrc
-            Sets the source reference on Chart Studio Cloud for
-            labels .
+            Sets the source reference on plot.ly for  labels .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -67919,8 +67132,7 @@ class Funnelarea(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -67950,11 +67162,10 @@ class Funnelarea(_BaseTraceType):
         textposition
             Specifies the location of the `textinfo`.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -67973,8 +67184,8 @@ class Funnelarea(_BaseTraceType):
             `arrayOk: true`) are available. variables `label`,
             `color`, `value`, `text` and `percent`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         title
             :class:`plotly.graph_objects.funnelarea.Title` instance
             or dict with compatible properties
@@ -68004,8 +67215,7 @@ class Funnelarea(_BaseTraceType):
             Sets the values of the sectors. If omitted, we count
             occurrences of each label.
         valuessrc
-            Sets the source reference on Chart Studio Cloud for
-            values .
+            Sets the source reference on plot.ly for  values .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -68330,8 +67540,7 @@ class Funnel(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -68417,8 +67626,7 @@ class Funnel(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -68452,20 +67660,20 @@ class Funnel(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -68479,8 +67687,8 @@ class Funnel(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -68510,7 +67718,7 @@ class Funnel(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variables `percentInitial`, `percentPrevious` and
@@ -68539,8 +67747,7 @@ class Funnel(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -68586,8 +67793,7 @@ class Funnel(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -68629,7 +67835,7 @@ class Funnel(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -68684,8 +67890,8 @@ class Funnel(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -68694,23 +67900,22 @@ class Funnel(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -68832,16 +68037,16 @@ class Funnel(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 line
                     :class:`plotly.graph_objects.funnel.marker.Line
                     ` instance or dict with compatible properties
                 opacity
                     Sets the opacity of the bars.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -68897,7 +68102,7 @@ class Funnel(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -69043,8 +68248,8 @@ class Funnel(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -69053,23 +68258,22 @@ class Funnel(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -69146,8 +68350,8 @@ class Funnel(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -69229,8 +68433,8 @@ class Funnel(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -69239,23 +68443,22 @@ class Funnel(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -69325,8 +68528,7 @@ class Funnel(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -69346,7 +68548,7 @@ class Funnel(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -69402,8 +68604,7 @@ class Funnel(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -69587,7 +68788,7 @@ class Funnel(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -69673,7 +68874,7 @@ class Funnel(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -69727,8 +68928,7 @@ class Funnel(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -69739,8 +68939,7 @@ class Funnel(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.funnel.Hoverlabel`
             instance or dict with compatible properties
@@ -69760,18 +68959,18 @@ class Funnel(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `percentInitial`,
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `percentInitial`,
             `percentPrevious` and `percentTotal`. Anything
             contained in tag `<extra>` is displayed in the
             secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -69780,15 +68979,13 @@ class Funnel(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         insidetextanchor
             Determines if texts are kept at center or start/end
             points in `textposition` "inside" mode.
@@ -69815,8 +69012,7 @@ class Funnel(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -69884,11 +69080,10 @@ class Funnel(_BaseTraceType):
             inside the bar, but if the bar is too small and no bar
             is stacked on this one the text is moved outside.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -69908,8 +69103,8 @@ class Funnel(_BaseTraceType):
             `percentInitial`, `percentPrevious`, `percentTotal`,
             `label` and `value`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -69951,8 +69146,7 @@ class Funnel(_BaseTraceType):
             x coordinates refer to `layout.xaxis`. If "x2", the x
             coordinates refer to `layout.xaxis2`, and so on.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         y0
@@ -69965,8 +69159,7 @@ class Funnel(_BaseTraceType):
             y coordinates refer to `layout.yaxis`. If "y2", the y
             coordinates refer to `layout.yaxis2`, and so on.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         """
 
     def __init__(
@@ -70064,8 +69257,7 @@ class Funnel(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -70076,8 +69268,7 @@ class Funnel(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.funnel.Hoverlabel`
             instance or dict with compatible properties
@@ -70097,18 +69288,18 @@ class Funnel(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `percentInitial`,
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `percentInitial`,
             `percentPrevious` and `percentTotal`. Anything
             contained in tag `<extra>` is displayed in the
             secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -70117,15 +69308,13 @@ class Funnel(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         insidetextanchor
             Determines if texts are kept at center or start/end
             points in `textposition` "inside" mode.
@@ -70152,8 +69341,7 @@ class Funnel(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -70221,11 +69409,10 @@ class Funnel(_BaseTraceType):
             inside the bar, but if the bar is too small and no bar
             is stacked on this one the text is moved outside.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -70245,8 +69432,8 @@ class Funnel(_BaseTraceType):
             `percentInitial`, `percentPrevious`, `percentTotal`,
             `label` and `value`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
+            Sets the source reference on plot.ly for  texttemplate
+            .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -70288,8 +69475,7 @@ class Funnel(_BaseTraceType):
             x coordinates refer to `layout.xaxis`. If "x2", the x
             coordinates refer to `layout.xaxis2`, and so on.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         y0
@@ -70302,8 +69488,7 @@ class Funnel(_BaseTraceType):
             y coordinates refer to `layout.yaxis`. If "y2", the y
             coordinates refer to `layout.yaxis2`, and so on.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
 
         Returns
         -------
@@ -70781,15 +69966,15 @@ class Densitymapbox(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -70921,8 +70106,7 @@ class Densitymapbox(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -70968,8 +70152,7 @@ class Densitymapbox(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -71003,20 +70186,20 @@ class Densitymapbox(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -71030,8 +70213,8 @@ class Densitymapbox(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -71061,7 +70244,7 @@ class Densitymapbox(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -71089,8 +70272,7 @@ class Densitymapbox(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -71136,8 +70318,7 @@ class Densitymapbox(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -71179,7 +70360,7 @@ class Densitymapbox(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -71219,7 +70400,7 @@ class Densitymapbox(_BaseTraceType):
     @property
     def latsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  lat .
+        Sets the source reference on plot.ly for  lat .
     
         The 'latsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -71282,7 +70463,7 @@ class Densitymapbox(_BaseTraceType):
     @property
     def lonsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  lon .
+        Sets the source reference on plot.ly for  lon .
     
         The 'lonsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -71330,7 +70511,7 @@ class Densitymapbox(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -71415,7 +70596,7 @@ class Densitymapbox(_BaseTraceType):
     @property
     def radiussrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  radius .
+        Sets the source reference on plot.ly for  radius .
     
         The 'radiussrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -71514,8 +70695,8 @@ class Densitymapbox(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -71584,7 +70765,7 @@ class Densitymapbox(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -71790,7 +70971,7 @@ class Densitymapbox(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -71863,16 +71044,14 @@ class Densitymapbox(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.densitymapbox.Hoverlabel`
             instance or dict with compatible properties
@@ -71892,16 +71071,16 @@ class Densitymapbox(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (lon,lat)
             pair If a single string, the same string appears over
@@ -71910,20 +71089,17 @@ class Densitymapbox(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         lat
             Sets the latitude coordinates (in degrees North).
         latsrc
-            Sets the source reference on Chart Studio Cloud for
-            lat .
+            Sets the source reference on plot.ly for  lat .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -71931,8 +71107,7 @@ class Densitymapbox(_BaseTraceType):
         lon
             Sets the longitude coordinates (in degrees East).
         lonsrc
-            Sets the source reference on Chart Studio Cloud for
-            lon .
+            Sets the source reference on plot.ly for  lon .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -71947,8 +71122,7 @@ class Densitymapbox(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -71959,8 +71133,7 @@ class Densitymapbox(_BaseTraceType):
             in pixels. Increasing the value makes the densitymapbox
             trace smoother, but less detailed.
         radiussrc
-            Sets the source reference on Chart Studio Cloud for
-            radius .
+            Sets the source reference on plot.ly for  radius .
         reversescale
             Reverses the color mapping if true. If true, `zmin`
             will correspond to the last color in the array and
@@ -71988,8 +71161,7 @@ class Densitymapbox(_BaseTraceType):
             flag and "hovertext" is not set, these elements will be
             seen in the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -72040,8 +71212,7 @@ class Densitymapbox(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -72145,16 +71316,14 @@ class Densitymapbox(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.densitymapbox.Hoverlabel`
             instance or dict with compatible properties
@@ -72174,16 +71343,16 @@ class Densitymapbox(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (lon,lat)
             pair If a single string, the same string appears over
@@ -72192,20 +71361,17 @@ class Densitymapbox(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         lat
             Sets the latitude coordinates (in degrees North).
         latsrc
-            Sets the source reference on Chart Studio Cloud for
-            lat .
+            Sets the source reference on plot.ly for  lat .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -72213,8 +71379,7 @@ class Densitymapbox(_BaseTraceType):
         lon
             Sets the longitude coordinates (in degrees East).
         lonsrc
-            Sets the source reference on Chart Studio Cloud for
-            lon .
+            Sets the source reference on plot.ly for  lon .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -72229,8 +71394,7 @@ class Densitymapbox(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -72241,8 +71405,7 @@ class Densitymapbox(_BaseTraceType):
             in pixels. Increasing the value makes the densitymapbox
             trace smoother, but less detailed.
         radiussrc
-            Sets the source reference on Chart Studio Cloud for
-            radius .
+            Sets the source reference on plot.ly for  radius .
         reversescale
             Reverses the color mapping if true. If true, `zmin`
             will correspond to the last color in the array and
@@ -72270,8 +71433,7 @@ class Densitymapbox(_BaseTraceType):
             flag and "hovertext" is not set, these elements will be
             seen in the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -72322,8 +71484,7 @@ class Densitymapbox(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -72565,7 +71726,7 @@ class Contourcarpet(_BaseTraceType):
     @property
     def asrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  a .
+        Sets the source reference on plot.ly for  a .
     
         The 'asrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -72698,7 +71859,7 @@ class Contourcarpet(_BaseTraceType):
     @property
     def bsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  b .
+        Sets the source reference on plot.ly for  b .
     
         The 'bsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -72962,15 +72123,15 @@ class Contourcarpet(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -73187,8 +72348,7 @@ class Contourcarpet(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -73331,8 +72491,7 @@ class Contourcarpet(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -73374,7 +72533,7 @@ class Contourcarpet(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -73486,7 +72645,7 @@ class Contourcarpet(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -73651,8 +72810,8 @@ class Contourcarpet(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -73689,7 +72848,7 @@ class Contourcarpet(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -73964,7 +73123,7 @@ class Contourcarpet(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -74003,8 +73162,7 @@ class Contourcarpet(_BaseTraceType):
             coordinates. Use with `dx` where `x0` is the starting
             coordinate and `dx` the step.
         asrc
-            Sets the source reference on Chart Studio Cloud for  a
-            .
+            Sets the source reference on plot.ly for  a .
         atype
             If "array", the heatmap's x coordinates are given by
             "x" (the default behavior when `x` is provided). If
@@ -74030,8 +73188,7 @@ class Contourcarpet(_BaseTraceType):
             coordinates. Use with `dy` where `y0` is the starting
             coordinate and `dy` the step.
         bsrc
-            Sets the source reference on Chart Studio Cloud for  b
-            .
+            Sets the source reference on plot.ly for  b .
         btype
             If "array", the heatmap's y coordinates are given by
             "y" (the default behavior when `y` is provided) If
@@ -74072,8 +73229,7 @@ class Contourcarpet(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         da
             Sets the x coordinate step. See `x0` for more info.
         db
@@ -74086,15 +73242,13 @@ class Contourcarpet(_BaseTraceType):
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -74116,8 +73270,7 @@ class Contourcarpet(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -74145,8 +73298,7 @@ class Contourcarpet(_BaseTraceType):
         text
             Sets the text elements associated with each z value.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         transpose
             Transposes the z data.
         uid
@@ -74207,8 +73359,7 @@ class Contourcarpet(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -74284,8 +73435,7 @@ class Contourcarpet(_BaseTraceType):
             coordinates. Use with `dx` where `x0` is the starting
             coordinate and `dx` the step.
         asrc
-            Sets the source reference on Chart Studio Cloud for  a
-            .
+            Sets the source reference on plot.ly for  a .
         atype
             If "array", the heatmap's x coordinates are given by
             "x" (the default behavior when `x` is provided). If
@@ -74311,8 +73461,7 @@ class Contourcarpet(_BaseTraceType):
             coordinates. Use with `dy` where `y0` is the starting
             coordinate and `dy` the step.
         bsrc
-            Sets the source reference on Chart Studio Cloud for  b
-            .
+            Sets the source reference on plot.ly for  b .
         btype
             If "array", the heatmap's y coordinates are given by
             "y" (the default behavior when `y` is provided) If
@@ -74353,8 +73502,7 @@ class Contourcarpet(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         da
             Sets the x coordinate step. See `x0` for more info.
         db
@@ -74367,15 +73515,13 @@ class Contourcarpet(_BaseTraceType):
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -74397,8 +73543,7 @@ class Contourcarpet(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -74426,8 +73571,7 @@ class Contourcarpet(_BaseTraceType):
         text
             Sets the text elements associated with each z value.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         transpose
             Transposes the z data.
         uid
@@ -74488,8 +73632,7 @@ class Contourcarpet(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -74949,15 +74092,15 @@ class Contour(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -75198,8 +74341,7 @@ class Contour(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -75348,8 +74490,7 @@ class Contour(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -75383,20 +74524,20 @@ class Contour(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -75410,8 +74551,8 @@ class Contour(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -75462,7 +74603,7 @@ class Contour(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -75490,8 +74631,7 @@ class Contour(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -75531,8 +74671,7 @@ class Contour(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -75574,7 +74713,7 @@ class Contour(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -75686,7 +74825,7 @@ class Contour(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -75851,8 +74990,8 @@ class Contour(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -75889,7 +75028,7 @@ class Contour(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -76097,7 +75236,7 @@ class Contour(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -76231,7 +75370,7 @@ class Contour(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -76406,7 +75545,7 @@ class Contour(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -76486,8 +75625,7 @@ class Contour(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -76503,8 +75641,7 @@ class Contour(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.contour.Hoverlabel`
             instance or dict with compatible properties
@@ -76528,28 +75665,26 @@ class Contour(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -76571,8 +75706,7 @@ class Contour(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -76600,8 +75734,7 @@ class Contour(_BaseTraceType):
         text
             Sets the text elements associated with each z value.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         transpose
             Transposes the z data.
         uid
@@ -76645,8 +75778,7 @@ class Contour(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         xtype
             If "array", the heatmap's x coordinates are given by
             "x" (the default behavior when `x` is provided). If
@@ -76667,8 +75799,7 @@ class Contour(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         ytype
             If "array", the heatmap's y coordinates are given by
             "y" (the default behavior when `y` is provided) If
@@ -76701,8 +75832,7 @@ class Contour(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -76832,8 +75962,7 @@ class Contour(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -76849,8 +75978,7 @@ class Contour(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.contour.Hoverlabel`
             instance or dict with compatible properties
@@ -76874,28 +76002,26 @@ class Contour(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -76917,8 +76043,7 @@ class Contour(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -76946,8 +76071,7 @@ class Contour(_BaseTraceType):
         text
             Sets the text elements associated with each z value.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         transpose
             Transposes the z data.
         uid
@@ -76991,8 +76115,7 @@ class Contour(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         xtype
             If "array", the heatmap's x coordinates are given by
             "x" (the default behavior when `x` is provided). If
@@ -77013,8 +76136,7 @@ class Contour(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         ytype
             If "array", the heatmap's y coordinates are given by
             "y" (the default behavior when `y` is provided) If
@@ -77047,8 +76169,7 @@ class Contour(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -77627,15 +76748,15 @@ class Cone(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -77764,8 +76885,7 @@ class Cone(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -77811,8 +76931,7 @@ class Cone(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -77846,20 +76965,20 @@ class Cone(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -77873,8 +76992,8 @@ class Cone(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -77904,7 +77023,7 @@ class Cone(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variable `norm` Anything contained in tag `<extra>` is
@@ -77932,8 +77051,7 @@ class Cone(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -77975,8 +77093,7 @@ class Cone(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -78018,7 +77135,7 @@ class Cone(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -78170,7 +77287,7 @@ class Cone(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -78394,8 +77511,8 @@ class Cone(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -78436,7 +77553,7 @@ class Cone(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -78531,7 +77648,7 @@ class Cone(_BaseTraceType):
     @property
     def usrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  u .
+        Sets the source reference on plot.ly for  u .
     
         The 'usrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -78594,7 +77711,7 @@ class Cone(_BaseTraceType):
     @property
     def vsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  v .
+        Sets the source reference on plot.ly for  v .
     
         The 'vsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -78634,7 +77751,7 @@ class Cone(_BaseTraceType):
     @property
     def wsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  w .
+        Sets the source reference on plot.ly for  w .
     
         The 'wsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -78675,7 +77792,7 @@ class Cone(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -78716,7 +77833,7 @@ class Cone(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -78757,7 +77874,7 @@ class Cone(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -78846,16 +77963,14 @@ class Cone(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.cone.Hoverlabel` instance
             or dict with compatible properties
@@ -78875,29 +77990,27 @@ class Cone(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variable `norm` Anything contained in
-            tag `<extra>` is displayed in the secondary box, for
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variable `norm` Anything contained in tag
+            `<extra>` is displayed in the secondary box, for
             example "<extra>{fullData.name}</extra>". To hide the
             secondary box completely, use an empty tag
             `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -78922,8 +78035,7 @@ class Cone(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -78977,8 +78089,7 @@ class Cone(_BaseTraceType):
             "hovertext" is not set, these elements will be seen in
             the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         u
             Sets the x components of the vector field.
         uid
@@ -79004,8 +78115,7 @@ class Cone(_BaseTraceType):
             preserve user-driven changes if you give each trace a
             `uid` that stays with it as it moves.
         usrc
-            Sets the source reference on Chart Studio Cloud for  u
-            .
+            Sets the source reference on plot.ly for  u .
         v
             Sets the y components of the vector field.
         visible
@@ -79014,31 +78124,26 @@ class Cone(_BaseTraceType):
             a legend item (provided that the legend itself is
             visible).
         vsrc
-            Sets the source reference on Chart Studio Cloud for  v
-            .
+            Sets the source reference on plot.ly for  v .
         w
             Sets the z components of the vector field.
         wsrc
-            Sets the source reference on Chart Studio Cloud for  w
-            .
+            Sets the source reference on plot.ly for  w .
         x
             Sets the x coordinates of the vector field and of the
             displayed cones.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates of the vector field and of the
             displayed cones.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the z coordinates of the vector field and of the
             displayed cones.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -79167,16 +78272,14 @@ class Cone(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.cone.Hoverlabel` instance
             or dict with compatible properties
@@ -79196,29 +78299,27 @@ class Cone(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variable `norm` Anything contained in
-            tag `<extra>` is displayed in the secondary box, for
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variable `norm` Anything contained in tag
+            `<extra>` is displayed in the secondary box, for
             example "<extra>{fullData.name}</extra>". To hide the
             secondary box completely, use an empty tag
             `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -79243,8 +78344,7 @@ class Cone(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -79298,8 +78398,7 @@ class Cone(_BaseTraceType):
             "hovertext" is not set, these elements will be seen in
             the hover labels.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         u
             Sets the x components of the vector field.
         uid
@@ -79325,8 +78424,7 @@ class Cone(_BaseTraceType):
             preserve user-driven changes if you give each trace a
             `uid` that stays with it as it moves.
         usrc
-            Sets the source reference on Chart Studio Cloud for  u
-            .
+            Sets the source reference on plot.ly for  u .
         v
             Sets the y components of the vector field.
         visible
@@ -79335,31 +78433,26 @@ class Cone(_BaseTraceType):
             a legend item (provided that the legend itself is
             visible).
         vsrc
-            Sets the source reference on Chart Studio Cloud for  v
-            .
+            Sets the source reference on plot.ly for  v .
         w
             Sets the z components of the vector field.
         wsrc
-            Sets the source reference on Chart Studio Cloud for  w
-            .
+            Sets the source reference on plot.ly for  w .
         x
             Sets the x coordinates of the vector field and of the
             displayed cones.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates of the vector field and of the
             displayed cones.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         z
             Sets the z coordinates of the vector field and of the
             displayed cones.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -79829,15 +78922,15 @@ class Choroplethmapbox(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -79969,8 +79062,7 @@ class Choroplethmapbox(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -80061,8 +79153,7 @@ class Choroplethmapbox(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -80096,20 +79187,20 @@ class Choroplethmapbox(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -80123,8 +79214,8 @@ class Choroplethmapbox(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -80154,7 +79245,7 @@ class Choroplethmapbox(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variable `properties` Anything contained in tag `<extra>` is
@@ -80182,8 +79273,7 @@ class Choroplethmapbox(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -80225,8 +79315,7 @@ class Choroplethmapbox(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -80268,7 +79357,7 @@ class Choroplethmapbox(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -80332,8 +79421,7 @@ class Choroplethmapbox(_BaseTraceType):
     @property
     def locationssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  locations
-        .
+        Sets the source reference on plot.ly for  locations .
     
         The 'locationssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -80368,8 +79456,8 @@ class Choroplethmapbox(_BaseTraceType):
                 opacity
                     Sets the opacity of the locations.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
 
         Returns
         -------
@@ -80414,7 +79502,7 @@ class Choroplethmapbox(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -80587,8 +79675,8 @@ class Choroplethmapbox(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -80652,7 +79740,7 @@ class Choroplethmapbox(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -80885,7 +79973,7 @@ class Choroplethmapbox(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -80958,8 +80046,7 @@ class Choroplethmapbox(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         featureidkey
             Sets the key in GeoJSON features which is used as id to
             match the items included in the `locations` array.
@@ -80976,8 +80063,7 @@ class Choroplethmapbox(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.choroplethmapbox.Hoverlabe
             l` instance or dict with compatible properties
@@ -80997,29 +80083,27 @@ class Choroplethmapbox(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variable `properties` Anything contained
-            in tag `<extra>` is displayed in the secondary box, for
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variable `properties` Anything contained in
+            tag `<extra>` is displayed in the secondary box, for
             example "<extra>{fullData.name}</extra>". To hide the
             secondary box completely, use an empty tag
             `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -81028,8 +80112,7 @@ class Choroplethmapbox(_BaseTraceType):
             Sets which features found in "geojson" to plot using
             their feature `id` field.
         locationssrc
-            Sets the source reference on Chart Studio Cloud for
-            locations .
+            Sets the source reference on plot.ly for  locations .
         marker
             :class:`plotly.graph_objects.choroplethmapbox.Marker`
             instance or dict with compatible properties
@@ -81047,8 +80130,7 @@ class Choroplethmapbox(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -81083,8 +80165,7 @@ class Choroplethmapbox(_BaseTraceType):
         text
             Sets the text elements associated with each location.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -81136,8 +80217,7 @@ class Choroplethmapbox(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -81243,8 +80323,7 @@ class Choroplethmapbox(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         featureidkey
             Sets the key in GeoJSON features which is used as id to
             match the items included in the `locations` array.
@@ -81261,8 +80340,7 @@ class Choroplethmapbox(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.choroplethmapbox.Hoverlabe
             l` instance or dict with compatible properties
@@ -81282,29 +80360,27 @@ class Choroplethmapbox(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variable `properties` Anything contained
-            in tag `<extra>` is displayed in the secondary box, for
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variable `properties` Anything contained in
+            tag `<extra>` is displayed in the secondary box, for
             example "<extra>{fullData.name}</extra>". To hide the
             secondary box completely, use an empty tag
             `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -81313,8 +80389,7 @@ class Choroplethmapbox(_BaseTraceType):
             Sets which features found in "geojson" to plot using
             their feature `id` field.
         locationssrc
-            Sets the source reference on Chart Studio Cloud for
-            locations .
+            Sets the source reference on plot.ly for  locations .
         marker
             :class:`plotly.graph_objects.choroplethmapbox.Marker`
             instance or dict with compatible properties
@@ -81332,8 +80407,7 @@ class Choroplethmapbox(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -81368,8 +80442,7 @@ class Choroplethmapbox(_BaseTraceType):
         text
             Sets the text elements associated with each location.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -81421,8 +80494,7 @@ class Choroplethmapbox(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -81852,15 +80924,15 @@ class Choropleth(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -81992,8 +81064,7 @@ class Choropleth(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -82111,8 +81182,7 @@ class Choropleth(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -82146,20 +81216,20 @@ class Choropleth(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -82173,8 +81243,8 @@ class Choropleth(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -82204,7 +81274,7 @@ class Choropleth(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -82232,8 +81302,7 @@ class Choropleth(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -82275,8 +81344,7 @@ class Choropleth(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -82318,7 +81386,7 @@ class Choropleth(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -82407,8 +81475,7 @@ class Choropleth(_BaseTraceType):
     @property
     def locationssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  locations
-        .
+        Sets the source reference on plot.ly for  locations .
     
         The 'locationssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -82443,8 +81510,8 @@ class Choropleth(_BaseTraceType):
                 opacity
                     Sets the opacity of the locations.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
 
         Returns
         -------
@@ -82489,7 +81556,7 @@ class Choropleth(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -82662,8 +81729,8 @@ class Choropleth(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -82702,7 +81769,7 @@ class Choropleth(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -82935,7 +82002,7 @@ class Choropleth(_BaseTraceType):
     @property
     def zsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  z .
+        Sets the source reference on plot.ly for  z .
     
         The 'zsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -83002,8 +82069,7 @@ class Choropleth(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         featureidkey
             Sets the key in GeoJSON features which is used as id to
             match the items included in the `locations` array. Only
@@ -83028,8 +82094,7 @@ class Choropleth(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.choropleth.Hoverlabel`
             instance or dict with compatible properties
@@ -83049,28 +82114,26 @@ class Choropleth(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -83086,8 +82149,7 @@ class Choropleth(_BaseTraceType):
             Sets the coordinates via location IDs or names. See
             `locationmode` for more info.
         locationssrc
-            Sets the source reference on Chart Studio Cloud for
-            locations .
+            Sets the source reference on plot.ly for  locations .
         marker
             :class:`plotly.graph_objects.choropleth.Marker`
             instance or dict with compatible properties
@@ -83105,8 +82167,7 @@ class Choropleth(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -83136,8 +82197,7 @@ class Choropleth(_BaseTraceType):
         text
             Sets the text elements associated with each location.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -83189,8 +82249,7 @@ class Choropleth(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
         """
 
     def __init__(
@@ -83289,8 +82348,7 @@ class Choropleth(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         featureidkey
             Sets the key in GeoJSON features which is used as id to
             match the items included in the `locations` array. Only
@@ -83315,8 +82373,7 @@ class Choropleth(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.choropleth.Hoverlabel`
             instance or dict with compatible properties
@@ -83336,28 +82393,26 @@ class Choropleth(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -83373,8 +82428,7 @@ class Choropleth(_BaseTraceType):
             Sets the coordinates via location IDs or names. See
             `locationmode` for more info.
         locationssrc
-            Sets the source reference on Chart Studio Cloud for
-            locations .
+            Sets the source reference on plot.ly for  locations .
         marker
             :class:`plotly.graph_objects.choropleth.Marker`
             instance or dict with compatible properties
@@ -83392,8 +82446,7 @@ class Choropleth(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -83423,8 +82476,7 @@ class Choropleth(_BaseTraceType):
         text
             Sets the text elements associated with each location.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -83476,8 +82528,7 @@ class Choropleth(_BaseTraceType):
             have the same units as in `z` and if set, `zmax` must
             be set as well.
         zsrc
-            Sets the source reference on Chart Studio Cloud for  z
-            .
+            Sets the source reference on plot.ly for  z .
 
         Returns
         -------
@@ -83743,8 +82794,8 @@ class Carpet(_BaseTraceType):
                     appear. Only has an effect if `categoryorder`
                     is set to "array". Used with `categoryorder`.
                 categoryarraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  categoryarray .
+                    Sets the source reference on plot.ly for
+                    categoryarray .
                 categoryorder
                     Specifies the ordering logic for the case of
                     categorical variables. By default, plotly uses
@@ -83911,15 +82962,15 @@ class Carpet(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 title
                     :class:`plotly.graph_objects.carpet.aaxis.Title
                     ` instance or dict with compatible properties
@@ -83956,7 +83007,7 @@ class Carpet(_BaseTraceType):
     @property
     def asrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  a .
+        Sets the source reference on plot.ly for  a .
     
         The 'asrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -84040,8 +83091,8 @@ class Carpet(_BaseTraceType):
                     appear. Only has an effect if `categoryorder`
                     is set to "array". Used with `categoryorder`.
                 categoryarraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  categoryarray .
+                    Sets the source reference on plot.ly for
+                    categoryarray .
                 categoryorder
                     Specifies the ordering logic for the case of
                     categorical variables. By default, plotly uses
@@ -84208,15 +83259,15 @@ class Carpet(_BaseTraceType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 title
                     :class:`plotly.graph_objects.carpet.baxis.Title
                     ` instance or dict with compatible properties
@@ -84253,7 +83304,7 @@ class Carpet(_BaseTraceType):
     @property
     def bsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  b .
+        Sets the source reference on plot.ly for  b .
     
         The 'bsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -84402,8 +83453,7 @@ class Carpet(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -84483,13 +83533,12 @@ class Carpet(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
@@ -84531,7 +83580,7 @@ class Carpet(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -84579,7 +83628,7 @@ class Carpet(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -84656,8 +83705,8 @@ class Carpet(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -84799,7 +83848,7 @@ class Carpet(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -84864,7 +83913,7 @@ class Carpet(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -84906,8 +83955,7 @@ class Carpet(_BaseTraceType):
             :class:`plotly.graph_objects.carpet.Aaxis` instance or
             dict with compatible properties
         asrc
-            Sets the source reference on Chart Studio Cloud for  a
-            .
+            Sets the source reference on plot.ly for  a .
         b
             A two dimensional array of y coordinates at each carpet
             point.
@@ -84919,8 +83967,7 @@ class Carpet(_BaseTraceType):
             :class:`plotly.graph_objects.carpet.Baxis` instance or
             dict with compatible properties
         bsrc
-            Sets the source reference on Chart Studio Cloud for  b
-            .
+            Sets the source reference on plot.ly for  b .
         carpet
             An identifier for this carpet, so that `scattercarpet`
             and `contourcarpet` traces can specify a carpet plot on
@@ -84940,8 +83987,7 @@ class Carpet(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         da
             Sets the a coordinate step. See `a0` for more info.
         db
@@ -84954,8 +84000,7 @@ class Carpet(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -84970,8 +84015,7 @@ class Carpet(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -85017,8 +84061,7 @@ class Carpet(_BaseTraceType):
             x coordinates refer to `layout.xaxis`. If "x2", the x
             coordinates refer to `layout.xaxis2`, and so on.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             A two dimensional array of y coordinates at each carpet
             point.
@@ -85028,8 +84071,7 @@ class Carpet(_BaseTraceType):
             y coordinates refer to `layout.yaxis`. If "y2", the y
             coordinates refer to `layout.yaxis2`, and so on.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         """
 
     def __init__(
@@ -85094,8 +84136,7 @@ class Carpet(_BaseTraceType):
             :class:`plotly.graph_objects.carpet.Aaxis` instance or
             dict with compatible properties
         asrc
-            Sets the source reference on Chart Studio Cloud for  a
-            .
+            Sets the source reference on plot.ly for  a .
         b
             A two dimensional array of y coordinates at each carpet
             point.
@@ -85107,8 +84148,7 @@ class Carpet(_BaseTraceType):
             :class:`plotly.graph_objects.carpet.Baxis` instance or
             dict with compatible properties
         bsrc
-            Sets the source reference on Chart Studio Cloud for  b
-            .
+            Sets the source reference on plot.ly for  b .
         carpet
             An identifier for this carpet, so that `scattercarpet`
             and `contourcarpet` traces can specify a carpet plot on
@@ -85128,8 +84168,7 @@ class Carpet(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         da
             Sets the a coordinate step. See `a0` for more info.
         db
@@ -85142,8 +84181,7 @@ class Carpet(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -85158,8 +84196,7 @@ class Carpet(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -85205,8 +84242,7 @@ class Carpet(_BaseTraceType):
             x coordinates refer to `layout.xaxis`. If "x2", the x
             coordinates refer to `layout.xaxis2`, and so on.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             A two dimensional array of y coordinates at each carpet
             point.
@@ -85216,8 +84252,7 @@ class Carpet(_BaseTraceType):
             y coordinates refer to `layout.yaxis`. If "y2", the y
             coordinates refer to `layout.yaxis2`, and so on.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
 
         Returns
         -------
@@ -85401,7 +84436,7 @@ class Candlestick(_BaseTraceType):
     @property
     def closesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  close .
+        Sets the source reference on plot.ly for  close .
     
         The 'closesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -85444,8 +84479,7 @@ class Candlestick(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -85518,7 +84552,7 @@ class Candlestick(_BaseTraceType):
     @property
     def highsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  high .
+        Sets the source reference on plot.ly for  high .
     
         The 'highsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -85564,8 +84598,7 @@ class Candlestick(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -85599,20 +84632,20 @@ class Candlestick(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -85626,8 +84659,8 @@ class Candlestick(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
                 split
                     Show hover information (open, close, high, low)
                     in separate labels.
@@ -85669,8 +84702,7 @@ class Candlestick(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -85712,7 +84744,7 @@ class Candlestick(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -85838,7 +84870,7 @@ class Candlestick(_BaseTraceType):
     @property
     def lowsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  low .
+        Sets the source reference on plot.ly for  low .
     
         The 'lowsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -85886,7 +84918,7 @@ class Candlestick(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -85968,7 +85000,7 @@ class Candlestick(_BaseTraceType):
     @property
     def opensrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  open .
+        Sets the source reference on plot.ly for  open .
     
         The 'opensrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -86048,8 +85080,8 @@ class Candlestick(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -86091,7 +85123,7 @@ class Candlestick(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -86280,7 +85312,7 @@ class Candlestick(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -86340,47 +85372,41 @@ class Candlestick(_BaseTraceType):
         close
             Sets the close values.
         closesrc
-            Sets the source reference on Chart Studio Cloud for
-            close .
+            Sets the source reference on plot.ly for  close .
         customdata
             Assigns extra data each datum. This may be useful when
             listening to hover, click and selection events. Note
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         decreasing
             :class:`plotly.graph_objects.candlestick.Decreasing`
             instance or dict with compatible properties
         high
             Sets the high values.
         highsrc
-            Sets the source reference on Chart Studio Cloud for
-            high .
+            Sets the source reference on plot.ly for  high .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.candlestick.Hoverlabel`
             instance or dict with compatible properties
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         increasing
             :class:`plotly.graph_objects.candlestick.Increasing`
             instance or dict with compatible properties
@@ -86394,8 +85420,7 @@ class Candlestick(_BaseTraceType):
         low
             Sets the low values.
         lowsrc
-            Sets the source reference on Chart Studio Cloud for
-            low .
+            Sets the source reference on plot.ly for  low .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -86410,8 +85435,7 @@ class Candlestick(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -86420,8 +85444,7 @@ class Candlestick(_BaseTraceType):
         open
             Sets the open values.
         opensrc
-            Sets the source reference on Chart Studio Cloud for
-            open .
+            Sets the source reference on plot.ly for  open .
         selectedpoints
             Array containing integer indices of selected points.
             Has an effect only for traces that support selections.
@@ -86441,8 +85464,7 @@ class Candlestick(_BaseTraceType):
             all the data points. If an array of string, the items
             are mapped in order to this trace's sample points.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -86485,8 +85507,7 @@ class Candlestick(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         yaxis
             Sets a reference between this trace's y coordinates and
             a 2D cartesian y axis. If "y" (the default value), the
@@ -86558,47 +85579,41 @@ class Candlestick(_BaseTraceType):
         close
             Sets the close values.
         closesrc
-            Sets the source reference on Chart Studio Cloud for
-            close .
+            Sets the source reference on plot.ly for  close .
         customdata
             Assigns extra data each datum. This may be useful when
             listening to hover, click and selection events. Note
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         decreasing
             :class:`plotly.graph_objects.candlestick.Decreasing`
             instance or dict with compatible properties
         high
             Sets the high values.
         highsrc
-            Sets the source reference on Chart Studio Cloud for
-            high .
+            Sets the source reference on plot.ly for  high .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.candlestick.Hoverlabel`
             instance or dict with compatible properties
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         increasing
             :class:`plotly.graph_objects.candlestick.Increasing`
             instance or dict with compatible properties
@@ -86612,8 +85627,7 @@ class Candlestick(_BaseTraceType):
         low
             Sets the low values.
         lowsrc
-            Sets the source reference on Chart Studio Cloud for
-            low .
+            Sets the source reference on plot.ly for  low .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -86628,8 +85642,7 @@ class Candlestick(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -86638,8 +85651,7 @@ class Candlestick(_BaseTraceType):
         open
             Sets the open values.
         opensrc
-            Sets the source reference on Chart Studio Cloud for
-            open .
+            Sets the source reference on plot.ly for  open .
         selectedpoints
             Array containing integer indices of selected points.
             Has an effect only for traces that support selections.
@@ -86659,8 +85671,7 @@ class Candlestick(_BaseTraceType):
             all the data points. If an array of string, the items
             are mapped in order to this trace's sample points.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -86703,8 +85714,7 @@ class Candlestick(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         yaxis
             Sets a reference between this trace's y coordinates and
             a 2D cartesian y axis. If "y" (the default value), the
@@ -86993,8 +86003,7 @@ class Box(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -87143,8 +86152,7 @@ class Box(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -87178,20 +86186,20 @@ class Box(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -87205,8 +86213,8 @@ class Box(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -87259,7 +86267,7 @@ class Box(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -87287,8 +86295,7 @@ class Box(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -87330,8 +86337,7 @@ class Box(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -87373,7 +86379,7 @@ class Box(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -87492,8 +86498,7 @@ class Box(_BaseTraceType):
     @property
     def lowerfencesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  lowerfence
-        .
+        Sets the source reference on plot.ly for  lowerfence .
     
         The 'lowerfencesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -87583,7 +86588,7 @@ class Box(_BaseTraceType):
     @property
     def meansrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  mean .
+        Sets the source reference on plot.ly for  mean .
     
         The 'meansrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -87624,7 +86629,7 @@ class Box(_BaseTraceType):
     @property
     def mediansrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  median .
+        Sets the source reference on plot.ly for  median .
     
         The 'mediansrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -87672,7 +86677,7 @@ class Box(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -87769,8 +86774,7 @@ class Box(_BaseTraceType):
     @property
     def notchspansrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  notchspan
-        .
+        Sets the source reference on plot.ly for  notchspan .
     
         The 'notchspansrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -87921,7 +86925,7 @@ class Box(_BaseTraceType):
     @property
     def q1src(self):
         """
-        Sets the source reference on Chart Studio Cloud for  q1 .
+        Sets the source reference on plot.ly for  q1 .
     
         The 'q1src' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -87962,7 +86966,7 @@ class Box(_BaseTraceType):
     @property
     def q3src(self):
         """
-        Sets the source reference on Chart Studio Cloud for  q3 .
+        Sets the source reference on plot.ly for  q3 .
     
         The 'q3src' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -88038,7 +87042,7 @@ class Box(_BaseTraceType):
     @property
     def sdsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  sd .
+        Sets the source reference on plot.ly for  sd .
     
         The 'sdsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -88145,8 +87149,8 @@ class Box(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -88189,7 +87193,7 @@ class Box(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -88316,8 +87320,7 @@ class Box(_BaseTraceType):
     @property
     def upperfencesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  upperfence
-        .
+        Sets the source reference on plot.ly for  upperfence .
     
         The 'upperfencesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -88494,7 +87497,7 @@ class Box(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -88605,7 +87608,7 @@ class Box(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -88665,8 +87668,7 @@ class Box(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step for multi-box traces set
             using q1/median/q3.
@@ -88683,8 +87685,7 @@ class Box(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.box.Hoverlabel` instance
             or dict with compatible properties
@@ -88707,28 +87708,26 @@ class Box(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         jitter
             Sets the amount of jitter in the sample points drawn.
             If 0, the sample points align along the distribution
@@ -88749,8 +87748,7 @@ class Box(_BaseTraceType):
             `x`) is set, we compute the lower as the last sample
             point below 1.5 times the IQR.
         lowerfencesrc
-            Sets the source reference on Chart Studio Cloud for
-            lowerfence .
+            Sets the source reference on plot.ly for  lowerfence .
         marker
             :class:`plotly.graph_objects.box.Marker` instance or
             dict with compatible properties
@@ -88761,14 +87759,12 @@ class Box(_BaseTraceType):
             provided but a sample (in `y` or `x`) is set, we
             compute the mean for each box using the sample values.
         meansrc
-            Sets the source reference on Chart Studio Cloud for
-            mean .
+            Sets the source reference on plot.ly for  mean .
         median
             Sets the median values. There should be as many items
             as the number of boxes desired.
         mediansrc
-            Sets the source reference on Chart Studio Cloud for
-            median .
+            Sets the source reference on plot.ly for  median .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -88783,8 +87779,7 @@ class Box(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover. For box traces, the name will
@@ -88809,8 +87804,7 @@ class Box(_BaseTraceType):
             but a sample (in `y` or `x`) is set, we compute it as
             1.57 * IQR / sqrt(N), where N is the sample size.
         notchspansrc
-            Sets the source reference on Chart Studio Cloud for
-            notchspan .
+            Sets the source reference on plot.ly for  notchspan .
         notchwidth
             Sets the width of the notches relative to the box'
             width. For example, with 0, the notches are as wide as
@@ -88835,14 +87829,12 @@ class Box(_BaseTraceType):
             Sets the Quartile 1 values. There should be as many
             items as the number of boxes desired.
         q1src
-            Sets the source reference on Chart Studio Cloud for  q1
-            .
+            Sets the source reference on plot.ly for  q1 .
         q3
             Sets the Quartile 3 values. There should be as many
             items as the number of boxes desired.
         q3src
-            Sets the source reference on Chart Studio Cloud for  q3
-            .
+            Sets the source reference on plot.ly for  q3 .
         quartilemethod
             Sets the method used to compute the sample's Q1 and Q3
             quartiles. The "linear" method uses the 25th percentile
@@ -88866,8 +87858,7 @@ class Box(_BaseTraceType):
             or `x`) is set, we compute the standard deviation for
             each box using the sample values.
         sdsrc
-            Sets the source reference on Chart Studio Cloud for  sd
-            .
+            Sets the source reference on plot.ly for  sd .
         selected
             :class:`plotly.graph_objects.box.Selected` instance or
             dict with compatible properties
@@ -88892,8 +87883,7 @@ class Box(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -88927,8 +87917,7 @@ class Box(_BaseTraceType):
             `x`) is set, we compute the lower as the last sample
             point above 1.5 times the IQR.
         upperfencesrc
-            Sets the source reference on Chart Studio Cloud for
-            upperfence .
+            Sets the source reference on plot.ly for  upperfence .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -88958,8 +87947,7 @@ class Box(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y sample data or coordinates. See overview for
             more info.
@@ -88975,8 +87963,7 @@ class Box(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         """
 
     def __init__(
@@ -89115,8 +88102,7 @@ class Box(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step for multi-box traces set
             using q1/median/q3.
@@ -89133,8 +88119,7 @@ class Box(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.box.Hoverlabel` instance
             or dict with compatible properties
@@ -89157,28 +88142,26 @@ class Box(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         jitter
             Sets the amount of jitter in the sample points drawn.
             If 0, the sample points align along the distribution
@@ -89199,8 +88182,7 @@ class Box(_BaseTraceType):
             `x`) is set, we compute the lower as the last sample
             point below 1.5 times the IQR.
         lowerfencesrc
-            Sets the source reference on Chart Studio Cloud for
-            lowerfence .
+            Sets the source reference on plot.ly for  lowerfence .
         marker
             :class:`plotly.graph_objects.box.Marker` instance or
             dict with compatible properties
@@ -89211,14 +88193,12 @@ class Box(_BaseTraceType):
             provided but a sample (in `y` or `x`) is set, we
             compute the mean for each box using the sample values.
         meansrc
-            Sets the source reference on Chart Studio Cloud for
-            mean .
+            Sets the source reference on plot.ly for  mean .
         median
             Sets the median values. There should be as many items
             as the number of boxes desired.
         mediansrc
-            Sets the source reference on Chart Studio Cloud for
-            median .
+            Sets the source reference on plot.ly for  median .
         meta
             Assigns extra meta information associated with this
             trace that can be used in various text attributes.
@@ -89233,8 +88213,7 @@ class Box(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover. For box traces, the name will
@@ -89259,8 +88238,7 @@ class Box(_BaseTraceType):
             but a sample (in `y` or `x`) is set, we compute it as
             1.57 * IQR / sqrt(N), where N is the sample size.
         notchspansrc
-            Sets the source reference on Chart Studio Cloud for
-            notchspan .
+            Sets the source reference on plot.ly for  notchspan .
         notchwidth
             Sets the width of the notches relative to the box'
             width. For example, with 0, the notches are as wide as
@@ -89285,14 +88263,12 @@ class Box(_BaseTraceType):
             Sets the Quartile 1 values. There should be as many
             items as the number of boxes desired.
         q1src
-            Sets the source reference on Chart Studio Cloud for  q1
-            .
+            Sets the source reference on plot.ly for  q1 .
         q3
             Sets the Quartile 3 values. There should be as many
             items as the number of boxes desired.
         q3src
-            Sets the source reference on Chart Studio Cloud for  q3
-            .
+            Sets the source reference on plot.ly for  q3 .
         quartilemethod
             Sets the method used to compute the sample's Q1 and Q3
             quartiles. The "linear" method uses the 25th percentile
@@ -89316,8 +88292,7 @@ class Box(_BaseTraceType):
             or `x`) is set, we compute the standard deviation for
             each box using the sample values.
         sdsrc
-            Sets the source reference on Chart Studio Cloud for  sd
-            .
+            Sets the source reference on plot.ly for  sd .
         selected
             :class:`plotly.graph_objects.box.Selected` instance or
             dict with compatible properties
@@ -89342,8 +88317,7 @@ class Box(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -89377,8 +88351,7 @@ class Box(_BaseTraceType):
             `x`) is set, we compute the lower as the last sample
             point above 1.5 times the IQR.
         upperfencesrc
-            Sets the source reference on Chart Studio Cloud for
-            upperfence .
+            Sets the source reference on plot.ly for  upperfence .
         visible
             Determines whether or not this trace is visible. If
             "legendonly", the trace is not drawn, but can appear as
@@ -89408,8 +88381,7 @@ class Box(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y sample data or coordinates. See overview for
             more info.
@@ -89425,8 +88397,7 @@ class Box(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
 
         Returns
         -------
@@ -89727,7 +88698,7 @@ class Barpolar(_BaseTraceType):
     @property
     def basesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  base .
+        Sets the source reference on plot.ly for  base .
     
         The 'basesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -89770,8 +88741,7 @@ class Barpolar(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -89859,8 +88829,7 @@ class Barpolar(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -89894,20 +88863,20 @@ class Barpolar(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -89921,8 +88890,8 @@ class Barpolar(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -89952,7 +88921,7 @@ class Barpolar(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         Anything contained in tag `<extra>` is displayed in the
@@ -89980,8 +88949,7 @@ class Barpolar(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -90023,8 +88991,7 @@ class Barpolar(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -90066,7 +89033,7 @@ class Barpolar(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -90191,16 +89158,16 @@ class Barpolar(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 line
                     :class:`plotly.graph_objects.barpolar.marker.Li
                     ne` instance or dict with compatible properties
                 opacity
                     Sets the opacity of the bars.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -90256,7 +89223,7 @@ class Barpolar(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -90320,7 +89287,7 @@ class Barpolar(_BaseTraceType):
     @property
     def offsetsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  offset .
+        Sets the source reference on plot.ly for  offset .
     
         The 'offsetsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -90401,7 +89368,7 @@ class Barpolar(_BaseTraceType):
     @property
     def rsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  r .
+        Sets the source reference on plot.ly for  r .
     
         The 'rsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -90513,8 +89480,8 @@ class Barpolar(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -90581,7 +89548,7 @@ class Barpolar(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -90642,7 +89609,7 @@ class Barpolar(_BaseTraceType):
     @property
     def thetasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  theta .
+        Sets the source reference on plot.ly for  theta .
     
         The 'thetasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -90815,7 +89782,7 @@ class Barpolar(_BaseTraceType):
     @property
     def widthsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  width .
+        Sets the source reference on plot.ly for  width .
     
         The 'widthsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -90852,16 +89819,14 @@ class Barpolar(_BaseTraceType):
             units). In "stack" barmode, traces that set "base" will
             be excluded and drawn in "overlay" mode instead.
         basesrc
-            Sets the source reference on Chart Studio Cloud for
-            base .
+            Sets the source reference on plot.ly for  base .
         customdata
             Assigns extra data each datum. This may be useful when
             listening to hover, click and selection events. Note
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dr
             Sets the r coordinate step.
         dtheta
@@ -90874,8 +89839,7 @@ class Barpolar(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.barpolar.Hoverlabel`
             instance or dict with compatible properties
@@ -90895,28 +89859,26 @@ class Barpolar(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -90938,8 +89900,7 @@ class Barpolar(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -90947,8 +89908,7 @@ class Barpolar(_BaseTraceType):
             Shifts the angular position where the bar is drawn (in
             "thetatunit" units).
         offsetsrc
-            Sets the source reference on Chart Studio Cloud for
-            offset .
+            Sets the source reference on plot.ly for  offset .
         opacity
             Sets the opacity of the trace.
         r
@@ -90958,8 +89918,7 @@ class Barpolar(_BaseTraceType):
             coordinates. Use with `dr` where `r0` is the starting
             coordinate and `dr` the step.
         rsrc
-            Sets the source reference on Chart Studio Cloud for  r
-            .
+            Sets the source reference on plot.ly for  r .
         selected
             :class:`plotly.graph_objects.barpolar.Selected`
             instance or dict with compatible properties
@@ -90987,8 +89946,7 @@ class Barpolar(_BaseTraceType):
             If an array of string, the items are mapped in order to
             the this trace's coordinates.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         theta
             Sets the angular coordinates
         theta0
@@ -90996,8 +89954,7 @@ class Barpolar(_BaseTraceType):
             coordinates. Use with `dtheta` where `theta0` is the
             starting coordinate and `dtheta` the step.
         thetasrc
-            Sets the source reference on Chart Studio Cloud for
-            theta .
+            Sets the source reference on plot.ly for  theta .
         thetaunit
             Sets the unit of input "theta" values. Has an effect
             only when on "linear" angular axes.
@@ -91034,8 +89991,7 @@ class Barpolar(_BaseTraceType):
         width
             Sets the bar angular width (in "thetaunit" units).
         widthsrc
-            Sets the source reference on Chart Studio Cloud for
-            width .
+            Sets the source reference on plot.ly for  width .
         """
 
     def __init__(
@@ -91102,16 +90058,14 @@ class Barpolar(_BaseTraceType):
             units). In "stack" barmode, traces that set "base" will
             be excluded and drawn in "overlay" mode instead.
         basesrc
-            Sets the source reference on Chart Studio Cloud for
-            base .
+            Sets the source reference on plot.ly for  base .
         customdata
             Assigns extra data each datum. This may be useful when
             listening to hover, click and selection events. Note
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dr
             Sets the r coordinate step.
         dtheta
@@ -91124,8 +90078,7 @@ class Barpolar(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.barpolar.Hoverlabel`
             instance or dict with compatible properties
@@ -91145,28 +90098,26 @@ class Barpolar(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available.  Anything contained in tag `<extra>` is
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available.  Anything contained in tag `<extra>` is
             displayed in the secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Same as `text`.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -91188,8 +90139,7 @@ class Barpolar(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -91197,8 +90147,7 @@ class Barpolar(_BaseTraceType):
             Shifts the angular position where the bar is drawn (in
             "thetatunit" units).
         offsetsrc
-            Sets the source reference on Chart Studio Cloud for
-            offset .
+            Sets the source reference on plot.ly for  offset .
         opacity
             Sets the opacity of the trace.
         r
@@ -91208,8 +90157,7 @@ class Barpolar(_BaseTraceType):
             coordinates. Use with `dr` where `r0` is the starting
             coordinate and `dr` the step.
         rsrc
-            Sets the source reference on Chart Studio Cloud for  r
-            .
+            Sets the source reference on plot.ly for  r .
         selected
             :class:`plotly.graph_objects.barpolar.Selected`
             instance or dict with compatible properties
@@ -91237,8 +90185,7 @@ class Barpolar(_BaseTraceType):
             If an array of string, the items are mapped in order to
             the this trace's coordinates.
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         theta
             Sets the angular coordinates
         theta0
@@ -91246,8 +90193,7 @@ class Barpolar(_BaseTraceType):
             coordinates. Use with `dtheta` where `theta0` is the
             starting coordinate and `dtheta` the step.
         thetasrc
-            Sets the source reference on Chart Studio Cloud for
-            theta .
+            Sets the source reference on plot.ly for  theta .
         thetaunit
             Sets the unit of input "theta" values. Has an effect
             only when on "linear" angular axes.
@@ -91284,8 +90230,7 @@ class Barpolar(_BaseTraceType):
         width
             Sets the bar angular width (in "thetaunit" units).
         widthsrc
-            Sets the source reference on Chart Studio Cloud for
-            width .
+            Sets the source reference on plot.ly for  width .
 
         Returns
         -------
@@ -91528,7 +90473,7 @@ class Bar(_BaseTraceType):
     @property
     def basesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  base .
+        Sets the source reference on plot.ly for  base .
     
         The 'basesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -91616,8 +90561,7 @@ class Bar(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -91695,11 +90639,11 @@ class Bar(_BaseTraceType):
                     vertical (horizontal) bars Values are plotted
                     relative to the underlying data.
                 arrayminussrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  arrayminus .
+                    Sets the source reference on plot.ly for
+                    arrayminus .
                 arraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  array .
+                    Sets the source reference on plot.ly for  array
+                    .
                 color
                     Sets the stoke color of the error bars.
                 copy_ystyle
@@ -91776,11 +90720,11 @@ class Bar(_BaseTraceType):
                     vertical (horizontal) bars Values are plotted
                     relative to the underlying data.
                 arrayminussrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  arrayminus .
+                    Sets the source reference on plot.ly for
+                    arrayminus .
                 arraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  array .
+                    Sets the source reference on plot.ly for  array
+                    .
                 color
                     Sets the stoke color of the error bars.
                 symmetric
@@ -91863,8 +90807,7 @@ class Bar(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -91898,20 +90841,20 @@ class Bar(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -91925,8 +90868,8 @@ class Bar(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -91956,7 +90899,7 @@ class Bar(_BaseTraceType):
         reference/blob/master/Time-Formatting.md#format for details on
         the date formatting syntax. The variables available in
         `hovertemplate` are the ones emitted as event data described at
-        this link https://plotly.com/javascript/plotlyjs-events/#event-
+        this link https://plot.ly/javascript/plotlyjs-events/#event-
         data. Additionally, every attributes that can be specified per-
         point (the ones that are `arrayOk: true`) are available.
         variables `value` and `label`. Anything contained in tag
@@ -91984,8 +90927,7 @@ class Bar(_BaseTraceType):
     @property
     def hovertemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hovertemplate .
+        Sets the source reference on plot.ly for  hovertemplate .
     
         The 'hovertemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -92031,8 +90973,7 @@ class Bar(_BaseTraceType):
     @property
     def hovertextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hovertext
-        .
+        Sets the source reference on plot.ly for  hovertext .
     
         The 'hovertextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -92074,7 +91015,7 @@ class Bar(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -92129,8 +91070,8 @@ class Bar(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -92139,23 +91080,22 @@ class Bar(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -92276,16 +91216,16 @@ class Bar(_BaseTraceType):
                     ues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
                     arth,Electric,Viridis,Cividis.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 line
                     :class:`plotly.graph_objects.bar.marker.Line`
                     instance or dict with compatible properties
                 opacity
                     Sets the opacity of the bars.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 reversescale
                     Reverses the color mapping if true. Has an
                     effect only if in `marker.color`is set to a
@@ -92341,7 +91281,7 @@ class Bar(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -92429,7 +91369,7 @@ class Bar(_BaseTraceType):
     @property
     def offsetsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  offset .
+        Sets the source reference on plot.ly for  offset .
     
         The 'offsetsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -92504,8 +91444,8 @@ class Bar(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -92514,23 +91454,22 @@ class Bar(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -92569,7 +91508,7 @@ class Bar(_BaseTraceType):
     @property
     def rsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  r .
+        Sets the source reference on plot.ly for  r .
     
         The 'rsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -92680,8 +91619,8 @@ class Bar(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -92785,8 +91724,8 @@ class Bar(_BaseTraceType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -92795,23 +91734,22 @@ class Bar(_BaseTraceType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -92856,8 +91794,7 @@ class Bar(_BaseTraceType):
     @property
     def textpositionsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        textposition .
+        Sets the source reference on plot.ly for  textposition .
     
         The 'textpositionsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -92877,7 +91814,7 @@ class Bar(_BaseTraceType):
     @property
     def textsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  text .
+        Sets the source reference on plot.ly for  text .
     
         The 'textsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -92932,8 +91869,7 @@ class Bar(_BaseTraceType):
     @property
     def texttemplatesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        texttemplate .
+        Sets the source reference on plot.ly for  texttemplate .
     
         The 'texttemplatesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -92953,7 +91889,7 @@ class Bar(_BaseTraceType):
     @property
     def tsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  t .
+        Sets the source reference on plot.ly for  t .
     
         The 'tsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -93104,7 +92040,7 @@ class Bar(_BaseTraceType):
     @property
     def widthsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  width .
+        Sets the source reference on plot.ly for  width .
     
         The 'widthsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -93214,7 +92150,7 @@ class Bar(_BaseTraceType):
     @property
     def xsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  x .
+        Sets the source reference on plot.ly for  x .
     
         The 'xsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -93324,7 +92260,7 @@ class Bar(_BaseTraceType):
     @property
     def ysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  y .
+        Sets the source reference on plot.ly for  y .
     
         The 'ysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -93367,8 +92303,7 @@ class Bar(_BaseTraceType):
             set "base" will be excluded and drawn in "overlay" mode
             instead.
         basesrc
-            Sets the source reference on Chart Studio Cloud for
-            base .
+            Sets the source reference on plot.ly for  base .
         cliponaxis
             Determines whether the text nodes are clipped about the
             subplot axes. To show the text nodes above axis lines
@@ -93383,8 +92318,7 @@ class Bar(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -93401,8 +92335,7 @@ class Bar(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.bar.Hoverlabel` instance
             or dict with compatible properties
@@ -93422,17 +92355,17 @@ class Bar(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `value` and `label`. Anything
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `value` and `label`. Anything
             contained in tag `<extra>` is displayed in the
             secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -93441,15 +92374,13 @@ class Bar(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         insidetextanchor
             Determines if texts are kept at center or start/end
             points in `textposition` "inside" mode.
@@ -93476,8 +92407,7 @@ class Bar(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -93491,8 +92421,7 @@ class Bar(_BaseTraceType):
             matching axes to the same offsetgroup where bars of the
             same position coordinate will line up.
         offsetsrc
-            Sets the source reference on Chart Studio Cloud for
-            offset .
+            Sets the source reference on plot.ly for  offset .
         opacity
             Sets the opacity of the trace.
         orientation
@@ -93506,8 +92435,7 @@ class Bar(_BaseTraceType):
             switch to the "scatterpolar" trace type.Sets the radial
             coordinatesfor legacy polar chart only.
         rsrc
-            Sets the source reference on Chart Studio Cloud for  r
-            .
+            Sets the source reference on plot.ly for  r .
         selected
             :class:`plotly.graph_objects.bar.Selected` instance or
             dict with compatible properties
@@ -93554,11 +92482,10 @@ class Bar(_BaseTraceType):
             inside the bar, but if the bar is too small and no bar
             is stacked on this one the text is moved outside.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -93577,11 +92504,10 @@ class Bar(_BaseTraceType):
             `arrayOk: true`) are available. variables `value` and
             `label`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
-        tsrc
-            Sets the source reference on Chart Studio Cloud for  t
+            Sets the source reference on plot.ly for  texttemplate
             .
+        tsrc
+            Sets the source reference on plot.ly for  t .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -93615,8 +92541,7 @@ class Bar(_BaseTraceType):
         width
             Sets the bar width (in position axis units).
         widthsrc
-            Sets the source reference on Chart Studio Cloud for
-            width .
+            Sets the source reference on plot.ly for  width .
         x
             Sets the x coordinates.
         x0
@@ -93631,8 +92556,7 @@ class Bar(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         y0
@@ -93647,8 +92571,7 @@ class Bar(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
         """
 
     def __init__(
@@ -93745,8 +92668,7 @@ class Bar(_BaseTraceType):
             set "base" will be excluded and drawn in "overlay" mode
             instead.
         basesrc
-            Sets the source reference on Chart Studio Cloud for
-            base .
+            Sets the source reference on plot.ly for  base .
         cliponaxis
             Determines whether the text nodes are clipped about the
             subplot axes. To show the text nodes above axis lines
@@ -93761,8 +92683,7 @@ class Bar(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         dx
             Sets the x coordinate step. See `x0` for more info.
         dy
@@ -93779,8 +92700,7 @@ class Bar(_BaseTraceType):
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.bar.Hoverlabel` instance
             or dict with compatible properties
@@ -93800,17 +92720,17 @@ class Bar(_BaseTraceType):
             details on the date formatting syntax. The variables
             available in `hovertemplate` are the ones emitted as
             event data described at this link
-            https://plotly.com/javascript/plotlyjs-events/#event-
-            data. Additionally, every attributes that can be
-            specified per-point (the ones that are `arrayOk: true`)
-            are available. variables `value` and `label`. Anything
+            https://plot.ly/javascript/plotlyjs-events/#event-data.
+            Additionally, every attributes that can be specified
+            per-point (the ones that are `arrayOk: true`) are
+            available. variables `value` and `label`. Anything
             contained in tag `<extra>` is displayed in the
             secondary box, for example
             "<extra>{fullData.name}</extra>". To hide the secondary
             box completely, use an empty tag `<extra></extra>`.
         hovertemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertemplate .
+            Sets the source reference on plot.ly for  hovertemplate
+            .
         hovertext
             Sets hover text elements associated with each (x,y)
             pair. If a single string, the same string appears over
@@ -93819,15 +92739,13 @@ class Bar(_BaseTraceType):
             coordinates. To be seen, trace `hoverinfo` must contain
             a "text" flag.
         hovertextsrc
-            Sets the source reference on Chart Studio Cloud for
-            hovertext .
+            Sets the source reference on plot.ly for  hovertext .
         ids
             Assigns id labels to each datum. These ids for object
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         insidetextanchor
             Determines if texts are kept at center or start/end
             points in `textposition` "inside" mode.
@@ -93854,8 +92772,7 @@ class Bar(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -93869,8 +92786,7 @@ class Bar(_BaseTraceType):
             matching axes to the same offsetgroup where bars of the
             same position coordinate will line up.
         offsetsrc
-            Sets the source reference on Chart Studio Cloud for
-            offset .
+            Sets the source reference on plot.ly for  offset .
         opacity
             Sets the opacity of the trace.
         orientation
@@ -93884,8 +92800,7 @@ class Bar(_BaseTraceType):
             switch to the "scatterpolar" trace type.Sets the radial
             coordinatesfor legacy polar chart only.
         rsrc
-            Sets the source reference on Chart Studio Cloud for  r
-            .
+            Sets the source reference on plot.ly for  r .
         selected
             :class:`plotly.graph_objects.bar.Selected` instance or
             dict with compatible properties
@@ -93932,11 +92847,10 @@ class Bar(_BaseTraceType):
             inside the bar, but if the bar is too small and no bar
             is stacked on this one the text is moved outside.
         textpositionsrc
-            Sets the source reference on Chart Studio Cloud for
-            textposition .
+            Sets the source reference on plot.ly for  textposition
+            .
         textsrc
-            Sets the source reference on Chart Studio Cloud for
-            text .
+            Sets the source reference on plot.ly for  text .
         texttemplate
             Template string used for rendering the information text
             that appear on points. Note that this will override
@@ -93955,11 +92869,10 @@ class Bar(_BaseTraceType):
             `arrayOk: true`) are available. variables `value` and
             `label`.
         texttemplatesrc
-            Sets the source reference on Chart Studio Cloud for
-            texttemplate .
-        tsrc
-            Sets the source reference on Chart Studio Cloud for  t
+            Sets the source reference on plot.ly for  texttemplate
             .
+        tsrc
+            Sets the source reference on plot.ly for  t .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -93993,8 +92906,7 @@ class Bar(_BaseTraceType):
         width
             Sets the bar width (in position axis units).
         widthsrc
-            Sets the source reference on Chart Studio Cloud for
-            width .
+            Sets the source reference on plot.ly for  width .
         x
             Sets the x coordinates.
         x0
@@ -94009,8 +92921,7 @@ class Bar(_BaseTraceType):
         xcalendar
             Sets the calendar system to use with `x` date data.
         xsrc
-            Sets the source reference on Chart Studio Cloud for  x
-            .
+            Sets the source reference on plot.ly for  x .
         y
             Sets the y coordinates.
         y0
@@ -94025,8 +92936,7 @@ class Bar(_BaseTraceType):
         ycalendar
             Sets the calendar system to use with `y` date data.
         ysrc
-            Sets the source reference on Chart Studio Cloud for  y
-            .
+            Sets the source reference on plot.ly for  y .
 
         Returns
         -------
@@ -94316,8 +93226,7 @@ class Area(_BaseTraceType):
     @property
     def customdatasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  customdata
-        .
+        Sets the source reference on plot.ly for  customdata .
     
         The 'customdatasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -94363,8 +93272,7 @@ class Area(_BaseTraceType):
     @property
     def hoverinfosrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  hoverinfo
-        .
+        Sets the source reference on plot.ly for  hoverinfo .
     
         The 'hoverinfosrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -94398,20 +93306,20 @@ class Area(_BaseTraceType):
                     only if the hover label text spans more two or
                     more lines
                 alignsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  align .
+                    Sets the source reference on plot.ly for  align
+                    .
                 bgcolor
                     Sets the background color of the hover labels
                     for this trace
                 bgcolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bgcolor .
+                    Sets the source reference on plot.ly for
+                    bgcolor .
                 bordercolor
                     Sets the border color of the hover labels for
                     this trace.
                 bordercolorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  bordercolor .
+                    Sets the source reference on plot.ly for
+                    bordercolor .
                 font
                     Sets the font used in hover labels.
                 namelength
@@ -94425,8 +93333,8 @@ class Area(_BaseTraceType):
                     to `namelength - 3` characters and add an
                     ellipsis.
                 namelengthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  namelength .
+                    Sets the source reference on plot.ly for
+                    namelength .
 
         Returns
         -------
@@ -94465,7 +93373,7 @@ class Area(_BaseTraceType):
     @property
     def idssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ids .
+        Sets the source reference on plot.ly for  ids .
     
         The 'idssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -94525,22 +93433,22 @@ class Area(_BaseTraceType):
                     or relative to `marker.cmin` and `marker.cmax`
                     if set.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 opacity
                     Area traces are deprecated! Please switch to
                     the "barpolar" trace type. Sets the marker
                     opacity.
                 opacitysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  opacity .
+                    Sets the source reference on plot.ly for
+                    opacity .
                 size
                     Area traces are deprecated! Please switch to
                     the "barpolar" trace type. Sets the marker size
                     (in px).
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
                 symbol
                     Area traces are deprecated! Please switch to
                     the "barpolar" trace type. Sets the marker
@@ -94550,8 +93458,8 @@ class Area(_BaseTraceType):
                     name. Adding 300 is equivalent to appending
                     "-open-dot" or "dot-open" to a symbol name.
                 symbolsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  symbol .
+                    Sets the source reference on plot.ly for
+                    symbol .
 
         Returns
         -------
@@ -94596,7 +93504,7 @@ class Area(_BaseTraceType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -94680,7 +93588,7 @@ class Area(_BaseTraceType):
     @property
     def rsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  r .
+        Sets the source reference on plot.ly for  r .
     
         The 'rsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -94736,8 +93644,8 @@ class Area(_BaseTraceType):
                     points will be displayed on the plot.
                 token
                     The stream id number links a data trace on a
-                    plot with a stream. See https://chart-
-                    studio.plotly.com/settings for more details.
+                    plot with a stream. See
+                    https://plot.ly/settings for more details.
 
         Returns
         -------
@@ -94776,7 +93684,7 @@ class Area(_BaseTraceType):
     @property
     def tsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  t .
+        Sets the source reference on plot.ly for  t .
     
         The 'tsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -94892,16 +93800,14 @@ class Area(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.area.Hoverlabel` instance
             or dict with compatible properties
@@ -94910,8 +93816,7 @@ class Area(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -94933,8 +93838,7 @@ class Area(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -94945,8 +93849,7 @@ class Area(_BaseTraceType):
             "barpolar" trace type. Sets the radial coordinates for
             legacy polar chart only.
         rsrc
-            Sets the source reference on Chart Studio Cloud for  r
-            .
+            Sets the source reference on plot.ly for  r .
         showlegend
             Determines whether or not an item corresponding to this
             trace is shown in the legend.
@@ -94958,8 +93861,7 @@ class Area(_BaseTraceType):
             "barpolar" trace type. Sets the angular coordinates for
             legacy polar chart only.
         tsrc
-            Sets the source reference on Chart Studio Cloud for  t
-            .
+            Sets the source reference on plot.ly for  t .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -95030,16 +93932,14 @@ class Area(_BaseTraceType):
             that, "scatter" traces also appends customdata items in
             the markers DOM elements
         customdatasrc
-            Sets the source reference on Chart Studio Cloud for
-            customdata .
+            Sets the source reference on plot.ly for  customdata .
         hoverinfo
             Determines which trace information appear on hover. If
             `none` or `skip` are set, no information is displayed
             upon hovering. But, if `none` is set, click and hover
             events are still fired.
         hoverinfosrc
-            Sets the source reference on Chart Studio Cloud for
-            hoverinfo .
+            Sets the source reference on plot.ly for  hoverinfo .
         hoverlabel
             :class:`plotly.graph_objects.area.Hoverlabel` instance
             or dict with compatible properties
@@ -95048,8 +93948,7 @@ class Area(_BaseTraceType):
             constancy of data points during animation. Should be an
             array of strings, not numbers or any other type.
         idssrc
-            Sets the source reference on Chart Studio Cloud for
-            ids .
+            Sets the source reference on plot.ly for  ids .
         legendgroup
             Sets the legend group for this trace. Traces part of
             the same legend group hide/show at the same time when
@@ -95071,8 +93970,7 @@ class Area(_BaseTraceType):
             is the index or key of the `meta` and `n` is the trace
             index.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         name
             Sets the trace name. The trace name appear as the
             legend item and on hover.
@@ -95083,8 +93981,7 @@ class Area(_BaseTraceType):
             "barpolar" trace type. Sets the radial coordinates for
             legacy polar chart only.
         rsrc
-            Sets the source reference on Chart Studio Cloud for  r
-            .
+            Sets the source reference on plot.ly for  r .
         showlegend
             Determines whether or not an item corresponding to this
             trace is shown in the legend.
@@ -95096,8 +93993,7 @@ class Area(_BaseTraceType):
             "barpolar" trace type. Sets the angular coordinates for
             legacy polar chart only.
         tsrc
-            Sets the source reference on Chart Studio Cloud for  t
-            .
+            Sets the source reference on plot.ly for  t .
         uid
             Assign an id to this trace, Use this to provide object
             constancy between traces during animations and
@@ -96291,13 +95187,12 @@ class Layout(_BaseLayoutType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
@@ -96676,8 +95571,7 @@ class Layout(_BaseLayoutType):
     @property
     def hiddenlabelssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        hiddenlabels .
+        Sets the source reference on plot.ly for  hiddenlabels .
     
         The 'hiddenlabelssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -96700,8 +95594,8 @@ class Layout(_BaseLayoutType):
         Determines whether or not a text link citing the data source is
         placed at the bottom-right cored of the figure. Has only an
         effect only on graphs that have been generated via forked
-        graphs from the Chart Studio Cloud (at https://chart-
-        studio.plotly.com or on-premise).
+        graphs from the plotly service (at https://plot.ly or on-
+        premise).
     
         The 'hidesources' property must be specified as a bool
         (either True, or False)
@@ -96796,27 +95690,16 @@ class Layout(_BaseLayoutType):
     @property
     def hovermode(self):
         """
-        Determines the mode of hover interactions. If "closest", a
-        single hoverlabel will appear for the "closest" point within
-        the `hoverdistance`. If "x" (or "y"), multiple hoverlabels will
-        appear for multiple points at the "closest" x- (or y-)
-        coordinate within the `hoverdistance`, with the caveat that no
-        more than one hoverlabel will appear per trace. If *x unified*
-        (or *y unified*), a single hoverlabel will appear multiple
-        points at the closest x- (or y-) coordinate within the
-        `hoverdistance` with the caveat that no more than one
-        hoverlabel will appear per trace. In this mode, spikelines are
-        enabled by default perpendicular to the specified axis. If
-        false, hover interactions are disabled. If `clickmode` includes
-        the "select" flag, `hovermode` defaults to "closest". If
-        `clickmode` lacks the "select" flag, it defaults to "x" or "y"
-        (depending on the trace's `orientation` value) for plots based
-        on cartesian coordinates. For anything else the default value
-        is "closest".
+        Determines the mode of hover interactions. If `clickmode`
+        includes the "select" flag, `hovermode` defaults to "closest".
+        If `clickmode` lacks the "select" flag, it defaults to "x" or
+        "y" (depending on the trace's `orientation` value) for plots
+        based on cartesian coordinates. For anything else the default
+        value is "closest".
     
         The 'hovermode' property is an enumeration that may be specified as:
           - One of the following enumeration values:
-                ['x', 'y', 'closest', False, 'x unified', 'y unified']
+                ['x', 'y', 'closest', False]
 
         Returns
         -------
@@ -97226,7 +96109,7 @@ class Layout(_BaseLayoutType):
     @property
     def metasrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  meta .
+        Sets the source reference on plot.ly for  meta .
     
         The 'metasrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -98360,13 +97243,12 @@ class Layout(_BaseLayoutType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
@@ -98838,8 +97720,8 @@ class Layout(_BaseLayoutType):
                     appear. Only has an effect if `categoryorder`
                     is set to "array". Used with `categoryorder`.
                 categoryarraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  categoryarray .
+                    Sets the source reference on plot.ly for
+                    categoryarray .
                 categoryorder
                     Specifies the ordering logic for the case of
                     categorical variables. By default, plotly uses
@@ -99007,15 +97889,6 @@ class Layout(_BaseLayoutType):
                     should be numbers, using the scale where each
                     category is assigned a serial number from zero
                     in the order it appears.
-                rangebreaks
-                    A tuple of :class:`plotly.graph_objects.layout.
-                    xaxis.Rangebreak` instances or dicts with
-                    compatible properties
-                rangebreakdefaults
-                    When used in a template (as layout.template.lay
-                    out.xaxis.rangebreakdefaults), sets the default
-                    property values to use for elements of
-                    layout.xaxis.rangebreaks
                 rangemode
                     If "normal", the range is computed in relation
                     to the extrema of the input data. If *tozero*`,
@@ -99200,15 +98073,15 @@ class Layout(_BaseLayoutType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -99291,8 +98164,8 @@ class Layout(_BaseLayoutType):
                     appear. Only has an effect if `categoryorder`
                     is set to "array". Used with `categoryorder`.
                 categoryarraysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  categoryarray .
+                    Sets the source reference on plot.ly for
+                    categoryarray .
                 categoryorder
                     Specifies the ordering logic for the case of
                     categorical variables. By default, plotly uses
@@ -99460,15 +98333,6 @@ class Layout(_BaseLayoutType):
                     should be numbers, using the scale where each
                     category is assigned a serial number from zero
                     in the order it appears.
-                rangebreaks
-                    A tuple of :class:`plotly.graph_objects.layout.
-                    yaxis.Rangebreak` instances or dicts with
-                    compatible properties
-                rangebreakdefaults
-                    When used in a template (as layout.template.lay
-                    out.yaxis.rangebreakdefaults), sets the default
-                    property values to use for elements of
-                    layout.yaxis.rangebreaks
                 rangemode
                     If "normal", the range is computed in relation
                     to the extrema of the input data. If *tozero*`,
@@ -99645,15 +98509,15 @@ class Layout(_BaseLayoutType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -99887,15 +98751,14 @@ class Layout(_BaseLayoutType):
             and can simultaneously hide slices from several
             pies/funnelarea charts
         hiddenlabelssrc
-            Sets the source reference on Chart Studio Cloud for
-            hiddenlabels .
+            Sets the source reference on plot.ly for  hiddenlabels
+            .
         hidesources
             Determines whether or not a text link citing the data
             source is placed at the bottom-right cored of the
             figure. Has only an effect only on graphs that have
-            been generated via forked graphs from the Chart Studio
-            Cloud (at https://chart-studio.plotly.com or on-
-            premise).
+            been generated via forked graphs from the plotly
+            service (at https://plot.ly or on-premise).
         hoverdistance
             Sets the default distance (in pixels) to look for data
             to add hover labels (-1 means no cutoff, 0 means no
@@ -99910,22 +98773,10 @@ class Layout(_BaseLayoutType):
             instance or dict with compatible properties
         hovermode
             Determines the mode of hover interactions. If
-            "closest", a single hoverlabel will appear for the
-            "closest" point within the `hoverdistance`. If "x" (or
-            "y"), multiple hoverlabels will appear for multiple
-            points at the "closest" x- (or y-) coordinate within
-            the `hoverdistance`, with the caveat that no more than
-            one hoverlabel will appear per trace. If *x unified*
-            (or *y unified*), a single hoverlabel will appear
-            multiple points at the closest x- (or y-) coordinate
-            within the `hoverdistance` with the caveat that no more
-            than one hoverlabel will appear per trace. In this
-            mode, spikelines are enabled by default perpendicular
-            to the specified axis. If false, hover interactions are
-            disabled. If `clickmode` includes the "select" flag,
-            `hovermode` defaults to "closest". If `clickmode` lacks
-            the "select" flag, it defaults to "x" or "y" (depending
-            on the trace's `orientation` value) for plots based on
+            `clickmode` includes the "select" flag, `hovermode`
+            defaults to "closest". If `clickmode` lacks the
+            "select" flag, it defaults to "x" or "y" (depending on
+            the trace's `orientation` value) for plots based on
             cartesian coordinates. For anything else the default
             value is "closest".
         images
@@ -99956,8 +98807,7 @@ class Layout(_BaseLayoutType):
             for example `{key: value}` which can be accessed
             %{meta[key]}.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         modebar
             :class:`plotly.graph_objects.layout.Modebar` instance
             or dict with compatible properties
@@ -100418,15 +99268,14 @@ class Layout(_BaseLayoutType):
             and can simultaneously hide slices from several
             pies/funnelarea charts
         hiddenlabelssrc
-            Sets the source reference on Chart Studio Cloud for
-            hiddenlabels .
+            Sets the source reference on plot.ly for  hiddenlabels
+            .
         hidesources
             Determines whether or not a text link citing the data
             source is placed at the bottom-right cored of the
             figure. Has only an effect only on graphs that have
-            been generated via forked graphs from the Chart Studio
-            Cloud (at https://chart-studio.plotly.com or on-
-            premise).
+            been generated via forked graphs from the plotly
+            service (at https://plot.ly or on-premise).
         hoverdistance
             Sets the default distance (in pixels) to look for data
             to add hover labels (-1 means no cutoff, 0 means no
@@ -100441,22 +99290,10 @@ class Layout(_BaseLayoutType):
             instance or dict with compatible properties
         hovermode
             Determines the mode of hover interactions. If
-            "closest", a single hoverlabel will appear for the
-            "closest" point within the `hoverdistance`. If "x" (or
-            "y"), multiple hoverlabels will appear for multiple
-            points at the "closest" x- (or y-) coordinate within
-            the `hoverdistance`, with the caveat that no more than
-            one hoverlabel will appear per trace. If *x unified*
-            (or *y unified*), a single hoverlabel will appear
-            multiple points at the closest x- (or y-) coordinate
-            within the `hoverdistance` with the caveat that no more
-            than one hoverlabel will appear per trace. In this
-            mode, spikelines are enabled by default perpendicular
-            to the specified axis. If false, hover interactions are
-            disabled. If `clickmode` includes the "select" flag,
-            `hovermode` defaults to "closest". If `clickmode` lacks
-            the "select" flag, it defaults to "x" or "y" (depending
-            on the trace's `orientation` value) for plots based on
+            `clickmode` includes the "select" flag, `hovermode`
+            defaults to "closest". If `clickmode` lacks the
+            "select" flag, it defaults to "x" or "y" (depending on
+            the trace's `orientation` value) for plots based on
             cartesian coordinates. For anything else the default
             value is "closest".
         images
@@ -100487,8 +99324,7 @@ class Layout(_BaseLayoutType):
             for example `{key: value}` which can be accessed
             %{meta[key]}.
         metasrc
-            Sets the source reference on Chart Studio Cloud for
-            meta .
+            Sets the source reference on plot.ly for  meta .
         modebar
             :class:`plotly.graph_objects.layout.Modebar` instance
             or dict with compatible properties

@@ -23,8 +23,8 @@ class Title(_BaseTraceHierarchyType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -33,23 +33,22 @@ class Title(_BaseTraceHierarchyType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -283,7 +282,7 @@ class Textfont(_BaseTraceHierarchyType):
     @property
     def colorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  color .
+        Sets the source reference on plot.ly for  color .
     
         The 'colorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -308,13 +307,13 @@ class Textfont(_BaseTraceHierarchyType):
         it is available on the system which it operates. Provide
         multiple font families, separated by commas, to indicate the
         preference in which to apply fonts if they aren't available on
-        the system. The Chart Studio Cloud (at https://chart-
-        studio.plotly.com or on-premise) generates images on a server,
-        where only a select number of fonts are installed and
-        supported. These include "Arial", "Balto", "Courier New",
-        "Droid Sans",, "Droid Serif", "Droid Sans Mono", "Gravitas
-        One", "Old Standard TT", "Open Sans", "Overpass", "PT Sans
-        Narrow", "Raleway", "Times New Roman".
+        the system. The plotly service (at https://plot.ly or on-
+        premise) generates images on a server, where only a select
+        number of fonts are installed and supported. These include
+        "Arial", "Balto", "Courier New", "Droid Sans",, "Droid Serif",
+        "Droid Sans Mono", "Gravitas One", "Old Standard TT", "Open
+        Sans", "Overpass", "PT Sans Narrow", "Raleway", "Times New
+        Roman".
     
         The 'family' property is a string and must be specified as:
           - A non-empty string
@@ -335,7 +334,7 @@ class Textfont(_BaseTraceHierarchyType):
     @property
     def familysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  family .
+        Sets the source reference on plot.ly for  family .
     
         The 'familysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -374,7 +373,7 @@ class Textfont(_BaseTraceHierarchyType):
     @property
     def sizesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  size .
+        Sets the source reference on plot.ly for  size .
     
         The 'sizesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -403,30 +402,27 @@ class Textfont(_BaseTraceHierarchyType):
         color
 
         colorsrc
-            Sets the source reference on Chart Studio Cloud for
-            color .
+            Sets the source reference on plot.ly for  color .
         family
             HTML font family - the typeface that will be applied by
             the web browser. The web browser will only be able to
             apply a font if it is available on the system which it
             operates. Provide multiple font families, separated by
             commas, to indicate the preference in which to apply
-            fonts if they aren't available on the system. The Chart
-            Studio Cloud (at https://chart-studio.plotly.com or on-
-            premise) generates images on a server, where only a
-            select number of fonts are installed and supported.
-            These include "Arial", "Balto", "Courier New", "Droid
-            Sans",, "Droid Serif", "Droid Sans Mono", "Gravitas
-            One", "Old Standard TT", "Open Sans", "Overpass", "PT
-            Sans Narrow", "Raleway", "Times New Roman".
+            fonts if they aren't available on the system. The
+            plotly service (at https://plot.ly or on-premise)
+            generates images on a server, where only a select
+            number of fonts are installed and supported. These
+            include "Arial", "Balto", "Courier New", "Droid Sans",,
+            "Droid Serif", "Droid Sans Mono", "Gravitas One", "Old
+            Standard TT", "Open Sans", "Overpass", "PT Sans
+            Narrow", "Raleway", "Times New Roman".
         familysrc
-            Sets the source reference on Chart Studio Cloud for
-            family .
+            Sets the source reference on plot.ly for  family .
         size
 
         sizesrc
-            Sets the source reference on Chart Studio Cloud for
-            size .
+            Sets the source reference on plot.ly for  size .
         """
 
     def __init__(
@@ -454,30 +450,27 @@ class Textfont(_BaseTraceHierarchyType):
         color
 
         colorsrc
-            Sets the source reference on Chart Studio Cloud for
-            color .
+            Sets the source reference on plot.ly for  color .
         family
             HTML font family - the typeface that will be applied by
             the web browser. The web browser will only be able to
             apply a font if it is available on the system which it
             operates. Provide multiple font families, separated by
             commas, to indicate the preference in which to apply
-            fonts if they aren't available on the system. The Chart
-            Studio Cloud (at https://chart-studio.plotly.com or on-
-            premise) generates images on a server, where only a
-            select number of fonts are installed and supported.
-            These include "Arial", "Balto", "Courier New", "Droid
-            Sans",, "Droid Serif", "Droid Sans Mono", "Gravitas
-            One", "Old Standard TT", "Open Sans", "Overpass", "PT
-            Sans Narrow", "Raleway", "Times New Roman".
+            fonts if they aren't available on the system. The
+            plotly service (at https://plot.ly or on-premise)
+            generates images on a server, where only a select
+            number of fonts are installed and supported. These
+            include "Arial", "Balto", "Courier New", "Droid Sans",,
+            "Droid Serif", "Droid Sans Mono", "Gravitas One", "Old
+            Standard TT", "Open Sans", "Overpass", "PT Sans
+            Narrow", "Raleway", "Times New Roman".
         familysrc
-            Sets the source reference on Chart Studio Cloud for
-            family .
+            Sets the source reference on plot.ly for  family .
         size
 
         sizesrc
-            Sets the source reference on Chart Studio Cloud for
-            size .
+            Sets the source reference on plot.ly for  size .
 
         Returns
         -------
@@ -576,8 +569,7 @@ class Stream(_BaseTraceHierarchyType):
     def token(self):
         """
         The stream id number links a data trace on a plot with a
-        stream. See https://chart-studio.plotly.com/settings for more
-        details.
+        stream. See https://plot.ly/settings for more details.
     
         The 'token' property is a string and must be specified as:
           - A non-empty string
@@ -610,8 +602,8 @@ class Stream(_BaseTraceHierarchyType):
             plot.
         token
             The stream id number links a data trace on a plot with
-            a stream. See https://chart-studio.plotly.com/settings
-            for more details.
+            a stream. See https://plot.ly/settings for more
+            details.
         """
 
     def __init__(self, arg=None, maxpoints=None, token=None, **kwargs):
@@ -631,8 +623,8 @@ class Stream(_BaseTraceHierarchyType):
             plot.
         token
             The stream id number links a data trace on a plot with
-            a stream. See https://chart-studio.plotly.com/settings
-            for more details.
+            a stream. See https://plot.ly/settings for more
+            details.
 
         Returns
         -------
@@ -717,7 +709,7 @@ class Marker(_BaseTraceHierarchyType):
     @property
     def colorssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  colors .
+        Sets the source reference on plot.ly for  colors .
     
         The 'colorssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -749,14 +741,14 @@ class Marker(_BaseTraceHierarchyType):
                     Sets the color of the line enclosing each
                     sector. Defaults to the `paper_bgcolor` value.
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 width
                     Sets the width (in px) of the line enclosing
                     each sector.
                 widthsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  width .
+                    Sets the source reference on plot.ly for  width
+                    .
 
         Returns
         -------
@@ -784,8 +776,7 @@ class Marker(_BaseTraceHierarchyType):
             default trace color set is used to pick the sector
             colors.
         colorssrc
-            Sets the source reference on Chart Studio Cloud for
-            colors .
+            Sets the source reference on plot.ly for  colors .
         line
             :class:`plotly.graph_objects.funnelarea.marker.Line`
             instance or dict with compatible properties
@@ -806,8 +797,7 @@ class Marker(_BaseTraceHierarchyType):
             default trace color set is used to pick the sector
             colors.
         colorssrc
-            Sets the source reference on Chart Studio Cloud for
-            colors .
+            Sets the source reference on plot.ly for  colors .
         line
             :class:`plotly.graph_objects.funnelarea.marker.Line`
             instance or dict with compatible properties
@@ -935,7 +925,7 @@ class Insidetextfont(_BaseTraceHierarchyType):
     @property
     def colorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  color .
+        Sets the source reference on plot.ly for  color .
     
         The 'colorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -960,13 +950,13 @@ class Insidetextfont(_BaseTraceHierarchyType):
         it is available on the system which it operates. Provide
         multiple font families, separated by commas, to indicate the
         preference in which to apply fonts if they aren't available on
-        the system. The Chart Studio Cloud (at https://chart-
-        studio.plotly.com or on-premise) generates images on a server,
-        where only a select number of fonts are installed and
-        supported. These include "Arial", "Balto", "Courier New",
-        "Droid Sans",, "Droid Serif", "Droid Sans Mono", "Gravitas
-        One", "Old Standard TT", "Open Sans", "Overpass", "PT Sans
-        Narrow", "Raleway", "Times New Roman".
+        the system. The plotly service (at https://plot.ly or on-
+        premise) generates images on a server, where only a select
+        number of fonts are installed and supported. These include
+        "Arial", "Balto", "Courier New", "Droid Sans",, "Droid Serif",
+        "Droid Sans Mono", "Gravitas One", "Old Standard TT", "Open
+        Sans", "Overpass", "PT Sans Narrow", "Raleway", "Times New
+        Roman".
     
         The 'family' property is a string and must be specified as:
           - A non-empty string
@@ -987,7 +977,7 @@ class Insidetextfont(_BaseTraceHierarchyType):
     @property
     def familysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  family .
+        Sets the source reference on plot.ly for  family .
     
         The 'familysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1026,7 +1016,7 @@ class Insidetextfont(_BaseTraceHierarchyType):
     @property
     def sizesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  size .
+        Sets the source reference on plot.ly for  size .
     
         The 'sizesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1055,30 +1045,27 @@ class Insidetextfont(_BaseTraceHierarchyType):
         color
 
         colorsrc
-            Sets the source reference on Chart Studio Cloud for
-            color .
+            Sets the source reference on plot.ly for  color .
         family
             HTML font family - the typeface that will be applied by
             the web browser. The web browser will only be able to
             apply a font if it is available on the system which it
             operates. Provide multiple font families, separated by
             commas, to indicate the preference in which to apply
-            fonts if they aren't available on the system. The Chart
-            Studio Cloud (at https://chart-studio.plotly.com or on-
-            premise) generates images on a server, where only a
-            select number of fonts are installed and supported.
-            These include "Arial", "Balto", "Courier New", "Droid
-            Sans",, "Droid Serif", "Droid Sans Mono", "Gravitas
-            One", "Old Standard TT", "Open Sans", "Overpass", "PT
-            Sans Narrow", "Raleway", "Times New Roman".
+            fonts if they aren't available on the system. The
+            plotly service (at https://plot.ly or on-premise)
+            generates images on a server, where only a select
+            number of fonts are installed and supported. These
+            include "Arial", "Balto", "Courier New", "Droid Sans",,
+            "Droid Serif", "Droid Sans Mono", "Gravitas One", "Old
+            Standard TT", "Open Sans", "Overpass", "PT Sans
+            Narrow", "Raleway", "Times New Roman".
         familysrc
-            Sets the source reference on Chart Studio Cloud for
-            family .
+            Sets the source reference on plot.ly for  family .
         size
 
         sizesrc
-            Sets the source reference on Chart Studio Cloud for
-            size .
+            Sets the source reference on plot.ly for  size .
         """
 
     def __init__(
@@ -1106,30 +1093,27 @@ class Insidetextfont(_BaseTraceHierarchyType):
         color
 
         colorsrc
-            Sets the source reference on Chart Studio Cloud for
-            color .
+            Sets the source reference on plot.ly for  color .
         family
             HTML font family - the typeface that will be applied by
             the web browser. The web browser will only be able to
             apply a font if it is available on the system which it
             operates. Provide multiple font families, separated by
             commas, to indicate the preference in which to apply
-            fonts if they aren't available on the system. The Chart
-            Studio Cloud (at https://chart-studio.plotly.com or on-
-            premise) generates images on a server, where only a
-            select number of fonts are installed and supported.
-            These include "Arial", "Balto", "Courier New", "Droid
-            Sans",, "Droid Serif", "Droid Sans Mono", "Gravitas
-            One", "Old Standard TT", "Open Sans", "Overpass", "PT
-            Sans Narrow", "Raleway", "Times New Roman".
+            fonts if they aren't available on the system. The
+            plotly service (at https://plot.ly or on-premise)
+            generates images on a server, where only a select
+            number of fonts are installed and supported. These
+            include "Arial", "Balto", "Courier New", "Droid Sans",,
+            "Droid Serif", "Droid Sans Mono", "Gravitas One", "Old
+            Standard TT", "Open Sans", "Overpass", "PT Sans
+            Narrow", "Raleway", "Times New Roman".
         familysrc
-            Sets the source reference on Chart Studio Cloud for
-            family .
+            Sets the source reference on plot.ly for  family .
         size
 
         sizesrc
-            Sets the source reference on Chart Studio Cloud for
-            size .
+            Sets the source reference on plot.ly for  size .
 
         Returns
         -------
@@ -1229,7 +1213,7 @@ class Hoverlabel(_BaseTraceHierarchyType):
     @property
     def alignsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  align .
+        Sets the source reference on plot.ly for  align .
     
         The 'alignsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1309,7 +1293,7 @@ class Hoverlabel(_BaseTraceHierarchyType):
     @property
     def bgcolorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  bgcolor .
+        Sets the source reference on plot.ly for  bgcolor .
     
         The 'bgcolorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1389,8 +1373,7 @@ class Hoverlabel(_BaseTraceHierarchyType):
     @property
     def bordercolorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        bordercolor .
+        Sets the source reference on plot.ly for  bordercolor .
     
         The 'bordercolorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1423,8 +1406,8 @@ class Hoverlabel(_BaseTraceHierarchyType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -1433,23 +1416,22 @@ class Hoverlabel(_BaseTraceHierarchyType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -1493,8 +1475,7 @@ class Hoverlabel(_BaseTraceHierarchyType):
     @property
     def namelengthsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  namelength
-        .
+        Sets the source reference on plot.ly for  namelength .
     
         The 'namelengthsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1525,20 +1506,17 @@ class Hoverlabel(_BaseTraceHierarchyType):
             within hover label box. Has an effect only if the hover
             label text spans more two or more lines
         alignsrc
-            Sets the source reference on Chart Studio Cloud for
-            align .
+            Sets the source reference on plot.ly for  align .
         bgcolor
             Sets the background color of the hover labels for this
             trace
         bgcolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            bgcolor .
+            Sets the source reference on plot.ly for  bgcolor .
         bordercolor
             Sets the border color of the hover labels for this
             trace.
         bordercolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            bordercolor .
+            Sets the source reference on plot.ly for  bordercolor .
         font
             Sets the font used in hover labels.
         namelength
@@ -1550,8 +1528,7 @@ class Hoverlabel(_BaseTraceHierarchyType):
             but if it is longer, will truncate to `namelength - 3`
             characters and add an ellipsis.
         namelengthsrc
-            Sets the source reference on Chart Studio Cloud for
-            namelength .
+            Sets the source reference on plot.ly for  namelength .
         """
 
     def __init__(
@@ -1582,20 +1559,17 @@ class Hoverlabel(_BaseTraceHierarchyType):
             within hover label box. Has an effect only if the hover
             label text spans more two or more lines
         alignsrc
-            Sets the source reference on Chart Studio Cloud for
-            align .
+            Sets the source reference on plot.ly for  align .
         bgcolor
             Sets the background color of the hover labels for this
             trace
         bgcolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            bgcolor .
+            Sets the source reference on plot.ly for  bgcolor .
         bordercolor
             Sets the border color of the hover labels for this
             trace.
         bordercolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            bordercolor .
+            Sets the source reference on plot.ly for  bordercolor .
         font
             Sets the font used in hover labels.
         namelength
@@ -1607,8 +1581,7 @@ class Hoverlabel(_BaseTraceHierarchyType):
             but if it is longer, will truncate to `namelength - 3`
             characters and add an ellipsis.
         namelengthsrc
-            Sets the source reference on Chart Studio Cloud for
-            namelength .
+            Sets the source reference on plot.ly for  namelength .
 
         Returns
         -------

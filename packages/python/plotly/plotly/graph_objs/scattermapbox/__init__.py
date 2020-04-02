@@ -188,13 +188,13 @@ class Textfont(_BaseTraceHierarchyType):
         it is available on the system which it operates. Provide
         multiple font families, separated by commas, to indicate the
         preference in which to apply fonts if they aren't available on
-        the system. The Chart Studio Cloud (at https://chart-
-        studio.plotly.com or on-premise) generates images on a server,
-        where only a select number of fonts are installed and
-        supported. These include "Arial", "Balto", "Courier New",
-        "Droid Sans",, "Droid Serif", "Droid Sans Mono", "Gravitas
-        One", "Old Standard TT", "Open Sans", "Overpass", "PT Sans
-        Narrow", "Raleway", "Times New Roman".
+        the system. The plotly service (at https://plot.ly or on-
+        premise) generates images on a server, where only a select
+        number of fonts are installed and supported. These include
+        "Arial", "Balto", "Courier New", "Droid Sans",, "Droid Serif",
+        "Droid Sans Mono", "Gravitas One", "Old Standard TT", "Open
+        Sans", "Overpass", "PT Sans Narrow", "Raleway", "Times New
+        Roman".
     
         The 'family' property is a string and must be specified as:
           - A non-empty string
@@ -246,14 +246,14 @@ class Textfont(_BaseTraceHierarchyType):
             apply a font if it is available on the system which it
             operates. Provide multiple font families, separated by
             commas, to indicate the preference in which to apply
-            fonts if they aren't available on the system. The Chart
-            Studio Cloud (at https://chart-studio.plotly.com or on-
-            premise) generates images on a server, where only a
-            select number of fonts are installed and supported.
-            These include "Arial", "Balto", "Courier New", "Droid
-            Sans",, "Droid Serif", "Droid Sans Mono", "Gravitas
-            One", "Old Standard TT", "Open Sans", "Overpass", "PT
-            Sans Narrow", "Raleway", "Times New Roman".
+            fonts if they aren't available on the system. The
+            plotly service (at https://plot.ly or on-premise)
+            generates images on a server, where only a select
+            number of fonts are installed and supported. These
+            include "Arial", "Balto", "Courier New", "Droid Sans",,
+            "Droid Serif", "Droid Sans Mono", "Gravitas One", "Old
+            Standard TT", "Open Sans", "Overpass", "PT Sans
+            Narrow", "Raleway", "Times New Roman".
         size
 
         """
@@ -280,14 +280,14 @@ class Textfont(_BaseTraceHierarchyType):
             apply a font if it is available on the system which it
             operates. Provide multiple font families, separated by
             commas, to indicate the preference in which to apply
-            fonts if they aren't available on the system. The Chart
-            Studio Cloud (at https://chart-studio.plotly.com or on-
-            premise) generates images on a server, where only a
-            select number of fonts are installed and supported.
-            These include "Arial", "Balto", "Courier New", "Droid
-            Sans",, "Droid Serif", "Droid Sans Mono", "Gravitas
-            One", "Old Standard TT", "Open Sans", "Overpass", "PT
-            Sans Narrow", "Raleway", "Times New Roman".
+            fonts if they aren't available on the system. The
+            plotly service (at https://plot.ly or on-premise)
+            generates images on a server, where only a select
+            number of fonts are installed and supported. These
+            include "Arial", "Balto", "Courier New", "Droid Sans",,
+            "Droid Serif", "Droid Sans Mono", "Gravitas One", "Old
+            Standard TT", "Open Sans", "Overpass", "PT Sans
+            Narrow", "Raleway", "Times New Roman".
         size
 
 
@@ -379,8 +379,7 @@ class Stream(_BaseTraceHierarchyType):
     def token(self):
         """
         The stream id number links a data trace on a plot with a
-        stream. See https://chart-studio.plotly.com/settings for more
-        details.
+        stream. See https://plot.ly/settings for more details.
     
         The 'token' property is a string and must be specified as:
           - A non-empty string
@@ -413,8 +412,8 @@ class Stream(_BaseTraceHierarchyType):
             plot.
         token
             The stream id number links a data trace on a plot with
-            a stream. See https://chart-studio.plotly.com/settings
-            for more details.
+            a stream. See https://plot.ly/settings for more
+            details.
         """
 
     def __init__(self, arg=None, maxpoints=None, token=None, **kwargs):
@@ -434,8 +433,8 @@ class Stream(_BaseTraceHierarchyType):
             plot.
         token
             The stream id number links a data trace on a plot with
-            a stream. See https://chart-studio.plotly.com/settings
-            for more details.
+            a stream. See https://plot.ly/settings for more
+            details.
 
         Returns
         -------
@@ -607,6 +606,67 @@ import copy as _copy
 
 
 class Marker(_BaseTraceHierarchyType):
+
+    # allowoverlap
+    # ------------
+    @property
+    def allowoverlap(self):
+        """
+        Flag to allow symbols to overlap
+    
+        The 'allowoverlap' property must be specified as a bool
+        (either True, or False)
+
+        Returns
+        -------
+        bool
+        """
+        return self["allowoverlap"]
+
+    @allowoverlap.setter
+    def allowoverlap(self, val):
+        self["allowoverlap"] = val
+
+    # angle
+    # -----
+    @property
+    def angle(self):
+        """
+        Sets the marker angle.
+    
+        The 'angle' property is a number and may be specified as:
+          - An int or float
+          - A tuple, list, or one-dimensional numpy array of the above
+
+        Returns
+        -------
+        int|float|numpy.ndarray
+        """
+        return self["angle"]
+
+    @angle.setter
+    def angle(self, val):
+        self["angle"] = val
+
+    # anglesrc
+    # --------
+    @property
+    def anglesrc(self):
+        """
+        Sets the source reference on plot.ly for  angle .
+    
+        The 'anglesrc' property must be specified as a string or
+        as a plotly.grid_objs.Column object
+
+        Returns
+        -------
+        str
+        """
+        return self["anglesrc"]
+
+    @anglesrc.setter
+    def anglesrc(self, val):
+        self["anglesrc"] = val
 
     # autocolorscale
     # --------------
@@ -997,15 +1057,15 @@ class Marker(_BaseTraceHierarchyType):
                     `tickmode` is set to "array". Used with
                     `tickvals`.
                 ticktextsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  ticktext .
+                    Sets the source reference on plot.ly for
+                    ticktext .
                 tickvals
                     Sets the values at which ticks on this axis
                     appear. Only has an effect if `tickmode` is set
                     to "array". Used with `ticktext`.
                 tickvalssrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  tickvals .
+                    Sets the source reference on plot.ly for
+                    tickvals .
                 tickwidth
                     Sets the tick width (in px).
                 title
@@ -1115,7 +1175,7 @@ class Marker(_BaseTraceHierarchyType):
     @property
     def colorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  color .
+        Sets the source reference on plot.ly for  color .
     
         The 'colorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1156,7 +1216,7 @@ class Marker(_BaseTraceHierarchyType):
     @property
     def opacitysrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  opacity .
+        Sets the source reference on plot.ly for  opacity .
     
         The 'opacitysrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1309,7 +1369,7 @@ class Marker(_BaseTraceHierarchyType):
     @property
     def sizesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  size .
+        Sets the source reference on plot.ly for  size .
     
         The 'sizesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1353,7 +1413,7 @@ class Marker(_BaseTraceHierarchyType):
     @property
     def symbolsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  symbol .
+        Sets the source reference on plot.ly for  symbol .
     
         The 'symbolsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1379,6 +1439,12 @@ class Marker(_BaseTraceHierarchyType):
     @property
     def _prop_descriptions(self):
         return """\
+        allowoverlap
+            Flag to allow symbols to overlap
+        angle
+            Sets the marker angle.
+        anglesrc
+            Sets the source reference on plot.ly for  angle .
         autocolorscale
             Determines whether the colorscale is a default palette
             (`autocolorscale: true`) or the palette determined by
@@ -1443,13 +1509,11 @@ class Marker(_BaseTraceHierarchyType):
             ,Reds,Blues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
             arth,Electric,Viridis,Cividis.
         colorsrc
-            Sets the source reference on Chart Studio Cloud for
-            color .
+            Sets the source reference on plot.ly for  color .
         opacity
             Sets the marker opacity.
         opacitysrc
-            Sets the source reference on Chart Studio Cloud for
-            opacity .
+            Sets the source reference on plot.ly for  opacity .
         reversescale
             Reverses the color mapping if true. Has an effect only
             if in `marker.color`is set to a numerical array. If
@@ -1476,21 +1540,22 @@ class Marker(_BaseTraceHierarchyType):
             determine the rendered size of marker points. Use with
             `sizemin` and `sizemode`.
         sizesrc
-            Sets the source reference on Chart Studio Cloud for
-            size .
+            Sets the source reference on plot.ly for  size .
         symbol
             Sets the marker symbol. Full list:
             https://www.mapbox.com/maki-icons/ Note that the array
             `marker.color` and `marker.size` are only available for
             "circle" symbols.
         symbolsrc
-            Sets the source reference on Chart Studio Cloud for
-            symbol .
+            Sets the source reference on plot.ly for  symbol .
         """
 
     def __init__(
         self,
         arg=None,
+        allowoverlap=None,
+        angle=None,
+        anglesrc=None,
         autocolorscale=None,
         cauto=None,
         cmax=None,
@@ -1523,6 +1588,12 @@ class Marker(_BaseTraceHierarchyType):
             dict of properties compatible with this constructor or
             an instance of
             :class:`plotly.graph_objs.scattermapbox.Marker`
+        allowoverlap
+            Flag to allow symbols to overlap
+        angle
+            Sets the marker angle.
+        anglesrc
+            Sets the source reference on plot.ly for  angle .
         autocolorscale
             Determines whether the colorscale is a default palette
             (`autocolorscale: true`) or the palette determined by
@@ -1587,13 +1658,11 @@ class Marker(_BaseTraceHierarchyType):
             ,Reds,Blues,Picnic,Rainbow,Portland,Jet,Hot,Blackbody,E
             arth,Electric,Viridis,Cividis.
         colorsrc
-            Sets the source reference on Chart Studio Cloud for
-            color .
+            Sets the source reference on plot.ly for  color .
         opacity
             Sets the marker opacity.
         opacitysrc
-            Sets the source reference on Chart Studio Cloud for
-            opacity .
+            Sets the source reference on plot.ly for  opacity .
         reversescale
             Reverses the color mapping if true. Has an effect only
             if in `marker.color`is set to a numerical array. If
@@ -1620,16 +1689,14 @@ class Marker(_BaseTraceHierarchyType):
             determine the rendered size of marker points. Use with
             `sizemin` and `sizemode`.
         sizesrc
-            Sets the source reference on Chart Studio Cloud for
-            size .
+            Sets the source reference on plot.ly for  size .
         symbol
             Sets the marker symbol. Full list:
             https://www.mapbox.com/maki-icons/ Note that the array
             `marker.color` and `marker.size` are only available for
             "circle" symbols.
         symbolsrc
-            Sets the source reference on Chart Studio Cloud for
-            symbol .
+            Sets the source reference on plot.ly for  symbol .
 
         Returns
         -------
@@ -1663,6 +1730,9 @@ an instance of :class:`plotly.graph_objs.scattermapbox.Marker`"""
 
         # Initialize validators
         # ---------------------
+        self._validators["allowoverlap"] = v_marker.AllowoverlapValidator()
+        self._validators["angle"] = v_marker.AngleValidator()
+        self._validators["anglesrc"] = v_marker.AnglesrcValidator()
         self._validators["autocolorscale"] = v_marker.AutocolorscaleValidator()
         self._validators["cauto"] = v_marker.CautoValidator()
         self._validators["cmax"] = v_marker.CmaxValidator()
@@ -1687,6 +1757,12 @@ an instance of :class:`plotly.graph_objs.scattermapbox.Marker`"""
 
         # Populate data dict with properties
         # ----------------------------------
+        _v = arg.pop("allowoverlap", None)
+        self["allowoverlap"] = allowoverlap if allowoverlap is not None else _v
+        _v = arg.pop("angle", None)
+        self["angle"] = angle if angle is not None else _v
+        _v = arg.pop("anglesrc", None)
+        self["anglesrc"] = anglesrc if anglesrc is not None else _v
         _v = arg.pop("autocolorscale", None)
         self["autocolorscale"] = autocolorscale if autocolorscale is not None else _v
         _v = arg.pop("cauto", None)
@@ -1942,7 +2018,7 @@ class Hoverlabel(_BaseTraceHierarchyType):
     @property
     def alignsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  align .
+        Sets the source reference on plot.ly for  align .
     
         The 'alignsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -2022,7 +2098,7 @@ class Hoverlabel(_BaseTraceHierarchyType):
     @property
     def bgcolorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  bgcolor .
+        Sets the source reference on plot.ly for  bgcolor .
     
         The 'bgcolorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -2102,8 +2178,7 @@ class Hoverlabel(_BaseTraceHierarchyType):
     @property
     def bordercolorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for
-        bordercolor .
+        Sets the source reference on plot.ly for  bordercolor .
     
         The 'bordercolorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -2136,8 +2211,8 @@ class Hoverlabel(_BaseTraceHierarchyType):
                 color
     
                 colorsrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  color .
+                    Sets the source reference on plot.ly for  color
+                    .
                 family
                     HTML font family - the typeface that will be
                     applied by the web browser. The web browser
@@ -2146,23 +2221,22 @@ class Hoverlabel(_BaseTraceHierarchyType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 familysrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  family .
+                    Sets the source reference on plot.ly for
+                    family .
                 size
     
                 sizesrc
-                    Sets the source reference on Chart Studio Cloud
-                    for  size .
+                    Sets the source reference on plot.ly for  size
+                    .
 
         Returns
         -------
@@ -2206,8 +2280,7 @@ class Hoverlabel(_BaseTraceHierarchyType):
     @property
     def namelengthsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  namelength
-        .
+        Sets the source reference on plot.ly for  namelength .
     
         The 'namelengthsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -2238,20 +2311,17 @@ class Hoverlabel(_BaseTraceHierarchyType):
             within hover label box. Has an effect only if the hover
             label text spans more two or more lines
         alignsrc
-            Sets the source reference on Chart Studio Cloud for
-            align .
+            Sets the source reference on plot.ly for  align .
         bgcolor
             Sets the background color of the hover labels for this
             trace
         bgcolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            bgcolor .
+            Sets the source reference on plot.ly for  bgcolor .
         bordercolor
             Sets the border color of the hover labels for this
             trace.
         bordercolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            bordercolor .
+            Sets the source reference on plot.ly for  bordercolor .
         font
             Sets the font used in hover labels.
         namelength
@@ -2263,8 +2333,7 @@ class Hoverlabel(_BaseTraceHierarchyType):
             but if it is longer, will truncate to `namelength - 3`
             characters and add an ellipsis.
         namelengthsrc
-            Sets the source reference on Chart Studio Cloud for
-            namelength .
+            Sets the source reference on plot.ly for  namelength .
         """
 
     def __init__(
@@ -2295,20 +2364,17 @@ class Hoverlabel(_BaseTraceHierarchyType):
             within hover label box. Has an effect only if the hover
             label text spans more two or more lines
         alignsrc
-            Sets the source reference on Chart Studio Cloud for
-            align .
+            Sets the source reference on plot.ly for  align .
         bgcolor
             Sets the background color of the hover labels for this
             trace
         bgcolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            bgcolor .
+            Sets the source reference on plot.ly for  bgcolor .
         bordercolor
             Sets the border color of the hover labels for this
             trace.
         bordercolorsrc
-            Sets the source reference on Chart Studio Cloud for
-            bordercolor .
+            Sets the source reference on plot.ly for  bordercolor .
         font
             Sets the font used in hover labels.
         namelength
@@ -2320,8 +2386,7 @@ class Hoverlabel(_BaseTraceHierarchyType):
             but if it is longer, will truncate to `namelength - 3`
             characters and add an ellipsis.
         namelengthsrc
-            Sets the source reference on Chart Studio Cloud for
-            namelength .
+            Sets the source reference on plot.ly for  namelength .
 
         Returns
         -------

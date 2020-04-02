@@ -277,7 +277,7 @@ class Line(_BaseTraceHierarchyType):
     @property
     def colorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  color .
+        Sets the source reference on plot.ly for  color .
     
         The 'colorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -342,7 +342,7 @@ class Line(_BaseTraceHierarchyType):
     @property
     def widthsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  width .
+        Sets the source reference on plot.ly for  width .
     
         The 'widthsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -433,8 +433,7 @@ class Line(_BaseTraceHierarchyType):
             d,Bluered,RdBu,Reds,Blues,Picnic,Rainbow,Portland,Jet,H
             ot,Blackbody,Earth,Electric,Viridis,Cividis.
         colorsrc
-            Sets the source reference on Chart Studio Cloud for
-            color .
+            Sets the source reference on plot.ly for  color .
         reversescale
             Reverses the color mapping if true. Has an effect only
             if in `marker.line.color`is set to a numerical array.
@@ -445,8 +444,7 @@ class Line(_BaseTraceHierarchyType):
             Sets the width (in px) of the lines bounding the marker
             points.
         widthsrc
-            Sets the source reference on Chart Studio Cloud for
-            width .
+            Sets the source reference on plot.ly for  width .
         """
 
     def __init__(
@@ -540,8 +538,7 @@ class Line(_BaseTraceHierarchyType):
             d,Bluered,RdBu,Reds,Blues,Picnic,Rainbow,Portland,Jet,H
             ot,Blackbody,Earth,Electric,Viridis,Cividis.
         colorsrc
-            Sets the source reference on Chart Studio Cloud for
-            color .
+            Sets the source reference on plot.ly for  color .
         reversescale
             Reverses the color mapping if true. Has an effect only
             if in `marker.line.color`is set to a numerical array.
@@ -552,8 +549,7 @@ class Line(_BaseTraceHierarchyType):
             Sets the width (in px) of the lines bounding the marker
             points.
         widthsrc
-            Sets the source reference on Chart Studio Cloud for
-            width .
+            Sets the source reference on plot.ly for  width .
 
         Returns
         -------
@@ -708,7 +704,7 @@ class Gradient(_BaseTraceHierarchyType):
     @property
     def colorsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  color .
+        Sets the source reference on plot.ly for  color .
     
         The 'colorsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -750,7 +746,7 @@ class Gradient(_BaseTraceHierarchyType):
     @property
     def typesrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  type .
+        Sets the source reference on plot.ly for  type .
     
         The 'typesrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -781,13 +777,11 @@ class Gradient(_BaseTraceHierarchyType):
             color for radial, the right for horizontal, or the
             bottom for vertical.
         colorsrc
-            Sets the source reference on Chart Studio Cloud for
-            color .
+            Sets the source reference on plot.ly for  color .
         type
             Sets the type of gradient used to fill the markers
         typesrc
-            Sets the source reference on Chart Studio Cloud for
-            type .
+            Sets the source reference on plot.ly for  type .
         """
 
     def __init__(
@@ -807,13 +801,11 @@ class Gradient(_BaseTraceHierarchyType):
             color for radial, the right for horizontal, or the
             bottom for vertical.
         colorsrc
-            Sets the source reference on Chart Studio Cloud for
-            color .
+            Sets the source reference on plot.ly for  color .
         type
             Sets the type of gradient used to fill the markers
         typesrc
-            Sets the source reference on Chart Studio Cloud for
-            type .
+            Sets the source reference on plot.ly for  type .
 
         Returns
         -------
@@ -1515,13 +1507,12 @@ class ColorBar(_BaseTraceHierarchyType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
@@ -1789,7 +1780,7 @@ class ColorBar(_BaseTraceHierarchyType):
     @property
     def ticktextsrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  ticktext .
+        Sets the source reference on plot.ly for  ticktext .
     
         The 'ticktextsrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1830,7 +1821,7 @@ class ColorBar(_BaseTraceHierarchyType):
     @property
     def tickvalssrc(self):
         """
-        Sets the source reference on Chart Studio Cloud for  tickvals .
+        Sets the source reference on plot.ly for  tickvals .
     
         The 'tickvalssrc' property must be specified as a string or
         as a plotly.grid_objs.Column object
@@ -1932,13 +1923,12 @@ class ColorBar(_BaseTraceHierarchyType):
                     Provide multiple font families, separated by
                     commas, to indicate the preference in which to
                     apply fonts if they aren't available on the
-                    system. The Chart Studio Cloud (at
-                    https://chart-studio.plotly.com or on-premise)
-                    generates images on a server, where only a
-                    select number of fonts are installed and
-                    supported. These include "Arial", "Balto",
-                    "Courier New", "Droid Sans",, "Droid Serif",
-                    "Droid Sans Mono", "Gravitas One", "Old
+                    system. The plotly service (at https://plot.ly
+                    or on-premise) generates images on a server,
+                    where only a select number of fonts are
+                    installed and supported. These include "Arial",
+                    "Balto", "Courier New", "Droid Sans",, "Droid
+                    Serif", "Droid Sans Mono", "Gravitas One", "Old
                     Standard TT", "Open Sans", "Overpass", "PT Sans
                     Narrow", "Raleway", "Times New Roman".
                 size
@@ -2258,15 +2248,13 @@ class ColorBar(_BaseTraceHierarchyType):
             `tickvals`. Only has an effect if `tickmode` is set to
             "array". Used with `tickvals`.
         ticktextsrc
-            Sets the source reference on Chart Studio Cloud for
-            ticktext .
+            Sets the source reference on plot.ly for  ticktext .
         tickvals
             Sets the values at which ticks on this axis appear.
             Only has an effect if `tickmode` is set to "array".
             Used with `ticktext`.
         tickvalssrc
-            Sets the source reference on Chart Studio Cloud for
-            tickvals .
+            Sets the source reference on plot.ly for  tickvals .
         tickwidth
             Sets the tick width (in px).
         title
@@ -2513,15 +2501,13 @@ class ColorBar(_BaseTraceHierarchyType):
             `tickvals`. Only has an effect if `tickmode` is set to
             "array". Used with `tickvals`.
         ticktextsrc
-            Sets the source reference on Chart Studio Cloud for
-            ticktext .
+            Sets the source reference on plot.ly for  ticktext .
         tickvals
             Sets the values at which ticks on this axis appear.
             Only has an effect if `tickmode` is set to "array".
             Used with `ticktext`.
         tickvalssrc
-            Sets the source reference on Chart Studio Cloud for
-            tickvals .
+            Sets the source reference on plot.ly for  tickvals .
         tickwidth
             Sets the tick width (in px).
         title

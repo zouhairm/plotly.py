@@ -63,13 +63,12 @@ class TickfontValidator(_plotly_utils.basevalidators.CompoundValidator):
                 Provide multiple font families, separated by
                 commas, to indicate the preference in which to
                 apply fonts if they aren't available on the
-                system. The Chart Studio Cloud (at
-                https://chart-studio.plotly.com or on-premise)
-                generates images on a server, where only a
-                select number of fonts are installed and
-                supported. These include "Arial", "Balto",
-                "Courier New", "Droid Sans",, "Droid Serif",
-                "Droid Sans Mono", "Gravitas One", "Old
+                system. The plotly service (at https://plot.ly
+                or on-premise) generates images on a server,
+                where only a select number of fonts are
+                installed and supported. These include "Arial",
+                "Balto", "Courier New", "Droid Sans",, "Droid
+                Serif", "Droid Sans Mono", "Gravitas One", "Old
                 Standard TT", "Open Sans", "Overpass", "PT Sans
                 Narrow", "Raleway", "Times New Roman".
             size
@@ -99,8 +98,8 @@ class StreamValidator(_plotly_utils.basevalidators.CompoundValidator):
                 points will be displayed on the plot.
             token
                 The stream id number links a data trace on a
-                plot with a stream. See https://chart-
-                studio.plotly.com/settings for more details.
+                plot with a stream. See
+                https://plot.ly/settings for more details.
 """,
             ),
             **kwargs
@@ -251,8 +250,8 @@ class LineValidator(_plotly_utils.basevalidators.CompoundValidator):
                 ainbow,Portland,Jet,Hot,Blackbody,Earth,Electri
                 c,Viridis,Cividis.
             colorsrc
-                Sets the source reference on Chart Studio Cloud
-                for  color .
+                Sets the source reference on plot.ly for  color
+                .
             hovertemplate
                 Template string used for rendering the
                 information that appear on hover box. Note that
@@ -272,7 +271,7 @@ class LineValidator(_plotly_utils.basevalidators.CompoundValidator):
                 for details on the date formatting syntax. The
                 variables available in `hovertemplate` are the
                 ones emitted as event data described at this
-                link https://plotly.com/javascript/plotlyjs-
+                link https://plot.ly/javascript/plotlyjs-
                 events/#event-data. Additionally, every
                 attributes that can be specified per-point (the
                 ones that are `arrayOk: true`) are available.
@@ -324,13 +323,12 @@ class LabelfontValidator(_plotly_utils.basevalidators.CompoundValidator):
                 Provide multiple font families, separated by
                 commas, to indicate the preference in which to
                 apply fonts if they aren't available on the
-                system. The Chart Studio Cloud (at
-                https://chart-studio.plotly.com or on-premise)
-                generates images on a server, where only a
-                select number of fonts are installed and
-                supported. These include "Arial", "Balto",
-                "Courier New", "Droid Sans",, "Droid Serif",
-                "Droid Sans Mono", "Gravitas One", "Old
+                system. The plotly service (at https://plot.ly
+                or on-premise) generates images on a server,
+                where only a select number of fonts are
+                installed and supported. These include "Arial",
+                "Balto", "Courier New", "Droid Sans",, "Droid
+                Serif", "Droid Sans Mono", "Gravitas One", "Old
                 Standard TT", "Open Sans", "Overpass", "PT Sans
                 Narrow", "Raleway", "Times New Roman".
             size
@@ -456,8 +454,8 @@ class DimensionsValidator(_plotly_utils.basevalidators.CompoundArrayValidator):
                 `categoryorder` is set to "array". Used with
                 `categoryorder`.
             categoryarraysrc
-                Sets the source reference on Chart Studio Cloud
-                for  categoryarray .
+                Sets the source reference on plot.ly for
+                categoryarray .
             categoryorder
                 Specifies the ordering logic for the categories
                 in the dimension. By default, plotly uses
@@ -486,8 +484,8 @@ class DimensionsValidator(_plotly_utils.basevalidators.CompoundArrayValidator):
                 array the same length as `categoryarray` Used
                 with `categoryorder`.
             ticktextsrc
-                Sets the source reference on Chart Studio Cloud
-                for  ticktext .
+                Sets the source reference on plot.ly for
+                ticktext .
             values
                 Dimension values. `values[n]` represents the
                 category value of the `n`th point in the
@@ -495,8 +493,8 @@ class DimensionsValidator(_plotly_utils.basevalidators.CompoundArrayValidator):
                 dimensions must be the same (longer vectors
                 will be truncated).
             valuessrc
-                Sets the source reference on Chart Studio Cloud
-                for  values .
+                Sets the source reference on plot.ly for
+                values .
             visible
                 Shows the dimension when set to `true` (the
                 default). Hides the dimension for `false`.

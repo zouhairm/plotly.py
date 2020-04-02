@@ -392,15 +392,15 @@ class ColorBarValidator(_plotly_utils.basevalidators.CompoundValidator):
                 `tickmode` is set to "array". Used with
                 `tickvals`.
             ticktextsrc
-                Sets the source reference on Chart Studio Cloud
-                for  ticktext .
+                Sets the source reference on plot.ly for
+                ticktext .
             tickvals
                 Sets the values at which ticks on this axis
                 appear. Only has an effect if `tickmode` is set
                 to "array". Used with `ticktext`.
             tickvalssrc
-                Sets the source reference on Chart Studio Cloud
-                for  tickvals .
+                Sets the source reference on plot.ly for
+                tickvals .
             tickwidth
                 Sets the tick width (in px).
             title
@@ -565,6 +565,55 @@ class AutocolorscaleValidator(_plotly_utils.basevalidators.BooleanValidator):
             parent_name=parent_name,
             edit_type=kwargs.pop("edit_type", "calc"),
             implied_edits=kwargs.pop("implied_edits", {}),
+            role=kwargs.pop("role", "style"),
+            **kwargs
+        )
+
+
+import _plotly_utils.basevalidators
+
+
+class AnglesrcValidator(_plotly_utils.basevalidators.SrcValidator):
+    def __init__(
+        self, plotly_name="anglesrc", parent_name="scattermapbox.marker", **kwargs
+    ):
+        super(AnglesrcValidator, self).__init__(
+            plotly_name=plotly_name,
+            parent_name=parent_name,
+            edit_type=kwargs.pop("edit_type", "none"),
+            role=kwargs.pop("role", "info"),
+            **kwargs
+        )
+
+
+import _plotly_utils.basevalidators
+
+
+class AngleValidator(_plotly_utils.basevalidators.NumberValidator):
+    def __init__(
+        self, plotly_name="angle", parent_name="scattermapbox.marker", **kwargs
+    ):
+        super(AngleValidator, self).__init__(
+            plotly_name=plotly_name,
+            parent_name=parent_name,
+            array_ok=kwargs.pop("array_ok", True),
+            edit_type=kwargs.pop("edit_type", "calc"),
+            role=kwargs.pop("role", "style"),
+            **kwargs
+        )
+
+
+import _plotly_utils.basevalidators
+
+
+class AllowoverlapValidator(_plotly_utils.basevalidators.BooleanValidator):
+    def __init__(
+        self, plotly_name="allowoverlap", parent_name="scattermapbox.marker", **kwargs
+    ):
+        super(AllowoverlapValidator, self).__init__(
+            plotly_name=plotly_name,
+            parent_name=parent_name,
+            edit_type=kwargs.pop("edit_type", "calc"),
             role=kwargs.pop("role", "style"),
             **kwargs
         )
